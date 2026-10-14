@@ -1,0 +1,9 @@
+﻿id,category,sports,question,expected_answer,reference_sources,answerable,review_status
+Q001,single,mma,How many rounds can an MMA bout have?,"Professional MMA bouts may consist of 1 to 5 rounds. Each round lasts 5 minutes, with a 1-minute rest between rounds.",mma_rules.pdf:p1,True,verified
+Q002,single,mma,Which techniques are prohibited in MMA?,,,,needs_review
+Q003,single,muay_thai,What protective equipment is required in IFMA Muay Thai?,,,,needs_review
+Q004,single,muay_thai,How are full-contact Muay Thai bouts scored under IFMA rules?,,,,needs_review
+Q005,single,kickboxing,Are elbow strikes permitted in WAKO K-1?,No. Elbow strikes are prohibited under the WAKO K-1 rules.,k1_rules.pdf:p3,True,verified
+Q006,single,kickboxing,What are the legal target areas in WAKO K-1?,"Under the K-1 amendment, legal target areas are the front and side of the head (including the forehead), the front and side of the torso, and the legs, including joints.",k1_rules_updates.pdf:p1,True,verified
+Q007,comparison,mma|kickboxing,How do the permitted striking techniques differ between MMA and K-1?,,,,needs_review
+Q008,comparison,muay_thai|kickboxing,How do legal knee techniques differ between IFMA Muay Thai and WAKO K-1?,,,,needs_review

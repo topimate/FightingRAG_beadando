@@ -1,0 +1,10 @@
+
+id,category,sports,question,expected_answer,reference_sources,answerable
+Q001,single,mma,How many rounds can an MMA bout have?,,,
+Q002,single,mma,Which techniques are prohibited in MMA?,,,
+Q003,single,muay_thai,What protective equipment is required in IFMA Muay Thai?,,,
+Q004,single,muay_thai,How are points awarded in IFMA Muay Thai?,,,
+Q005,single,kickboxing,Are elbow strikes permitted in WAKO K-1?,,,
+Q006,single,kickboxing,What are the legal target areas in WAKO K-1?,,,
+Q007,comparison,mma|kickboxing,How do the permitted striking techniques differ between MMA and K-1?,,,
+Q008,comparison,muay_thai|kickboxing,How do legal knee techniques differ between IFMA Muay Thai and WAKO K-1?,,,
