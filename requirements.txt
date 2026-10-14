@@ -6,3 +6,4 @@ pymupdf
 streamlit
 pandas
 scikit-learn
+streamlit

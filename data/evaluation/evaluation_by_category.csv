@@ -1,0 +1,13 @@
+category,mode,questions,average_score,normalized_score_pct
+comparison,general_rag,8,0.125,6.2
+comparison,llm_only,8,0.125,6.2
+comparison,sport_aware_rag,8,0.875,43.8
+single,general_rag,4,1.0,50.0
+single,llm_only,4,0.75,37.5
+single,sport_aware_rag,4,1.0,50.0
+triple_comparison,general_rag,5,0.4,20.0
+triple_comparison,llm_only,5,0.4,20.0
+triple_comparison,sport_aware_rag,5,1.2,60.0
+unanswerable,general_rag,5,2.0,100.0
+unanswerable,llm_only,5,1.8,90.0
+unanswerable,sport_aware_rag,5,2.0,100.0
