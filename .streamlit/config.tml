@@ -1,0 +1,15 @@
+
+[server]
+fileWatcherType = "none"
+
+[theme]
+base = "light"
+primaryColor = "#007AFF"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F7"
+textColor = "#1D1D1F"
+font = "sans serif"
+baseRadius = "large"
+buttonRadius = "full"
+borderColor = "#E5E5EA"
+showWidgetBorder = false

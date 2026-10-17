@@ -5,14 +5,17 @@ from app.assistant import render_assistant
 from app.insights import render_insights
 
 
+
 st.set_page_config(
     page_title="FightRAG",
     page_icon="🥊",
-    layout="wide",
+    layout="centered",
+    initial_sidebar_state="collapsed",
 )
 
-st.title(" FightRAG")
-st.caption("AI-powered Combat Sports Rulebook Assistant")
+
+st.title("FightRAG")
+st.caption("Your AI guide to combat sports rules.")
 
 assistant_tab, insights_tab = st.tabs([
     " Rulebook Assistant",
