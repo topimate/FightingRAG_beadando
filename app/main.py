@@ -16,24 +16,25 @@ apply_theme()
 left_pad, main_col, right_pad = st.columns([0.8, 8.8, 0.8])
 
 with main_col:
-    with st.container(border=True):
-        left, right = st.columns([4, 1.2])
+    # This is a REAL Streamlit container, so the title and metrics
+    # appear inside the image-backed card (not below a raw HTML div).
+    with st.container(border=True, key="fight_hero"):
+        hero_left, hero_right = st.columns([4, 1.2], vertical_alignment="center")
 
-        with left:
+        with hero_left:
             st.caption("AI RULEBOOK ASSISTANT")
             st.title("FightRAG")
             st.caption("Combat sports intelligence, simplified.")
 
-        with right:
+        with hero_right:
             st.metric("Sports", "3")
             st.caption("MMA · MUAY THAI · K-1")
 
-    st.write("")
+    st.space("small")
 
-    assistant_tab, insights_tab = st.tabs([
-        "Rulebook Assistant",
-        "Model Insights",
-    ])
+    assistant_tab, insights_tab = st.tabs(
+        ["Rulebook Assistant", "Model Insights"]
+    )
 
     with assistant_tab:
         render_assistant()
