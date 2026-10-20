@@ -1,0 +1,4 @@
+mode,questions,total_score,average_score,fully_correct,normalized_score_pct
+general_rag,22,17,0.7727272727272727,7,38.6
+llm_only,22,15,0.6818181818181818,5,34.1
+sport_aware_rag,22,27,1.2272727272727273,9,61.4

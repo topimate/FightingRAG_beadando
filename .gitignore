@@ -6,3 +6,9 @@ data/processed/
 chroma_db/
 results/
 .streamlit/secrets.toml
+
+data/raw/*.pdf
+
+data/processed/
+data/chroma_db/
+data/evaluation/evaluation_results.jsonl

@@ -1,0 +1,540 @@
+[
+  {
+    "id": "Q001",
+    "question": "How many rounds can an MMA bout have?",
+    "sports": [
+      "mma"
+    ],
+    "candidates": [
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 1,
+        "document_type": "base",
+        "distance": 0.1355,
+        "text": "1. Each round shall consist of a five (5) minute duration (professional), with a one (1) minute rest \nperiod between rounds. \na. No contests shall exceed five (5) rounds and/or twenty-five (25) minutes. \nb. Bouts may consist of one (1), two (2), three (3), four (4), or five (5) rounds, with a five \n(5) minute duration. \nc. No contestant shall exceed competing more than five (5) rounds and/or twenty-five \n(25) minutes of fighting in a twenty-four (24) hour period. \n2. \nThe referee is the sole arbiter of a bout and is the only individual authorized to stop a contest. \nThis shall not preclude a video or other review of a decision under the procedure of the \napplicable regulatory authority if a protest is filed claiming a clear rule violation. \na. The authority of a referee begins when the inspector(s) exit the cage/ring and does \nnot end until the inspector(s) re-enter the cage/ring, upon conclusion of the fight. \n3. \nInstant replay may be used to review a “Fight Ending Sequence” and shall only be used after a \nfight has been officially stopped. Once instant replay has been used to review a fight ending \nsequence, the fight shall not be resumed. \n4. \nAll fighters are required to wear a mouthpiece during competition. The round cannot begin \nwithout the mouthpiece. If the mouthpiece is dislodged during competition, the referee will call \ntime and have the mouthpiece replaced at the first opportune moment, without interfering with \nthe immediate action. Points may be deducted by the referee if he/she feels the mouthpiece is \nbeing purposefully spit out. \n5. \nIf an MMA bout is being conducted in a ring and is a fighter is knocked out of the ring, the fighter \nmust return to the ring unassisted by spectators or his/her seconds. If assisted by anyone, the \nfighter may lose points or be disqualified with such a decision being within the sole discretion of \nthe referee. Once knocked from the ring, the competitor will have five (5) minutes to return to \nfighting surface, similar to an accidental foul, but shall be examined by the ringside physician \nbefore returning to action. \n6. The reapplication of petroleum jelly or another similar substance, may be allowed between"
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 8,
+        "document_type": "base",
+        "distance": 0.1528,
+        "text": "3. Dominance: As MMA is an offensive based sport, dominance of a round can be seen in striking \nwhen the losing fighter is forced to continually defend, with no counters or reaction taken when \nopenings present themselves. Dominance in the grappling phase can be seen by fighter staking \ndominant positions in the fight and utilizing those positions to attempt fight ending submissions or \nattacks. Merely holding a dominant position(s) shall not be a primary factor in assessing dominance. \nWhat the fighter does with those positions is what must be assessed. In the absence of dominance in \nthe grappling phase, as set forth in paragraph 3 of the promulgated rules, to be considered dominate, \nthere must be a singularly or in combination, some types of submission attempts, strikes, or an \noverwhelming pace which is measured by improved or aggressive positional changes that cause the \nlosing fighter to consistently be in a defensive or reactive mode\n\n4. Duration: Duration is defined by the time spent by one fighter effectively attacking, controlling, and \nimpacting their opponent; while the opponent offers little to no offensive output. A judge shall assess \nduration by recognizing the relative time in a round when one fighter takes and maintains full control \nof the effective offense. This can be assessed both standing and grounded.\n\n5. Scoring of Incomplete Rounds: There should be scoring of incomplete rounds. If the referee \npenalizes either contestant, then the appropriate points shall be deducted when the scorekeeper \ncalculates the final score for the partial round\n\nB. Types of Decisions\n\na. Submission by: \ni. Tap Out: When a contestant physically uses of their body to indicate that he or she no longer \nwishes to continue; or \nii. Verbal Tap Out: When a contestant verbally announces or voluntarily/involuntarily screams \nin pain or distress to the referee that they do not wish to continue; \niii. Technical Submission: When a legal submission act results in unconsciousness or \nbroken/dislocated bone(s)/joint(s)."
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 2,
+        "document_type": "base",
+        "distance": 0.154,
+        "text": "8. In instances where the fight has to be concluded due to unforeseen, non-combat related issues, \nthe fight may go to the scorecards if: \na. If the bout is scheduled for 3 rounds, 2 rounds of the contest must be completed \nb. If the bout is scheduled for 5 rounds, 3 rounds of the contest must be completed \n9. Hand Wraps. \na. A maximum of one roll (no more than 2” wide by 15 yards in length) of white, soft, cloth \ngauze is permitted per hand. The gauze may not exceed the wrist of the competitor’s glove. \nThe exposed thumb is an option to be protected. \nb. A maximum of one roll (no more than 1.25” wide by 10’ in length) of white athletic tape is \npermitted per hand. The tape may not exceed the wrist of the competitor’s gloves. Tape may \nbe placed through the fingers but may not cover the knuckles. The exposed thumb is an option \nto be protected. \nc. A single layer of elastic or flex-type tape is allowed to be applied over the completed wrap. \nd. Approved tape/gauze of all brands may be allowed. \n10. Joint/Body Coverings. \na. Other than the competitor’s hands, there will be no taping, covering, or protective gear, of \nany kind, on the upper body. This includes, but is not limited to: joint sleeves, padding, or any \nform of brace/body tape. \nb. A competitor may use a soft neoprene type sleeve to cover only the knee and/or ankle \njoints. Approved sleeves may not have: padding, Velcro, plastic, metal, ties, or any other \nmaterial considered to be unsafe or that may create an unfair advantage. Tape, gauze, or any \nmaterials other than the approved sleeves are not permitted. \n11. Cage/Ring Attire. \na. All mixed martial artists will be required to wear such protective gear as deemed necessary \nby the Commission. \nb. Male contestants shall not wear any form of clothing on their upper body. \nc. Male and female mixed martial artists shall wear the appropriate trunks, mouthpiece, and \ngloves. Male mixed martial artists shall also wear the appropriate groin protection. \nd. Female mixed martial artists shall wear a short sleeved (above the elbow) or sleeveless \nform fitting rash guard and/or sports bra(s). No loose-fitting tops and/or breast protectors shall \nbe allowed."
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 5,
+        "document_type": "base",
+        "distance": 0.1624,
+        "text": "21. \nUse of abusive language in the fighting area. \na. The use of abusive language is not allowed during MMA competition. It is the sole \nresponsibility of the referee to determine when language crosses over the line to \nabusive. It should be clear that fighters can talk during a match. The mere use of \nauditory language is not a violation of this rule. Examples of abusive language would be \n(Racially motivated or Derogatory language). \n22. \n Flagrant disregard of the referee's instructions; \na. A fighter MUST follow the instructions of the referee at all times. Any deviation or \nnon-compliance may result in the fighter's disqualification. \n23. \nUnsportsmanlike conduct that causes an injury to opponent; \na. Every athlete competing in the sport of MMA is expected to represent the sport in a \npositive light emphasizing sportsmanship and humility. Any athlete that disrespects the \nrules of the sport or attempts to inflict unnecessary harm on a competitor who has been \neither taken out of the competition by the referee or has tapped out of the competition \nshall be viewed as being unsportsmanlike. \n24. \nAttacking an opponent after the bell has sounded the end of the period of unarmed combat. \na. The end of a round is signified by the sound of the bell and the call of time by the \nreferee. Once the referee has made the call of time, any offensive actions initiated by \nthe fighter shall be considered after the bell and illegal. \n25. \n Attacking an opponent on or during the break; \na. A fighter shall not engage their opponent in any fashion during a time-out or break of \naction in competition. \n26. \nAttacking an opponent who is under the care of the referee; \na. Once the referee has called for a stop of the action to protect a fighter who has been \nincapacitated or is unable to continue to compete in the fight, fighters shall cease all \noffensive actions against their opponent. \n27. Interference from a mixed martial artist’s corner or seconds; \na. Interference is defined as any action or activity aimed at disrupting the fight or \ncausing an unfair advantage to be given to a corner’s combatant. Corners are not \nallowed to distract the referee or influence the actions"
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 19,
+        "document_type": "base",
+        "distance": 0.1637,
+        "text": "1.5.9: Walkover (WO) A result awarded when an opponent fails to present for the bout. \n1.5.10: No Contest (NC) A bout declared invalid due to exceptional circumstances beyond control. \n1.5.11: Draw A result where neither athlete is declared the winner. \n1.5.12: Round-by-Round (RbR) Scoring System A scoring structure in which each round of a bout is evaluated \nindependently before determining a cumulative bout result. \n1.5.13: Strike-by-Strike (SbS) Scoring System A scoring system in which each individual Muaythai skill strike is \nevaluated in real time by Judges, with confirmed strikes recorded as scoring units that contribute to either cumulative \nscoring or Ten-Point Must round conversion depending on the approved scoring mode. \n1.6: FOULS & CONDUCT \n1.6.1: Foul Any action that violates IFMA rules, including illegal techniques or unsportsmanlike behaviour. \n1.6.2: Caution An informal notice issued by the referee for minor rule infringements. \n1.6.3: Warning A formal notice issued by the referee for rule violations that may result in penalties. \n1.6.4: Deduction The removal of points due to fouls or infractions. \n1.6.5: Prohibited Techniques Actions or strikes not permitted under IFMA rules or within specific divisions. \n1.7: MEDICAL & SAFETY \n1.7.1: Medical Examination A pre-competition health check to confirm an athlete’s fitness to participate. \n1.7.2: Weigh-In The official process of verifying an athlete’s weight for eligibility within a weight class. \n1.7.3: Medical Suspension A mandatory rest period following injury or stoppage. \n1.7.4: Head Injury Protocol Procedures applied following head trauma, including KOH and RSCH classifications. \n1.7.5: Protective Equipment Mandatory safety equipment including gloves, mouthguard, groin guard, and other \ndivision-specific requirements. \n1.7.6: Team Doctor A qualified medical professional appointed by a National Federation or team, responsible for the \nmedical care of its athletes during the championship, and subject to the authority of the Medical Commission Member \n(MCM). \n1.8: INTERPRETATION \n1.8.1: Shall Indicates a mandatory requirement. \n1.8.2: Should Indicates a recommended practice. \n1.8.3: May Indicates"
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 1,
+        "document_type": "base",
+        "distance": 0.1646,
+        "text": "ASSOCIATION OF BOXING COMMISSIONS AND \nCOMBATIVE SPORTS \nUNIFIED RULES OF MIXED MARTIAL ARTS\n\nAS APPROVED APRIL 2001. AMENDED 2010. AMENDED AUGUST 3, 2016. AMENDED WITH \nPROCEDURES JULY 26, 2017. AMENDED WITH PROCEDURES AUGUST 1, 2018. AMENED \nWITH PROCEDURE AUGUST 1, 2019. AMENED WITH PROCEDURES AUGUST 1, 2023. \nAMENDED WITH RULE CHANGES JULY 23, 2024, REQUESTED IMPLEMENTATION DATE OF \nNOVEMEBER 2024.AMENDED WITH NONSUBSTAINAL CHANGES AUGUST 6, 2025.\n\nNote: These are the Official Unified Rules of MMA. Any other form of these rules may not be \ncalled the “Unified Rules of MMA” and shall be referred to by the name of the commission \nsanctioning the/an event."
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 9,
+        "document_type": "base",
+        "distance": 0.1655,
+        "text": "e. No Contest: \ni. When a contestant is prematurely stopped due to accidental injury and a sufficient amount of \ntime has not been completed to render a decision via the score cards.\n\nf. Decisions: \ni. Unanimous Decision: When all three judges score the bout for the same contestant; \nii. Split Decision: When two judges score the bout for one contestant and one judge scores for \nthe opponent; or \niii. Majority Decision: When two judges score the bout for the same contestant and one judge \nscores a draw; \niv. Technical Decision: When a bout is prematurely stopped due to injury from an accidental \nfoul and a contestant is leading on the score cards;\n\ng. Draws: \ni. Unanimous Draw – When all three judges score the bout a draw; \nii. Majority Draw – When two judges score the bout a draw; or \niii. Split Draw – When all three judges score differently and the score total results in a draw; \niv. Technical Draw - When an injury is sustained during competition as a result of an intentional \nfoul and the bout is allowed to continue, then later the injury requires stoppage from either a \nlegal or illegal strike to the affected area after ½ of the scheduled rounds has been completed, \nif the injured contestant is even or behind on the score cards at the time of stoppage, the \ndecision is a Technical Draw.\n\nWeight Classes \nWeight Class\n\nWeight \nAtomweight\n\nup to and including 105 lbs. \nStraw Weight\n\nover 105 to 115 lbs. \nFlyweight\n\nover 115 to 125 lbs. \nBantamweight\n\nover 125 to 135 lbs. \nFeatherweight\n\nover 135 to 145 lbs. \nLightweight\n\nover 145 to 155 lbs. \nSuper Lightweight\n\nover 155 to 165 lbs. \nWelterweight\n\nover 165 to 170 lbs. \nSuper Welterweight\n\nover 170 to 175 lbs. \nMiddleweight\n\nover 175 to 185 lbs. \nSuper Middleweight\n\nover 185 to 195 lbs. \nLight Heavyweight\n\nover 195 to 205 lbs. \nCruiserweight\n\nover 205 to 225 lbs. \nHeavyweight\n\nover 225 to 265 lbs. \nSuper Heavyweight\n\nover 265 lbs.\n\na. Allowances within Division: there are no allowance restrictions if both combatants weigh-in \nwithin the same contracted division."
+      }
+    ]
+  },
+  {
+    "id": "Q002",
+    "question": "Which techniques are prohibited in MMA?",
+    "sports": [
+      "mma"
+    ],
+    "candidates": [
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 3,
+        "document_type": "base",
+        "distance": 0.14,
+        "text": "Art. 2.1 Prohibited Techniques and Behavior. \nIt is prohibited to: \n \nAttack the throat, lower abdomen, kidneys, back, groin, neck, back of the head and top of the shoulders. \n \nTo grab the opponent’s leg for any reason even for a short time, and perform any technique whilst grabbing. \n \nTo perform front and side kick to the front side of the thigh, knee or shin. This is valid also for the knee attacks. \n \nTo perform more than one knee attack while holding the opponent’s neck or shoulders with two hands. \n \nTo hold the neck or shoulders with only one hand while attacking with the knee. \n \nTo perform any somersault kicks. \n \nScrewing, lifting and turning the opponent from side to side. \n \nTo attack with the elbow, head, thumb or shoulders. \n \nTo turn one's back to the opponent, run away, fall down, intentional clinching, blind techniques, wrestling, \nthrowing and ducking below the opponent’s waist. \n \nTo attack an opponent who is caught between the ropes. \n \nTo attack an opponent who is falling to the floor or is already on the floor; that is, as soon as one hand or knee \ntouches the floor. \n \nTo leave the ring without the Referee’s order. \n \nContinue the fight after the command \"stop\" or \"break\" or the end of the round after the signal has been given. \n \nTo oil the face or the body (Vaseline is allowed). \n \nTo spit out or drop the mouth-guard voluntarily. \n \nViolations of the rules may, depending how grave they are, lead to warnings, minus points or even \ndisqualification."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules_updates.pdf",
+        "page": 2,
+        "document_type": "amendment",
+        "distance": 0.1509,
+        "text": "Page 2 of 3 \nArticle 4.1. Hand techniques (punches) \n• Direct, \n• Uppercut \n• Hook \n• Spinning back fist \nArticle 4.2. Foot techniques (kicks) \n• Front kick to torso and head (not to thigh) \n• Sidekick to torso and head (not to thigh) \n• Roundhouse kick \n• Heel kick \n• Crescent kick \n• Axe kick \n• Jump kicks \n• Spinning back kick to torso and head (not to thigh) \n• It is allowed to attack using the shin \nArticle 4.3. Knee techniques \n• Clinch or holding is not permitted at any time during the match. \n• Supporting over the opponent to kick with knee techniques is not allowed. \n• Clinching with one or two hands in order to execute a knee technique is prohibited. \n• Clinching, holding or supporting will be penalized if used to stop the opponent’s actions or to \nmomentarily interrupt the match. \n• As clinching, holding or supporting is not allowed, knee techniques may be executed without limitation. \nArticle 4.4. Throwing techniques \nFoot sweeps (ankle level only, from outside to inside and vice versa) to unbalance the opponent and \nfollowing up with hand or foot technique or to bring the unbalanced opponent to the canvas. It is \nnot allowed to throw opponent using only hands, and kickboxer cannot throw his opponent using \ntorso, hips or shoulders. \nArticle 5. Illegal techniques \nIt is prohibited to: \n Attack the throat, kidneys, back, groin, neck, back of the head and top of the shoulders. \n To grab the opponent’s leg for any reason even for a short time, and perform any technique whilst \ngrabbing. \n To perform front and side kick to the front side of the thigh, knee or shin. This is valid also for the knee attacks. \n To perform spinning back kick to the front or side of the thigh. \n To perform punches to the legs. \n To perform any somersault kicks."
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 2,
+        "document_type": "base",
+        "distance": 0.152,
+        "text": "Female mixed martial artists shall wear a short sleeved (above the elbow) or sleeveless \nform fitting rash guard and/or sports bra(s). No loose-fitting tops and/or breast protectors shall \nbe allowed. Female competitors will follow the same requirements for bottom covering as the \nmale competitors, minus the requirement for groin protection. \ne. The hem of the trunks may not extend below the knee. \nf. Fighting shorts/trunks shall not have exposed Velcro, pockets, or zippers. \ng. Mixed martial artists in the same match, contest, or exhibition may wear different color \ntrunks or be designated by glove taping and/or glove coloring to the corner they are assigned. \nh. Mixed martial artists shall not wear shoes in the cage or ring. \ni. When deemed necessary by the referee all mixed martial artists shall have their hair secured \nin a manner that does not interfere with the vision and safety of either contestant. \ni. No object can be worn to secure the contestant’s hair which may cause injury to either \ncontestant. \nj. The wearing of jewelry will be strictly prohibited during all contests. \nk. Wearing body cosmetics shall be prohibited during all contests. Wearing facial cosmetics \nshall be at the discretion of the commission and/or referee."
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 65,
+        "document_type": "base",
+        "distance": 0.1586,
+        "text": "means other than a spray bottle; \n31.2.26: Use of excessive water during the rest between rounds causing a delay starting the next round; \n31.2.27: Using any forbidden substance acknowledged by World Anti-Doping Agency (WADA) or IFMA Anti-Doping \nCode. \n31.3: RESTRICTED STRIKES BY DIVISION Use of a restricted Muaythai skill in a given division is considered a foul \nDivision \nRestricted Muaythai Skills \nMasters 40+ & 45+ \nNo restrictions \nMasters 35+ \nElite \nU24 \nU18 \nU16 \nU14 \nNo elbow or knee strikes to the head \nU12 \nNo strikes to the head \nU10 \nU8"
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 49,
+        "document_type": "base",
+        "distance": 0.1594,
+        "text": "Starting Postures. It is not permitted to perform any other form of \nmartial art ritual that is not a conventional part of the art of Muaythai. \n20.2.1: Krob Kru Also known as “Sealing the Ring”, is not permitted before performing the Wai Kru, unless during the \nfinals of a competition or championship. \n20.2.2: Rai Ram Muaythai May only be performed during the finals of a competition or championship."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules_updates.pdf",
+        "page": 3,
+        "document_type": "amendment",
+        "distance": 0.1599,
+        "text": "Page 3 of 3 \n Clinching, holding or supporting is not allowed to perform a knee technique in any \ntime or using any part of the opponent´s body \n Screwing, lifting and turning the opponent from side to side. \n To attack with the elbow, head, thumb or shoulders. \n To turn one's back to the opponent, run away, fall down, intentional clinching, blind techniques, \nwrestling, throwing and ducking below the opponent’s waist. \n To attack an opponent who is caught between the ropes. \n To attack an opponent who is falling to the floor or is already on the floor; that is, as soon as one hand \nor knee touches the floor. \n To leave the ring without the Central referee’s order. \n Continue the fight after the command \"stop\" or \"break\" or the end of the round after the signal has been \ngiven. \n To oil the face or the body (Vaseline is allowed). \n To spit out or drop the mouth-guard voluntarily. \n Violations of the rules may, depending how grave they are, lead to warnings, minus points or even disqualification"
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 5,
+        "document_type": "base",
+        "distance": 0.1607,
+        "text": "21. \nUse of abusive language in the fighting area. \na. The use of abusive language is not allowed during MMA competition. It is the sole \nresponsibility of the referee to determine when language crosses over the line to \nabusive. It should be clear that fighters can talk during a match. The mere use of \nauditory language is not a violation of this rule. Examples of abusive language would be \n(Racially motivated or Derogatory language). \n22. \n Flagrant disregard of the referee's instructions; \na. A fighter MUST follow the instructions of the referee at all times. Any deviation or \nnon-compliance may result in the fighter's disqualification. \n23. \nUnsportsmanlike conduct that causes an injury to opponent; \na. Every athlete competing in the sport of MMA is expected to represent the sport in a \npositive light emphasizing sportsmanship and humility. Any athlete that disrespects the \nrules of the sport or attempts to inflict unnecessary harm on a competitor who has been \neither taken out of the competition by the referee or has tapped out of the competition \nshall be viewed as being unsportsmanlike. \n24. \nAttacking an opponent after the bell has sounded the end of the period of unarmed combat. \na. The end of a round is signified by the sound of the bell and the call of time by the \nreferee. Once the referee has made the call of time, any offensive actions initiated by \nthe fighter shall be considered after the bell and illegal. \n25. \n Attacking an opponent on or during the break; \na. A fighter shall not engage their opponent in any fashion during a time-out or break of \naction in competition. \n26. \nAttacking an opponent who is under the care of the referee; \na. Once the referee has called for a stop of the action to protect a fighter who has been \nincapacitated or is unable to continue to compete in the fight, fighters shall cease all \noffensive actions against their opponent. \n27. Interference from a mixed martial artist’s corner or seconds; \na. Interference is defined as any action or activity aimed at disrupting the fight or \ncausing an unfair advantage to be given to a corner’s combatant. Corners are not \nallowed to distract the referee or influence the actions"
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 2,
+        "document_type": "base",
+        "distance": 0.1615,
+        "text": "8. In instances where the fight has to be concluded due to unforeseen, non-combat related issues, \nthe fight may go to the scorecards if: \na. If the bout is scheduled for 3 rounds, 2 rounds of the contest must be completed \nb. If the bout is scheduled for 5 rounds, 3 rounds of the contest must be completed \n9. Hand Wraps. \na. A maximum of one roll (no more than 2” wide by 15 yards in length) of white, soft, cloth \ngauze is permitted per hand. The gauze may not exceed the wrist of the competitor’s glove. \nThe exposed thumb is an option to be protected. \nb. A maximum of one roll (no more than 1.25” wide by 10’ in length) of white athletic tape is \npermitted per hand. The tape may not exceed the wrist of the competitor’s gloves. Tape may \nbe placed through the fingers but may not cover the knuckles. The exposed thumb is an option \nto be protected. \nc. A single layer of elastic or flex-type tape is allowed to be applied over the completed wrap. \nd. Approved tape/gauze of all brands may be allowed. \n10. Joint/Body Coverings. \na. Other than the competitor’s hands, there will be no taping, covering, or protective gear, of \nany kind, on the upper body. This includes, but is not limited to: joint sleeves, padding, or any \nform of brace/body tape. \nb. A competitor may use a soft neoprene type sleeve to cover only the knee and/or ankle \njoints. Approved sleeves may not have: padding, Velcro, plastic, metal, ties, or any other \nmaterial considered to be unsafe or that may create an unfair advantage. Tape, gauze, or any \nmaterials other than the approved sleeves are not permitted. \n11. Cage/Ring Attire. \na. All mixed martial artists will be required to wear such protective gear as deemed necessary \nby the Commission. \nb. Male contestants shall not wear any form of clothing on their upper body. \nc. Male and female mixed martial artists shall wear the appropriate trunks, mouthpiece, and \ngloves. Male mixed martial artists shall also wear the appropriate groin protection. \nd. Female mixed martial artists shall wear a short sleeved (above the elbow) or sleeveless \nform fitting rash guard and/or sports bra(s). No loose-fitting tops and/or breast protectors shall \nbe allowed."
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 3,
+        "document_type": "base",
+        "distance": 0.1633,
+        "text": "Fouls \n1. Butting with the head; \na. The head may not be used as a striking instrument in any fashion. Any use of the head as a \nstriking instrument whether head to head, head to body or otherwise is illegal. \n2. Eye gouging of any kind; \na. Eye gouging by means of fingers, chin, or elbow is illegal. Legal strikes or punches that \ncontact the fighter's eye socket are not eye gouging and shall be considered legal attacks. \n3. Biting or spitting at an opponent; \na. Biting in any form is illegal. A fighter must recognize that a referee may not be able to \nphysically observe some actions and must make the referee aware if they are being bit during \nan exhibition of unarmed combat. \n4. Fish Hooking; \na. Any attempt by a fighter to use their fingers in a manner that attacks their opponent's mouth, \nnose or ears, stretching the skin to that area will be considered “Fish hooking”. Fish hooking \ngenerally is the placing of fingers into the mouth or your opponent and pulling your hands in \nopposing directions while holding onto the skin of your opponent. \n5. Hair pulling; \na. Pulling of the hair in any fashion is an illegal action. A fighter may not grab a hold of his \nopponent's hair to control their opponent in any way. If a fighter has long hair, they may not \nuse their hair as a tool for holding or choking in any fashion. \n6. Spiking the opponent to the canvas onto the head or neck (pile-driving); \na. Any throw with an arc to its motion is to be considered a legal throw. It does not matter if the \nopponents head hits the canvas. A pile driver is considered to be any throw where you control \nyour opponent's body placing their feet up in the air with their head straight down and then \nforcibly drives the opponents head into the canvas or flooring material. It should be noted when \na fighter is placed into a submission hold by their opponent, if that fighter is capable of \nelevating their opponent, they may bring that opponent down in any fashion they desire \nbecause they are not in control of their opponent’s body. The fighter who is attempting the \nsubmission can either adjust their position or let go of their hold before being slammed to the \ncanvas. \n7. Strikes to"
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 8,
+        "document_type": "base",
+        "distance": 0.1719,
+        "text": "3. Dominance: As MMA is an offensive based sport, dominance of a round can be seen in striking \nwhen the losing fighter is forced to continually defend, with no counters or reaction taken when \nopenings present themselves. Dominance in the grappling phase can be seen by fighter staking \ndominant positions in the fight and utilizing those positions to attempt fight ending submissions or \nattacks. Merely holding a dominant position(s) shall not be a primary factor in assessing dominance. \nWhat the fighter does with those positions is what must be assessed. In the absence of dominance in \nthe grappling phase, as set forth in paragraph 3 of the promulgated rules, to be considered dominate, \nthere must be a singularly or in combination, some types of submission attempts, strikes, or an \noverwhelming pace which is measured by improved or aggressive positional changes that cause the \nlosing fighter to consistently be in a defensive or reactive mode\n\n4. Duration: Duration is defined by the time spent by one fighter effectively attacking, controlling, and \nimpacting their opponent; while the opponent offers little to no offensive output. A judge shall assess \nduration by recognizing the relative time in a round when one fighter takes and maintains full control \nof the effective offense. This can be assessed both standing and grounded.\n\n5. Scoring of Incomplete Rounds: There should be scoring of incomplete rounds. If the referee \npenalizes either contestant, then the appropriate points shall be deducted when the scorekeeper \ncalculates the final score for the partial round\n\nB. Types of Decisions\n\na. Submission by: \ni. Tap Out: When a contestant physically uses of their body to indicate that he or she no longer \nwishes to continue; or \nii. Verbal Tap Out: When a contestant verbally announces or voluntarily/involuntarily screams \nin pain or distress to the referee that they do not wish to continue; \niii. Technical Submission: When a legal submission act results in unconsciousness or \nbroken/dislocated bone(s)/joint(s)."
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 4,
+        "document_type": "base",
+        "distance": 0.1764,
+        "text": "ends up in a superior position due to the \nfoul, the fighters should be re-started by the referee, standing in a neutral position. \n16. Small joint manipulation; \na. Fingers and Toes are small joints. Wrists, Ankles, Knees, Shoulders and Elbows are \nall large joints. Grabbing the majority of fingers/toes at once is allowed. \n17. \nThrowing an opponent out of the ring or caged area; \na. A fighter shall not throw their opponent out of the ring or cage. \n18. \nIntentionally placing a finger into any orifice, or into any cut or laceration of your Opponent; \na. A fighter may not place their fingers into an open laceration in an attempt to enlarge \nthe cut. A fighter may not place their fingers into an opponent's, nose, ears, mouth, or \nany body cavity. \n19. \nClawing, pinching, twisting the flesh; \na. Any attack that targets the fighter's skin by clawing at the skin or attempting to pull or \ntwist the skin to apply pain is illegal. \n20. \nTimidity (avoiding contact, or consistently dropping the mouthpiece, or faking an injury; \na. Timidity is defined as any fighter who purposely avoids contact with his opponent or \nruns away from the action of the fight. Timidity can also be called by the referee for any \nattempt by a fighter to receive time by falsely claiming a foul, injury, or purposely \ndropping or spitting out their mouthpiece or other action designed to stall or delay the \naction of the fight"
+      }
+    ]
+  },
+  {
+    "id": "Q003",
+    "question": "What protective equipment is required in IFMA Muay Thai?",
+    "sports": [
+      "muay_thai"
+    ],
+    "candidates": [
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 73,
+        "document_type": "base",
+        "distance": 0.1367,
+        "text": "Revised on: May 11, 2026 \nE-Mail: info@muaythai.sport\n\n41.1.1: Material Non-toxic EVA (Ethylene Vinyl Acetate) Foam Interlocking mats. \n41.1.2: Size Mats should be 1m2 with a thickness between 4-5cm. The contest area minimum size shall be size 8m \nfrom straight edge to straight edge. Sixty four (64) pieces of matting will be required to create the contest area for \ncompetition. \n41.1.3: Layout The mats should be set as 6x6 black or blue mats centred in the Field Of Play, surrounded by 1 grey or \nred mat around the edge of the black or blue matting, with the straight edge edging attached in the respective colour. \nThere should be four (4) grey or red mats in two opposite corners, with one corner being to the near left of the Jury to \nrepresent the athletes area. \n41.1.4: Staging Area Where staging is to be used, all staging will require wheelchair access. Please refer to your \ncountries own health & safety regulations regarding this. \nRULE 42: ATHLETE EQUIPMENT & DRESS \nAthletes should wear the traditional Muay Boran (Blue) uniform as per Fig. 41, in any colour except for black, and be \napproved by IFMA. \n42.1: UNIFORM There are two elements the athlete should consider: \n• \nCostume must consist of a traditional top and short appropriate for athlete gender; and \n• \nAccessories including traditional hand bindings (hand wraps) and sash belt. \n42.1.1: Traditional Attire Athletes must not wear provocative uniforms. \n42.2: MONGKON & PRAJIAD COLOUR Athletes should wear their respective IFMA Khan level colour, or any mix \nof colours other than Silver, Silver & Gold, and Gold which shall be worn by the Technical Officials only, unless the athlete \nhas qualified for these IFMA Khan levels. \n42.2.1: Traditional Mongkon Athletes must wear a traditional Mongkon, no additional ornaments are permitted."
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 93,
+        "document_type": "base",
+        "distance": 0.1383,
+        "text": "Revised on: May 11, 2026 \nE-Mail: info@muaythai.sport\n\nAPPENDIX XI: IFMA MUAYTHAI PILLARS \nAPPENDIX XI: IFMA MUAYTHAI PILLARS \nMuaythai Combat | Full Contact – Pinnacle discipline under full IFMA rules, forming the elite global competitive \npathway. \nMuaythai Technical | Semi Contact – High-performance technical discipline with precision scoring, scalable for global \ndevelopment and youth progression. \nMuaythai Cultural | No Contact – Cultural and heritage pillar safeguarding Wai Kru, Mai Muay, and the traditional \nidentity of Muaythai. \n“HONOUR, TRADITION, RESPECT, EXCELLENCE AND FAIR PLAY”"
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 37,
+        "document_type": "base",
+        "distance": 0.1402,
+        "text": "Revised on: May 11, 2026 \nE-Mail: info@muaythai.sport\n\n15.2.1: Tape The use of any kind of tapes - rubber or adhesive plaster - as bandages is strictly forbidden. A single strap \nof adhesive 7.5 cm long and 2.5 cm wide, may be used at the upper wrists to secure the bandages. Any taping applied \noutside these specifications shall be considered a violation and subject to action. \n15.2.2: Inspection The bandages / hand wraps of the athlete shall be inspected before being provided their \ncompetition equipment. The hand wraps may be inspected at any later time by the Referee or Jury, including after a \ndecision has been rendered. In the event that hand wraps are not present, or illegal taping is identified, the matter shall \nbe reported to the Head of Jury. The matter shall be subject to disciplinary action following review. \n15.3: HEAD GUARD, SHIN GUARD, & ELBOW GUARD The use of the head guard, shin guard, and elbow \nguards are mandatory, and shall be provided to Athletes by the Organizing Committee. Only IFMA approved equipment is \npermitted. \n15.3.1: Head Guard The head guard (see Fig. 12 and Fig. 13) shall conform to IFMA specifications and have no cheek \nprotectors, chin guard or face shield. Athletes must come into the ring without their head guard - only after having \nbeen presented to the audience, performing the Wai Kru, and shaking of hands has been completed shall it be put in. \nThe head guard shall be taken off immediately after the contest is over and before the decision is announced. \nThe head guard is not permitted to be removed or undone during a contest unless under the supervision of the Jury or \nReferee.\n\n15.3.2: Shin Guard & Elbow Guard The shin guard (see Fig. 14) and elbow guards (see Fig. 15) for competition shall \nbe made of cloth and must have Velcro fixing. If taping is required it shall be supplied by the Local Organizing \nCommittee."
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 40,
+        "document_type": "base",
+        "distance": 0.1434,
+        "text": "Revised on: May 11, 2026 \nE-Mail: info@muaythai.sport\n\nMasters 35+ \nYes \nElite \nYes \nU24 \nOptional \nU18 \nU16 \nU14 \nU12 \nU10 \nU8\n\n15.8.1: Protective Equipment Review The Medical and Gender Equality Commissions shall periodically review the \nmandatory or optional status of protective equipment for female and male Athletes in light of medical evidence, \nathlete feedback, and equity considerations. \n15.9: CLOTHING & DRESS Athletes shall wear the competition clothing and dress when provided by the Organizing \nCommittee, with lightweight undergarments in accordance with the following: \n15.9.1: Shorts Muaythai shorts (see Fig. 27) must be worn for competition and the wording “Muaythai” clearly \ndisplayed on the front."
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 72,
+        "document_type": "base",
+        "distance": 0.1473,
+        "text": "Revised on: May 11, 2026 \nE-Mail: info@muaythai.sport\n\n39.3: MEDIA Photographers, videographers, and other media may stand on the floor from the middle of the red / \nwhite corners, all the way round to the blue / white corners without impeding the Doctor’s access to the ring stairs. The \nTechnical Delegate may provide permission to specific media personnel to stand on the ring apron or contest area. The \nmedia should never stand behind the Judges or in front of the Jury at any time during competition. \nRULE 40: RING EQUIPMENT \n40.1: RING EQUIPMENT The following ring equipment shall be available: \n• \nTwo (2) sets of steps – one (1) set at the red corner for use by the contestants, and one (1) set in the neutral \ncorner closest to jury for use by the doctors; \n• \nOne (1) seat – one (1) seat for the coach; \n• \nTable and chairs for Officials and competition staff; \no One (1) table for the panel of the Judges with five (5) chairs; \no One (1) table for the panel of the Jury with three (3) chairs; \no One (1) table for the scorekeepers with two (2) chairs; \no One (1) table for the Timekeeper and Announcer with two (2) chairs; \no One (1) table for the Doctor and medical staff with two (2) chairs; and \n• \nGong (with striker) or bell; \n• \nOne (preferably two) stop watches; \n• \nIFMA electronic scoring system or score cards; \n• \nOne microphone connected to the loudspeaker system and another for back up; \n• \nOne stretcher or access to a cot/gurney; \n• \nA barrier at least a 1.5 m from the Officials tables around the ring to the spectators; and \n• \nOnly IFMA approved rings are permitted. \nRULE 41: CONTEST AREA \n41.1: SPECIFICATIONS In all competitions, the contest area shall conform to the following requirements (see Fig. \n40):"
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 27,
+        "document_type": "base",
+        "distance": 0.1493,
+        "text": "training for a period of at least 4 weeks after the last contest on the advice of the Medical Officer should they decide that \nit would be necessary. \n9.3: MEDICAL CERTIFICATION FOLLOWING PROBATION Before resuming Muaythai after any periods of \nmedical probation, an Athlete must be certified by a neurologist as fit to take part in Muaythai competition. The Athlete \nshould undergo, if possible, a special examination, electroencephalogram (EEG) and, if necessary, a contrast-enhanced \ncomputed tomography (CCT) test. The results of examinations as well as the permission to resume competing shall be \nentered in the medical record. \nCommunication of Obligations \nNational Associations must ensure that these medical and safeguarding obligations are communicated in an accessible \nway to all Athletes, including minors and Athletes with limited language proficiency, so that they fully understand the \nmedical requirements, their responsibilities, and the procedures to follow for safe return to competition. \nAll protective measures apply equally if a head injury occurs during training. \nRULE 10: MEDICAL APTITUDE \n10.1: MEDICAL DECLARATION No Athlete shall be allowed to compete without having a completed IFMA Medical \nDeclaration Form, which must be signed by an authorised Doctor of Medicine. The medical declaration must be \ncompleted in the English language stating that prior to leaving their country the Athlete was in good physical condition \nand not suffering from any injury, infection or disability liable to affect the Athlete’s capacity to compete. The Athlete \nmust be intact and of full body. \n10.1.1: Declaration of Non-pregnancy Athletes aged 18 and above must sign the Declaration of Non-pregnancy. \nAthletes under this age require an additional signature from one of the Athlete’s parents and/or legal guardians. \nConfidentiality and Purpose \nNon-pregnancy declarations are required solely for the protection of Athlete health in a high-impact sport. These \ndeclarations shall be treated as confidential medical information and shall not be used for any other purpose. \nPeriodic Review \nThe Medical and Gender Equality Commissions shall periodically review the format,"
+      }
+    ]
+  },
+  {
+    "id": "Q004",
+    "question": "How are points awarded in IFMA Muay Thai?",
+    "sports": [
+      "muay_thai"
+    ],
+    "candidates": [
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 16,
+        "document_type": "base",
+        "distance": 0.1233,
+        "text": "Revised on: May 11, 2026 \nE-Mail: info@muaythai.sport\n\nPostures, 49.7: Mai Muay Awarding \nPoints, 49.9.1: Final Team Score, \nAppendix X: Hyperlink Reference table"
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 89,
+        "document_type": "base",
+        "distance": 0.127,
+        "text": "Revised on: May 11, 2026 \nE-Mail: info@muaythai.sport\n\nAPPENDIX IX: COMPETITION GUIDANCE (PAPERWORK)\n\nReference Point \nRequirement\n\nIFMA Muaythai Referee and Judge(s)\n\nIFMA Bout / Contest Schedule\n\nIFMA Referee & Judge Roster\n\nIFMA Judging Score Cards\n\nIFMA Muaythai Jury\n\nIFMA Bout / Contest Schedule\n\nIFMA Referee & Judge Roster\n\nIFMA Judging Score Cards (spare)\n\nIFMA Jury Decision Sheet\n\nIFMA Rules and Regulations\n\nIFMA Wai Kru & Mai Muay Judge(s)\n\nIFMA Bout / Contest Schedule\n\nIFMA Judge Roster\n\nIFMA Judging Score Cards\n\nIFMA Wai Kru & Mai Muay Jury\n\nIFMA Bout / Contest Schedule\n\nIFMA Judge Roster\n\nIFMA Judging Score Cards (spare)\n\nIFMA Posture List\n\nIFMA Jury Decision Sheet\n\nIFMA Competition Standings List\n\nIFMA Rules and Regulations"
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 80,
+        "document_type": "base",
+        "distance": 0.1309,
+        "text": "Revised on: May 11, 2026 \nE-Mail: info@muaythai.sport\n\n49.5: FINISHING (MOVEMENT) POSTURES Athletes must perform all five (5) Finishing movements. The \nFinishing has a maximum total score of 20 points (individual), or 5 points (duo). \n49.5.1: Finishing (movement) Postures: 1. Yang Sam Khum, 2. Payak Dom Kwang, 3. Kwang Liaw Lang, 4. Tad Mai \nKom Nam and 5. Yang Suk Ka Sem. \n49.6: JOINING (CONNECTION) POSTURES Athletes can perform the Joining Postures (9). The Joining \n(connection) Postures have a maximum total score of 20 points (individual), or 5 points (duo). \n49.6.1: Joining (connection) Postures: 1. Sod Soi Mala, 2. Khuang Mad, 3. Muan Muay, 4. Chang Yaek Plok, 5. Klub \nHua Sanam, 6. Klum Choeng Kru, 7. Doo Dussakorn, 8. Fon Long Choeng and 9. Kinaree Liab Thom. \n49.7: MAI MUAY AWARDING POINTS The Mai Muay has a maximum total score of 65 points. The Teams must \nforward their performances on the Jury Posture List form, to the Administration Jury no less than sixty (60) minutes \nbefore the start of the competition for inspection. All Muaythai Skill postures must be taken from the IFMA Khan syllabus \nand contain a blend of ‘Basic Skill’, ‘Art of Muay’ and ‘High Level’ posture groups. \nThe following are guidelines for awarding points: \n49.7.1: Performance Realism A maximum total score of 30 points; \n49.7.2: Athlete Fitness A maximum total score of 25 points; and \n49.7.3: Other A maximum total score of 10 points. \nThe following categories will be used to deduct points for minor infringements during Mai Muay contests: \n49.7.4: Timing Not too fast, not too slow; \n49.7.5: Target Correct target used for technique; \n49.7.6: Realistic Techniques used realistically; \n49.7.7: Balance Correct balance through-out; \n49.7.8: Continuality Fluid and does not pause; \n49.7.9: Conditioning Athlete looks strong at the end; \n49.7.10: Costume Remains in place throughout, and is IFMA approved; \n49.7.11: Spatial Awareness Full use within the competition area; and \n49.7.12: Posture List All postures on submitted Jury list completed. \n49.8: MUAYTHAI SKILL POSTURES All Athletes must perform the Muaythai skill postures from the IFMA Khan \nsyllabus;"
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 93,
+        "document_type": "base",
+        "distance": 0.1318,
+        "text": "Revised on: May 11, 2026 \nE-Mail: info@muaythai.sport\n\nAPPENDIX XI: IFMA MUAYTHAI PILLARS \nAPPENDIX XI: IFMA MUAYTHAI PILLARS \nMuaythai Combat | Full Contact – Pinnacle discipline under full IFMA rules, forming the elite global competitive \npathway. \nMuaythai Technical | Semi Contact – High-performance technical discipline with precision scoring, scalable for global \ndevelopment and youth progression. \nMuaythai Cultural | No Contact – Cultural and heritage pillar safeguarding Wai Kru, Mai Muay, and the traditional \nidentity of Muaythai. \n“HONOUR, TRADITION, RESPECT, EXCELLENCE AND FAIR PLAY”"
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 79,
+        "document_type": "base",
+        "distance": 0.1381,
+        "text": "48.4.1: Appearance The IFMA Muay Boran uniform with Gold trim will be worn by all approved Jury members and \nIFMA ITO Judges, the NTO Judges will wear the IFMA Muay Boran uniform with Silver trim only. \n48.4.2: Uniform The ITO and NTO Judges uniform will be made available at international championships, and the Jury \nuniforms will be bestowed upon them during an official ceremony by the IFMA Culture & Heritage commission. \n48.4.3: Additions A black or skin tone colour sleeveless shirt can be worn underneath the top of the uniform, and a \nblack or skin tone colour leggings can be worn underneath the bottom of the uniform for comfort. \nRULE 49: AWARDING OF POINTS \n49.1: SCORING WAI KRU & MAI MUAY The duo format Mai Muay contest has a maximum combined total score \nof 100 points. The Wai Kru has a maximum total score of 100 points during an individual format Wai Kru contest and a \nmaximum sub total score of 35 points during a duo format Mai Muay contest. \nThe following categories will be used to deduct points for minor infringements during Wai Kru contests and the Wai Kru \nsection of duo format Mai Muay contests: \n49.1.1: Authentic Correct postures used; \n49.1.2: Completed Postures Full identity performed; \n49.1.3: Rhythmic Performed in good rhythm; \n49.1.4: Fluidity Postures flow uninterrupted and smoothly; \n49.1.5: Personality Artistically correct; and \n49.1.6: Costume Remains in place throughout, and is IFMA approved. \n49.2: WAI KRU STARTING POSTURES All Athletes must perform all Six (6) of the Wai Kru Starting Postures. The \nStarting Postures have a maximum total score of 20 points (individual), or 5 points (duo). \n49.2.1: Starting Postures: 1. Thep Pa Nom, 2. Kom Krab, 3. Kob Pramae Thoranee, 4. Tha Wai Bangkom, 5. Pathom \nand 6. Prom. \n49.3: PROM NANG (SITTING) POSTURES Athletes must perform four (4) of the seven (7) Wai Kru Prom Nang \nPostures. The Prom Nang (sitting) Postures have a maximum total score of 20 points (individual), or 10 points (duo). \n49.3.1: Prom Nang (sitting) Postures: 1. Lab Hok Mokkasak (Kumpakan Lab Hok), 2. Mekkala Loah Kaew, 3. Song \nMek (Tai Mek), 4. Mae Pra Thoranee Beeb Muay Phom, 5. Sue Lak Hang, 6. Paya Krut Yut Naka and 7. Sao"
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 15,
+        "document_type": "base",
+        "distance": 0.1386,
+        "text": "Revised on: May 11, 2026 \nE-Mail: info@muaythai.sport\n\nPerformance Area, 52.1.1: Muaythai, \nWai Kru and Mai Muay Medal Awards, \n53.2: Supplementary Documents, \n53.3: Rule Review Cycle, Appendix XI: \nIFMA Muaythai Pillars\n\nUpdate to rule 3: Muaythai \nCompetitions, 4: Weight \nClassifications, 5: Minimum & \nMaximum Age Limit For Athletes, 7: \nRounds for Muaythai Competition, \n8.1.4: Athletes Book, 10.1.1: \nDeclaration of Non-pregnancy, 11.1.2: \nPre-Contest Weigh-In, 11.3.1: \nAttendance, 11.3.2: Clothing & Dress, \n11.3.6: Staffing, 13.2: Additional \nRings, 13.3.2: Video Instant Replay, \n14.1: Specifications, 14.1.4: Rope, \n15.4: Body Protector, 15.8: Female \nChest Protection, 15.9: Clothing & \nDress, 16.4.1: Additional Contest Rest \nAllowance, 17.2.3: At Any Time, 20.2: \nFundamental Elements, 21.15.1: \nQualifications, 21.16.1: Technical \nOfficials Statutory Retirement, 25.2.2: \nAdministration Jury, 25.2.3: Protocol \nJury, 25.3.4: Performing Non-Jury \nDuties, 27.1: Duties, 29.1.1: Target, \n29.1.3: Illegal Target, 29.2: Ten-Point \nMust System, 29.2.1: Steps for \nAwarding Points, 29.2.2: Non-\nAwarding of Points, 29.2.5: Method \nfor Applying a Deduction of Points, \n30.2.2: Injury (RSCI), 30.2.5: \nCompulsory Count Limit (CCL), \n31.2.18 Striking the Groin or Cervical \nSpine, 31.3: Restricted Strikes by \nDivision, 31.3.1: Semi Contact \n(Muaythai Technical), 32.1: Definition, \n32.1.1: Down, 34: Wai Kru & Mai \nMuay competitions, 35: Minimum & \nMaximum Age Limit for Athletes, 36: \nMedical Requirements, 37: National \nTeam Divisions, 38: Time For \nCompetition, 44.1.1: Contesting \nSystem, 49.5: Finishing (Movement)"
+      }
+    ]
+  },
+  {
+    "id": "Q005",
+    "question": "Are elbow strikes permitted in WAKO K-1?",
+    "sports": [
+      "kickboxing"
+    ],
+    "candidates": [
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 3,
+        "document_type": "base",
+        "distance": 0.1335,
+        "text": "Chapter Ten / WAKO K1 Rules \nArt. 1. Definition. \nWAKO K-1 is a sport, like the other styles, and applies the same ring, the same weight classes \nand the same general rules regarding coaches or fighter’s behavior that are used in Full Contact \nand Low Kick.\n\n \nElbow techniques are forbidden \n \nIt is allowed to hold opponent’s neck or shoulders with two hands in order to perform only one knee attack. \nKnee attack must be performed immediately. \n \nIt is forbidden to enter the ring wearing Muay Thai shorts or any other apparel of that discipline. \n \nIt is not allowed to grab the leg and punch or kick at the same time. \n \nPunching techniques reaching legal targets have the same value for judges as knee, leg or any other technique in the \nrepertoire.\n\nEach fighter must have their own WAKO SPORT PASS with MEDICAL TEST in it, valid for 1 year, to be shown \nat weigh-in procedures. \nIn Continental or World Championships NO FOREIGN COMPETITORS can be included in NATIONAL TEAMS. At \nweigh-in, official passports must be shown to the officials in charge. \nArt. 2. Legal Target Areas \nThe following parts of the body may be attacked using the authorized fighting techniques: \n \nHead: front (face and forehead), side and top. \n \nTorso: front and side. \n \nLegs: any part. \n \nFoot: for sweeps ankle level only."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules_updates.pdf",
+        "page": 1,
+        "document_type": "amendment",
+        "distance": 0.1444,
+        "text": "Page 1 of 3 \nWAKO RULES CHANGE – K1 Style \nArticle 1. Definition \nK1 Style is a kickboxing discipline where the intention of a kickboxer is to defeat opponent using \nlegal techniques with full power and strength. Strikes must be delivered to legal target areas with \nfocus, speed and determination, creating solid contact. Strikes are allowed to the front and side of \nthe head and to the front and side of the torso. Strikes (kicks and knees) are also allowed to \nopponent’s leg (all part including joints). \nArticle 2. Safety equipment and clothes \nArticle 2.1. Personal safety equipment \n• Head protection (top of the head must be covered). \n• Mouth guard (on only the upper teeth or on both upper and lower teeth). \n• Breast protection (for female kickboxers) (It is Mandatory to be worn under the top (bodice) or vest) \n• Hand wraps (no stick with a tape). \n• Gloves for contact sports (10 Oz). \n• Groin protection (mandatory for male and female). \n• Shin guards (must cover the shin and instep) \n• Foot wraps (optional) (must be covered with the ankle support if used). \n• Ankle support (optional, if foot wraps are not used) \nArticle 2.2. Personal clothes \n• Bare torso and shorts for men, \n• Sport top (vest) and shorts (no sport skirt) for women. \nArticle 3. Legal target areas \nThe following parts of the body may be attacked using authorized fighting techniques: \n• Head - front, forehead and side \n• Torso - front and side \n• Legs (all parts including joints) \nArticle 4. Legal techniques \nHand, foot and knee techniques must be used equally during the entire fight. All techniques \nmust be used with full power. Any technique which is partially deviated or blocked, or that \nsimply touches, brushes or pushes an opponent will not be scored."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 9,
+        "document_type": "base",
+        "distance": 0.1445,
+        "text": "injuries, infections or medical problems that \ncould affect their ability to fight in the visiting country. This certificate will be attached to the WAKO passport of the \nkickboxer, according to the practice of their association and presented during the medical examination which will \nproceed the weigh-in. \nOne-eyed, deaf, mute and epileptic fighters are not allowed in kickboxing. Wearing of spectacles by a kickboxer \nduring the bout is not permitted, but soft contact lenses are allowed. Kickboxers with the beard are allowed to \nparticipate in any WAKO tournaments, if only their beard has reasonable length (not more than 2 centimeter). \nFemales who have long hair, must control it so it does not disrupt the contest."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 2,
+        "document_type": "base",
+        "distance": 0.1447,
+        "text": "Table of Contents \nArt. 1. Definition \n3 \nWAKO K-1 is one of the WAKO disciplines \n3 \nArt. 2. Legal Target Areas \n3 \nArt. 2.1 Prohibited Techniques and Behavior \n3 \nArt. 2.2 Legal Techniques/Scoring Criteria \n4 \nArt. 2.2.1 Hand Techniques \n4 \nArt. 2.2.2 Foot Techniques \n4 \nArt. 2.2.3 Throwing Techniques: \n4 \nArt. 2.2.4 Number of Kicks per Round \n4 \nArt. 3. Decisions \n4 \nArt. 4. Changing a decision \n5 \nArt. 5. Awarding of points \n5 \nArt. 5.1 Directive 1 - concerning blows \n5 \nArt. 5.2 Directive 2 - concerning offences \n5 \nArt. 5.3 Directive 3 - awarding points (Using Electronic Scoring System) \n6 \nArt. 5.3.1 In case of a draw (Electronic) \n6 \nArt. 5.4 Directive 3 - awarding points (Using Clickers and Scorecards) \n6 \nArt. 5.4.1 In case of a draw (Clickers) \n6 \nArt. 5.4.2 Directive 4 - Penalty: \n7 \nArt. 6. Criteria for minus points \n7 \nArt. 6.1.1 Offences \n7 \nArt. 6.1.2 Warnings given to the second count against the Kickboxer 8 \nArt. 7. On the floor \n8 \nArt. 8. Procedure after KO, RSC, RSC-H, Injury \n8 \nArt. 8.1.1 Procedure if KO, RSC, RSC-H, Injury \n8 \nArt. 8.2 Procedure if injuries in general \n9 \nArt. 9. Hand shaking \n9 \nArt. 10. Use of Drugs \n9 \nArt. 11. Medical aptitude \n9 \nArt. 11.1 Doctors Aide \n10 \nArt. 12. Age limit of kickboxer \n10 \nArt. 13. Agreements \n10 \nNote! \n10"
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 1,
+        "document_type": "base",
+        "distance": 0.1615,
+        "text": "Chapter 10 -\n\nWAKO \nK1-Rules"
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 9,
+        "document_type": "base",
+        "distance": 0.1647,
+        "text": "Art. 8.2 Procedure if injuries in general. \nIn case of injuries besides KO or RSC-H the doctor can give a minimum of quarantine period and recommend treatment \nat hospital. \nA doctor can require immediately treatment at hospital. \nIf a kickboxer or delegates from kickboxer’s nation denies doctors medical advice, the doctor reports in a written \nform immediately to the Chief Referee or to a WAKO delegate that all medical responsibility are denied and are in \nthe hands of the kickboxer and their team. However, the official result and a quarantine given is valid. \n Art. 9. Hand shaking. \nBefore and after a bout, the kickboxers will shake hands as sign of pure sportsmanship and friendly rivalry, according to \nkickboxing regulations. Hand shaking takes place before starting the first round and after the decision. No hand shaking \nis allowed between rounds. \n Art. 10. Use of drugs. \nAny drug or chemical substance ingested by a kickboxer, that is not included in the kickboxer’s normal diet, is \nforbidden. Any kickboxer or official violating this code may be disqualified or suspended by WAKO. \nAny kickboxer refusing to submit to a medical examination or doping test after a fight, in order to verify that they have \nnot broken this rule, may be disqualified or suspended. The same will occur for an official encouraging such a refusal. \nThe use of local anesthetics is allowed, if agreed by a doctor from the Medical Committee. \nWAKO refers to and adopt WADA Doping Rules. \n Art. 11. Medical aptitude. \nA fighter will be allowed to fight in an International competition only after having been declared fit for it by a sports \ndoctor, recognized by the Federation under whose name the competition takes place, or by the Medical Committee of \nWAKO during Continental and World Championships. \nAll kickboxers fighting abroad will need to have a certificate established by a medical doctor, certifying that the athlete, \nbefore leaving their country, was in good physical condition and had no injuries, infections or medical problems that \ncould affect their ability to fight in the visiting country. This certificate will be attached to the WAKO passport of the \nkickboxer, according to the"
+      }
+    ]
+  },
+  {
+    "id": "Q006",
+    "question": "What are the legal target areas in WAKO K-1?",
+    "sports": [
+      "kickboxing"
+    ],
+    "candidates": [
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 3,
+        "document_type": "base",
+        "distance": 0.1367,
+        "text": "Chapter Ten / WAKO K1 Rules \nArt. 1. Definition. \nWAKO K-1 is a sport, like the other styles, and applies the same ring, the same weight classes \nand the same general rules regarding coaches or fighter’s behavior that are used in Full Contact \nand Low Kick.\n\n \nElbow techniques are forbidden \n \nIt is allowed to hold opponent’s neck or shoulders with two hands in order to perform only one knee attack. \nKnee attack must be performed immediately. \n \nIt is forbidden to enter the ring wearing Muay Thai shorts or any other apparel of that discipline. \n \nIt is not allowed to grab the leg and punch or kick at the same time. \n \nPunching techniques reaching legal targets have the same value for judges as knee, leg or any other technique in the \nrepertoire.\n\nEach fighter must have their own WAKO SPORT PASS with MEDICAL TEST in it, valid for 1 year, to be shown \nat weigh-in procedures. \nIn Continental or World Championships NO FOREIGN COMPETITORS can be included in NATIONAL TEAMS. At \nweigh-in, official passports must be shown to the officials in charge. \nArt. 2. Legal Target Areas \nThe following parts of the body may be attacked using the authorized fighting techniques: \n \nHead: front (face and forehead), side and top. \n \nTorso: front and side. \n \nLegs: any part. \n \nFoot: for sweeps ankle level only."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 2,
+        "document_type": "base",
+        "distance": 0.1382,
+        "text": "Table of Contents \nArt. 1. Definition \n3 \nWAKO K-1 is one of the WAKO disciplines \n3 \nArt. 2. Legal Target Areas \n3 \nArt. 2.1 Prohibited Techniques and Behavior \n3 \nArt. 2.2 Legal Techniques/Scoring Criteria \n4 \nArt. 2.2.1 Hand Techniques \n4 \nArt. 2.2.2 Foot Techniques \n4 \nArt. 2.2.3 Throwing Techniques: \n4 \nArt. 2.2.4 Number of Kicks per Round \n4 \nArt. 3. Decisions \n4 \nArt. 4. Changing a decision \n5 \nArt. 5. Awarding of points \n5 \nArt. 5.1 Directive 1 - concerning blows \n5 \nArt. 5.2 Directive 2 - concerning offences \n5 \nArt. 5.3 Directive 3 - awarding points (Using Electronic Scoring System) \n6 \nArt. 5.3.1 In case of a draw (Electronic) \n6 \nArt. 5.4 Directive 3 - awarding points (Using Clickers and Scorecards) \n6 \nArt. 5.4.1 In case of a draw (Clickers) \n6 \nArt. 5.4.2 Directive 4 - Penalty: \n7 \nArt. 6. Criteria for minus points \n7 \nArt. 6.1.1 Offences \n7 \nArt. 6.1.2 Warnings given to the second count against the Kickboxer 8 \nArt. 7. On the floor \n8 \nArt. 8. Procedure after KO, RSC, RSC-H, Injury \n8 \nArt. 8.1.1 Procedure if KO, RSC, RSC-H, Injury \n8 \nArt. 8.2 Procedure if injuries in general \n9 \nArt. 9. Hand shaking \n9 \nArt. 10. Use of Drugs \n9 \nArt. 11. Medical aptitude \n9 \nArt. 11.1 Doctors Aide \n10 \nArt. 12. Age limit of kickboxer \n10 \nArt. 13. Agreements \n10 \nNote! \n10"
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules_updates.pdf",
+        "page": 1,
+        "document_type": "amendment",
+        "distance": 0.1416,
+        "text": "Page 1 of 3 \nWAKO RULES CHANGE – K1 Style \nArticle 1. Definition \nK1 Style is a kickboxing discipline where the intention of a kickboxer is to defeat opponent using \nlegal techniques with full power and strength. Strikes must be delivered to legal target areas with \nfocus, speed and determination, creating solid contact. Strikes are allowed to the front and side of \nthe head and to the front and side of the torso. Strikes (kicks and knees) are also allowed to \nopponent’s leg (all part including joints). \nArticle 2. Safety equipment and clothes \nArticle 2.1. Personal safety equipment \n• Head protection (top of the head must be covered). \n• Mouth guard (on only the upper teeth or on both upper and lower teeth). \n• Breast protection (for female kickboxers) (It is Mandatory to be worn under the top (bodice) or vest) \n• Hand wraps (no stick with a tape). \n• Gloves for contact sports (10 Oz). \n• Groin protection (mandatory for male and female). \n• Shin guards (must cover the shin and instep) \n• Foot wraps (optional) (must be covered with the ankle support if used). \n• Ankle support (optional, if foot wraps are not used) \nArticle 2.2. Personal clothes \n• Bare torso and shorts for men, \n• Sport top (vest) and shorts (no sport skirt) for women. \nArticle 3. Legal target areas \nThe following parts of the body may be attacked using authorized fighting techniques: \n• Head - front, forehead and side \n• Torso - front and side \n• Legs (all parts including joints) \nArticle 4. Legal techniques \nHand, foot and knee techniques must be used equally during the entire fight. All techniques \nmust be used with full power. Any technique which is partially deviated or blocked, or that \nsimply touches, brushes or pushes an opponent will not be scored."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 1,
+        "document_type": "base",
+        "distance": 0.1522,
+        "text": "Chapter 10 -\n\nWAKO \nK1-Rules"
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 9,
+        "document_type": "base",
+        "distance": 0.1691,
+        "text": "injuries, infections or medical problems that \ncould affect their ability to fight in the visiting country. This certificate will be attached to the WAKO passport of the \nkickboxer, according to the practice of their association and presented during the medical examination which will \nproceed the weigh-in. \nOne-eyed, deaf, mute and epileptic fighters are not allowed in kickboxing. Wearing of spectacles by a kickboxer \nduring the bout is not permitted, but soft contact lenses are allowed. Kickboxers with the beard are allowed to \nparticipate in any WAKO tournaments, if only their beard has reasonable length (not more than 2 centimeter). \nFemales who have long hair, must control it so it does not disrupt the contest."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 9,
+        "document_type": "base",
+        "distance": 0.1732,
+        "text": "Art. 8.2 Procedure if injuries in general. \nIn case of injuries besides KO or RSC-H the doctor can give a minimum of quarantine period and recommend treatment \nat hospital. \nA doctor can require immediately treatment at hospital. \nIf a kickboxer or delegates from kickboxer’s nation denies doctors medical advice, the doctor reports in a written \nform immediately to the Chief Referee or to a WAKO delegate that all medical responsibility are denied and are in \nthe hands of the kickboxer and their team. However, the official result and a quarantine given is valid. \n Art. 9. Hand shaking. \nBefore and after a bout, the kickboxers will shake hands as sign of pure sportsmanship and friendly rivalry, according to \nkickboxing regulations. Hand shaking takes place before starting the first round and after the decision. No hand shaking \nis allowed between rounds. \n Art. 10. Use of drugs. \nAny drug or chemical substance ingested by a kickboxer, that is not included in the kickboxer’s normal diet, is \nforbidden. Any kickboxer or official violating this code may be disqualified or suspended by WAKO. \nAny kickboxer refusing to submit to a medical examination or doping test after a fight, in order to verify that they have \nnot broken this rule, may be disqualified or suspended. The same will occur for an official encouraging such a refusal. \nThe use of local anesthetics is allowed, if agreed by a doctor from the Medical Committee. \nWAKO refers to and adopt WADA Doping Rules. \n Art. 11. Medical aptitude. \nA fighter will be allowed to fight in an International competition only after having been declared fit for it by a sports \ndoctor, recognized by the Federation under whose name the competition takes place, or by the Medical Committee of \nWAKO during Continental and World Championships. \nAll kickboxers fighting abroad will need to have a certificate established by a medical doctor, certifying that the athlete, \nbefore leaving their country, was in good physical condition and had no injuries, infections or medical problems that \ncould affect their ability to fight in the visiting country. This certificate will be attached to the WAKO passport of the \nkickboxer, according to the"
+      }
+    ]
+  },
+  {
+    "id": "Q007",
+    "question": "How do the permitted striking techniques differ between MMA and K-1?",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "candidates": [
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules_updates.pdf",
+        "page": 1,
+        "document_type": "amendment",
+        "distance": 0.1451,
+        "text": "Page 1 of 3 \nWAKO RULES CHANGE – K1 Style \nArticle 1. Definition \nK1 Style is a kickboxing discipline where the intention of a kickboxer is to defeat opponent using \nlegal techniques with full power and strength. Strikes must be delivered to legal target areas with \nfocus, speed and determination, creating solid contact. Strikes are allowed to the front and side of \nthe head and to the front and side of the torso. Strikes (kicks and knees) are also allowed to \nopponent’s leg (all part including joints). \nArticle 2. Safety equipment and clothes \nArticle 2.1. Personal safety equipment \n• Head protection (top of the head must be covered). \n• Mouth guard (on only the upper teeth or on both upper and lower teeth). \n• Breast protection (for female kickboxers) (It is Mandatory to be worn under the top (bodice) or vest) \n• Hand wraps (no stick with a tape). \n• Gloves for contact sports (10 Oz). \n• Groin protection (mandatory for male and female). \n• Shin guards (must cover the shin and instep) \n• Foot wraps (optional) (must be covered with the ankle support if used). \n• Ankle support (optional, if foot wraps are not used) \nArticle 2.2. Personal clothes \n• Bare torso and shorts for men, \n• Sport top (vest) and shorts (no sport skirt) for women. \nArticle 3. Legal target areas \nThe following parts of the body may be attacked using authorized fighting techniques: \n• Head - front, forehead and side \n• Torso - front and side \n• Legs (all parts including joints) \nArticle 4. Legal techniques \nHand, foot and knee techniques must be used equally during the entire fight. All techniques \nmust be used with full power. Any technique which is partially deviated or blocked, or that \nsimply touches, brushes or pushes an opponent will not be scored."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 3,
+        "document_type": "base",
+        "distance": 0.1501,
+        "text": "Chapter Ten / WAKO K1 Rules \nArt. 1. Definition. \nWAKO K-1 is a sport, like the other styles, and applies the same ring, the same weight classes \nand the same general rules regarding coaches or fighter’s behavior that are used in Full Contact \nand Low Kick.\n\n \nElbow techniques are forbidden \n \nIt is allowed to hold opponent’s neck or shoulders with two hands in order to perform only one knee attack. \nKnee attack must be performed immediately. \n \nIt is forbidden to enter the ring wearing Muay Thai shorts or any other apparel of that discipline. \n \nIt is not allowed to grab the leg and punch or kick at the same time. \n \nPunching techniques reaching legal targets have the same value for judges as knee, leg or any other technique in the \nrepertoire.\n\nEach fighter must have their own WAKO SPORT PASS with MEDICAL TEST in it, valid for 1 year, to be shown \nat weigh-in procedures. \nIn Continental or World Championships NO FOREIGN COMPETITORS can be included in NATIONAL TEAMS. At \nweigh-in, official passports must be shown to the officials in charge. \nArt. 2. Legal Target Areas \nThe following parts of the body may be attacked using the authorized fighting techniques: \n \nHead: front (face and forehead), side and top. \n \nTorso: front and side. \n \nLegs: any part. \n \nFoot: for sweeps ankle level only."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 2,
+        "document_type": "base",
+        "distance": 0.1572,
+        "text": "Table of Contents \nArt. 1. Definition \n3 \nWAKO K-1 is one of the WAKO disciplines \n3 \nArt. 2. Legal Target Areas \n3 \nArt. 2.1 Prohibited Techniques and Behavior \n3 \nArt. 2.2 Legal Techniques/Scoring Criteria \n4 \nArt. 2.2.1 Hand Techniques \n4 \nArt. 2.2.2 Foot Techniques \n4 \nArt. 2.2.3 Throwing Techniques: \n4 \nArt. 2.2.4 Number of Kicks per Round \n4 \nArt. 3. Decisions \n4 \nArt. 4. Changing a decision \n5 \nArt. 5. Awarding of points \n5 \nArt. 5.1 Directive 1 - concerning blows \n5 \nArt. 5.2 Directive 2 - concerning offences \n5 \nArt. 5.3 Directive 3 - awarding points (Using Electronic Scoring System) \n6 \nArt. 5.3.1 In case of a draw (Electronic) \n6 \nArt. 5.4 Directive 3 - awarding points (Using Clickers and Scorecards) \n6 \nArt. 5.4.1 In case of a draw (Clickers) \n6 \nArt. 5.4.2 Directive 4 - Penalty: \n7 \nArt. 6. Criteria for minus points \n7 \nArt. 6.1.1 Offences \n7 \nArt. 6.1.2 Warnings given to the second count against the Kickboxer 8 \nArt. 7. On the floor \n8 \nArt. 8. Procedure after KO, RSC, RSC-H, Injury \n8 \nArt. 8.1.1 Procedure if KO, RSC, RSC-H, Injury \n8 \nArt. 8.2 Procedure if injuries in general \n9 \nArt. 9. Hand shaking \n9 \nArt. 10. Use of Drugs \n9 \nArt. 11. Medical aptitude \n9 \nArt. 11.1 Doctors Aide \n10 \nArt. 12. Age limit of kickboxer \n10 \nArt. 13. Agreements \n10 \nNote! \n10"
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 4,
+        "document_type": "base",
+        "distance": 0.1618,
+        "text": "Art. 2.2 Legal Techniques/Scoring Criteria. \nA score must be awarded when a legal technique is performed to the following criteria to the legal scoring area. \n1. Good Form (good technique with absolute balance). \n2. Vigorous Application (full power and speed). \n3. Awareness (total concentration and not turning away the head during delivery of the technique). \n4. Good Timing and Correct Distance (when technique has the most potential effect). \n5. Sporting Attitude (non-malicious attitude during delivery of technique). \nArt. 2.2.1 Hand Techniques. \n \nPunches (all boxing repertoire). \n \nBack fist and spinning back fist. \n \nHolding the opponent’s neck or shoulders with two hands in order to perform one knee attack. Knee attack must be \nperformed immediately. \nArt. 2.2.2 Foot, Leg and Knee Techniques. \n \nFront kicks. \n \nSide kicks \n \nRoundhouse kicks. \n \nHeel kicks also to the thigh of the opponent and also spinning on. \n \nCrescent kicks. \n \nAxe kicks. \n \nJumping kicks. \n \nUsing the shin to attack any part of the leg and the body including the head (legal targets areas only). \n \nThe Knee can be used to attack any part of body and head (legal target areas) \n \nFoot sweeps. \nArt. 2.2.3 Sweeping, hand and foot techniques. \nFoot sweeps (ankle level only, from outside to inside and vice versa to unbalance the opponent and following up with \nhand / kicking techniques or to bring the unbalanced opponent to the canvas or to touch it with any part of body apart \nfrom the feet). \nHand and foot techniques should be used equally during the entire fighting period. Foot techniques are only recognized \nwhen they clearly show the intention to hit the opponent with power. \nAll techniques must be used with power. Any technique which is partially deviated or blocked, or that simply touches, \nbrushes or pushes an opponent will not be scored. \nArt. 2.2.4 Number of Kicks per Round. \nBecause of K-1 character and style it will not be necessary to count any kicks such as Full Contact."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 3,
+        "document_type": "base",
+        "distance": 0.163,
+        "text": "Art. 2.1 Prohibited Techniques and Behavior. \nIt is prohibited to: \n \nAttack the throat, lower abdomen, kidneys, back, groin, neck, back of the head and top of the shoulders. \n \nTo grab the opponent’s leg for any reason even for a short time, and perform any technique whilst grabbing. \n \nTo perform front and side kick to the front side of the thigh, knee or shin. This is valid also for the knee attacks. \n \nTo perform more than one knee attack while holding the opponent’s neck or shoulders with two hands. \n \nTo hold the neck or shoulders with only one hand while attacking with the knee. \n \nTo perform any somersault kicks. \n \nScrewing, lifting and turning the opponent from side to side. \n \nTo attack with the elbow, head, thumb or shoulders. \n \nTo turn one's back to the opponent, run away, fall down, intentional clinching, blind techniques, wrestling, \nthrowing and ducking below the opponent’s waist. \n \nTo attack an opponent who is caught between the ropes. \n \nTo attack an opponent who is falling to the floor or is already on the floor; that is, as soon as one hand or knee \ntouches the floor. \n \nTo leave the ring without the Referee’s order. \n \nContinue the fight after the command \"stop\" or \"break\" or the end of the round after the signal has been given. \n \nTo oil the face or the body (Vaseline is allowed). \n \nTo spit out or drop the mouth-guard voluntarily. \n \nViolations of the rules may, depending how grave they are, lead to warnings, minus points or even \ndisqualification."
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 58,
+        "document_type": "base",
+        "distance": 0.1634,
+        "text": "Technical): the Athlete wins the round based on effective light-contact execution \nrather than raw force. \n29.2.2: Non-Awarding of Points \n• \nStriking with lack of Muaythai skills; \n• \nStrikes which are effectively blocked by the opponent’s forearms/gloves or shins/feet; \n• \nStriking with lack of force even when those strikes have landed on target; \no Semi Contact (Muaythai Technical): strikes exceeding light-contact expectations shall be considered a \nfoul. \n• \nThrowing the opponent without striking; and \n• \nStriking while infringing any of the rules."
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 8,
+        "document_type": "base",
+        "distance": 0.1708,
+        "text": "b. Technical Knockout (TKO) by: \ni. Referee Stoppage: the referee stops the contest because the combatant IS NOT \nINTELLIGENTLY DEFENDING HIMSELF/HERSELF; \n1. Strikes \n2. Laceration \n3. Corner Stoppage \n4. Did Not Answer the Bell\n\nii. TKO due to Medical Stoppage; \n1. Laceration \n2. Doctor Stoppage \n3. Loss of control of bodily function.\n\nc. Knockout (KO) by: \ni. Referee Stoppage: the referee stops the contest because the combatant CANNOT \nINTELLIGENTLY DEFEND HIMSELF/HERSELF. \n 1. Due to Strikes\n\nd. Disqualification: \ni. When an injury sustained during competition as a result of an intentional foul is severe \nenough to terminate the contest, multiple fouls have been assessed, and/or there is flagrant \ndisregard for the rules and/or referee’s commands."
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 3,
+        "document_type": "base",
+        "distance": 0.171,
+        "text": "are not in control of their opponent’s body. The fighter who is attempting the \nsubmission can either adjust their position or let go of their hold before being slammed to the \ncanvas. \n7. Strikes to the spine or the back of the head; \na. The back of the head starts at the Crown of the head with a one (1) inch variance to either \nside, running down the back of the head to the occipital junction. \nb. This area stretches out at the occipital junction (nape of the neck) to cover the entire width \nof the neck. It then travels down the spine with a one (1) inch variance from the spine’s \ncenterline, including the tailbone. \n8. Throat strikes of any kind and/or grabbing the trachea; \na. No directed throat strikes are allowed. A directed attack would include a fighter pulling his \nopponents head in a way to open the neck area for a striking attack. A fighter may not gouge \ntheir fingers or thumb into their opponent's neck or trachea in an attempt to submit their \nopponent. If during stand-up action of a fight a strike is thrown and the strike lands in the throat \narea of the fighter, this shall be viewed as a clean and legal blow. \n9. Fingers outstretched toward an opponent’s face/eyes; \na. In the standing position, a fighter that moves their arm(s) toward their opponent with an open \nhand, fingers pointing at the opponent’s face/eyes, will be a foul. Referees are to prevent this \ndangerous behavior by communicating clearly to fighters. Fighters are directed to close their fists \nor point their fingers straight up in the air when reaching toward their opponent."
+      },
+      {
+        "sport": "mma",
+        "filename": "mma_rules.pdf",
+        "page": 7,
+        "document_type": "base",
+        "distance": 0.1717,
+        "text": "F. Utilizing a Cutperson after a foul but during a round: \n1. When a Fighter is the recipient of either an accidental or intentional foul and receives a \nlaceration from the illegal action, the Referee in charge after calling time and putting the \nfighters into neutral corners MAY call upon the cutperson assigned (or in regional shows a \ncorner with no coaching permitted) to the injured fighters corner to enter the cage during the 5-\nminute break and administer aid to the cut to help stop the bleeding. Then when cleared by \nthe Ringside Physician the fighter can return to the action, with no more than the 5-minute time \nelapsed. The cutperson may only work on the cut or cuts associated with the foul.\n\nA. Judging Criteria\n\na. All bouts will be evaluated and scored by a minimum of three (3) judges. \nb. The 10 Point Must System will be the standard of scoring about. \ni. Under the 10-Point Must Scoring System, 10 points must be awarded to the winner of \nthe round and nine points or less must be awarded to the loser, except for a rare even \nround, which is scored (10-10). \nc. Judges shall evaluate Mixed Martial Arts techniques, such as effective \nstriking/grappling(Plan A), effective aggressiveness(Plan B),and control of the fighting \narea(Plan C).Plans B and C are not taken into consideration unless Plan A is weighed as \nbeing even. \nd. Evaluations shall be made in the specific order in which the techniques appear in \n(c)above ,giving the most weight in scoring to effective striking/grappling, and effective \naggressiveness, and control of the fighting area. \ne. Effective striking is judged by determining the damage/effect of legal strikes landed by a \ncontestant solely based on the results of such legal strikes. Effective grappling is assessed by \nthe successful executions and impactful/effective result(s)coming from: takedown(s), \nsubmission attempt(s), achieving an advantageous position(s) and reversal(s). \nf. Effective aggressiveness means aggressively making attempts to finish the fight. \ng. Fighting area control is assessed by determining who is dictating the pace, place and \nposition of the bout."
+      }
+    ]
+  },
+  {
+    "id": "Q008",
+    "question": "How do legal knee techniques differ between IFMA Muay Thai and WAKO K-1?",
+    "sports": [
+      "muay_thai",
+      "kickboxing"
+    ],
+    "candidates": [
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 3,
+        "document_type": "base",
+        "distance": 0.1103,
+        "text": "Chapter Ten / WAKO K1 Rules \nArt. 1. Definition. \nWAKO K-1 is a sport, like the other styles, and applies the same ring, the same weight classes \nand the same general rules regarding coaches or fighter’s behavior that are used in Full Contact \nand Low Kick.\n\n \nElbow techniques are forbidden \n \nIt is allowed to hold opponent’s neck or shoulders with two hands in order to perform only one knee attack. \nKnee attack must be performed immediately. \n \nIt is forbidden to enter the ring wearing Muay Thai shorts or any other apparel of that discipline. \n \nIt is not allowed to grab the leg and punch or kick at the same time. \n \nPunching techniques reaching legal targets have the same value for judges as knee, leg or any other technique in the \nrepertoire.\n\nEach fighter must have their own WAKO SPORT PASS with MEDICAL TEST in it, valid for 1 year, to be shown \nat weigh-in procedures. \nIn Continental or World Championships NO FOREIGN COMPETITORS can be included in NATIONAL TEAMS. At \nweigh-in, official passports must be shown to the officials in charge. \nArt. 2. Legal Target Areas \nThe following parts of the body may be attacked using the authorized fighting techniques: \n \nHead: front (face and forehead), side and top. \n \nTorso: front and side. \n \nLegs: any part. \n \nFoot: for sweeps ankle level only."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules_updates.pdf",
+        "page": 1,
+        "document_type": "amendment",
+        "distance": 0.1411,
+        "text": "Page 1 of 3 \nWAKO RULES CHANGE – K1 Style \nArticle 1. Definition \nK1 Style is a kickboxing discipline where the intention of a kickboxer is to defeat opponent using \nlegal techniques with full power and strength. Strikes must be delivered to legal target areas with \nfocus, speed and determination, creating solid contact. Strikes are allowed to the front and side of \nthe head and to the front and side of the torso. Strikes (kicks and knees) are also allowed to \nopponent’s leg (all part including joints). \nArticle 2. Safety equipment and clothes \nArticle 2.1. Personal safety equipment \n• Head protection (top of the head must be covered). \n• Mouth guard (on only the upper teeth or on both upper and lower teeth). \n• Breast protection (for female kickboxers) (It is Mandatory to be worn under the top (bodice) or vest) \n• Hand wraps (no stick with a tape). \n• Gloves for contact sports (10 Oz). \n• Groin protection (mandatory for male and female). \n• Shin guards (must cover the shin and instep) \n• Foot wraps (optional) (must be covered with the ankle support if used). \n• Ankle support (optional, if foot wraps are not used) \nArticle 2.2. Personal clothes \n• Bare torso and shorts for men, \n• Sport top (vest) and shorts (no sport skirt) for women. \nArticle 3. Legal target areas \nThe following parts of the body may be attacked using authorized fighting techniques: \n• Head - front, forehead and side \n• Torso - front and side \n• Legs (all parts including joints) \nArticle 4. Legal techniques \nHand, foot and knee techniques must be used equally during the entire fight. All techniques \nmust be used with full power. Any technique which is partially deviated or blocked, or that \nsimply touches, brushes or pushes an opponent will not be scored."
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 2,
+        "document_type": "base",
+        "distance": 0.1436,
+        "text": "Table of Contents \nArt. 1. Definition \n3 \nWAKO K-1 is one of the WAKO disciplines \n3 \nArt. 2. Legal Target Areas \n3 \nArt. 2.1 Prohibited Techniques and Behavior \n3 \nArt. 2.2 Legal Techniques/Scoring Criteria \n4 \nArt. 2.2.1 Hand Techniques \n4 \nArt. 2.2.2 Foot Techniques \n4 \nArt. 2.2.3 Throwing Techniques: \n4 \nArt. 2.2.4 Number of Kicks per Round \n4 \nArt. 3. Decisions \n4 \nArt. 4. Changing a decision \n5 \nArt. 5. Awarding of points \n5 \nArt. 5.1 Directive 1 - concerning blows \n5 \nArt. 5.2 Directive 2 - concerning offences \n5 \nArt. 5.3 Directive 3 - awarding points (Using Electronic Scoring System) \n6 \nArt. 5.3.1 In case of a draw (Electronic) \n6 \nArt. 5.4 Directive 3 - awarding points (Using Clickers and Scorecards) \n6 \nArt. 5.4.1 In case of a draw (Clickers) \n6 \nArt. 5.4.2 Directive 4 - Penalty: \n7 \nArt. 6. Criteria for minus points \n7 \nArt. 6.1.1 Offences \n7 \nArt. 6.1.2 Warnings given to the second count against the Kickboxer 8 \nArt. 7. On the floor \n8 \nArt. 8. Procedure after KO, RSC, RSC-H, Injury \n8 \nArt. 8.1.1 Procedure if KO, RSC, RSC-H, Injury \n8 \nArt. 8.2 Procedure if injuries in general \n9 \nArt. 9. Hand shaking \n9 \nArt. 10. Use of Drugs \n9 \nArt. 11. Medical aptitude \n9 \nArt. 11.1 Doctors Aide \n10 \nArt. 12. Age limit of kickboxer \n10 \nArt. 13. Agreements \n10 \nNote! \n10"
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 17,
+        "document_type": "base",
+        "distance": 0.152,
+        "text": "RULE 1: DEFINITIONS & INTERPRETATION \n1.1: GENERAL DEFINITIONS For the purpose of these Rules, the following terms shall apply: \n1.1.1: Athlete An individual officially entered to compete in an IFMA-sanctioned championship. \n1.1.2: Bout (Contest) A single match between two athletes conducted under IFMA rules. \n1.1.3: Competition (Division) A category within a championship, defined by age, weight, gender, or discipline. \n1.1.4: Championship (Tournament) The overall organised event comprising multiple competitions and bouts. \n1.1.5: Field of Play (FOP) The designated competition area, including the ring or contest platform and all operational \nzones. \n1.1.6: Ring The physical structure where full contact Muaythai bouts take place, constructed in accordance with IFMA \nspecifications. \n1.1.7: Contest Area The defined space used for semi-contact, Wai Kru, or Mai Muay competitions. \n1.1.8: Refugee Athlete An athlete officially recognised as a refugee and unable to represent their country of origin. \n1.2: ATHLETE & PARTICIPATION \n1.2.1: Eligibility The criteria an athlete must meet to participate, including nationality, age, medical clearance, and \nregistration. \n1.2.2: Age Category The classification of athletes based on year of birth and competition year. \n1.2.3: Weight Class The division in which an athlete competes, determined by official weigh-in. \n1.2.4: Khan Level The recognised grading system indicating an athlete’s or official’s level of technical proficiency. \n1.2.5: Second (Coach) The accredited individual responsible for assisting and supporting the athlete during a bout. \n1.3: OFFICIALS & GOVERNANCE \n1.3.1: Technical Official Any certified individual responsible for officiating or managing the competition. \n1.3.2: Team Technical Official (TTO) An official appointed by a national team to support athletes. \n1.3.3: National Technical Official (NTO) A Technical Official certified at national level by a National Federation. \n1.3.4: International Technical Official (ITO) A Technical Official certified and appointed by IFMA for international \nchampionships. \n1.3.5: Technical Delegate (TD) The senior official responsible for the overall conduct and technical"
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 19,
+        "document_type": "base",
+        "distance": 0.1566,
+        "text": "1.5.9: Walkover (WO) A result awarded when an opponent fails to present for the bout. \n1.5.10: No Contest (NC) A bout declared invalid due to exceptional circumstances beyond control. \n1.5.11: Draw A result where neither athlete is declared the winner. \n1.5.12: Round-by-Round (RbR) Scoring System A scoring structure in which each round of a bout is evaluated \nindependently before determining a cumulative bout result. \n1.5.13: Strike-by-Strike (SbS) Scoring System A scoring system in which each individual Muaythai skill strike is \nevaluated in real time by Judges, with confirmed strikes recorded as scoring units that contribute to either cumulative \nscoring or Ten-Point Must round conversion depending on the approved scoring mode. \n1.6: FOULS & CONDUCT \n1.6.1: Foul Any action that violates IFMA rules, including illegal techniques or unsportsmanlike behaviour. \n1.6.2: Caution An informal notice issued by the referee for minor rule infringements. \n1.6.3: Warning A formal notice issued by the referee for rule violations that may result in penalties. \n1.6.4: Deduction The removal of points due to fouls or infractions. \n1.6.5: Prohibited Techniques Actions or strikes not permitted under IFMA rules or within specific divisions. \n1.7: MEDICAL & SAFETY \n1.7.1: Medical Examination A pre-competition health check to confirm an athlete’s fitness to participate. \n1.7.2: Weigh-In The official process of verifying an athlete’s weight for eligibility within a weight class. \n1.7.3: Medical Suspension A mandatory rest period following injury or stoppage. \n1.7.4: Head Injury Protocol Procedures applied following head trauma, including KOH and RSCH classifications. \n1.7.5: Protective Equipment Mandatory safety equipment including gloves, mouthguard, groin guard, and other \ndivision-specific requirements. \n1.7.6: Team Doctor A qualified medical professional appointed by a National Federation or team, responsible for the \nmedical care of its athletes during the championship, and subject to the authority of the Medical Commission Member \n(MCM). \n1.8: INTERPRETATION \n1.8.1: Shall Indicates a mandatory requirement. \n1.8.2: Should Indicates a recommended practice. \n1.8.3: May Indicates"
+      },
+      {
+        "sport": "kickboxing",
+        "filename": "k1_rules.pdf",
+        "page": 4,
+        "document_type": "base",
+        "distance": 0.1601,
+        "text": "Art. 2.2 Legal Techniques/Scoring Criteria. \nA score must be awarded when a legal technique is performed to the following criteria to the legal scoring area. \n1. Good Form (good technique with absolute balance). \n2. Vigorous Application (full power and speed). \n3. Awareness (total concentration and not turning away the head during delivery of the technique). \n4. Good Timing and Correct Distance (when technique has the most potential effect). \n5. Sporting Attitude (non-malicious attitude during delivery of technique). \nArt. 2.2.1 Hand Techniques. \n \nPunches (all boxing repertoire). \n \nBack fist and spinning back fist. \n \nHolding the opponent’s neck or shoulders with two hands in order to perform one knee attack. Knee attack must be \nperformed immediately. \nArt. 2.2.2 Foot, Leg and Knee Techniques. \n \nFront kicks. \n \nSide kicks \n \nRoundhouse kicks. \n \nHeel kicks also to the thigh of the opponent and also spinning on. \n \nCrescent kicks. \n \nAxe kicks. \n \nJumping kicks. \n \nUsing the shin to attack any part of the leg and the body including the head (legal targets areas only). \n \nThe Knee can be used to attack any part of body and head (legal target areas) \n \nFoot sweeps. \nArt. 2.2.3 Sweeping, hand and foot techniques. \nFoot sweeps (ankle level only, from outside to inside and vice versa to unbalance the opponent and following up with \nhand / kicking techniques or to bring the unbalanced opponent to the canvas or to touch it with any part of body apart \nfrom the feet). \nHand and foot techniques should be used equally during the entire fighting period. Foot techniques are only recognized \nwhen they clearly show the intention to hit the opponent with power. \nAll techniques must be used with power. Any technique which is partially deviated or blocked, or that simply touches, \nbrushes or pushes an opponent will not be scored. \nArt. 2.2.4 Number of Kicks per Round. \nBecause of K-1 character and style it will not be necessary to count any kicks such as Full Contact."
+      },
+      {
+        "sport": "muay_thai",
+        "filename": "muay_thai_rules.pdf",
+        "page": 92,
+        "document_type": "base",
+        "distance": 0.1602,
+        "text": "Revised on: May 11, 2026 \nE-Mail: info@muaythai.sport\n\nAPPENDIX X: HYPERLINK REFERENCE TABLE\n\nReference Point \nHyperlink\n\nIFMA Compulsory Forms\n\nIFMA Athlete Consent – Event & Anti-Doping Form \nIFMA_Athlete_Consent_Form.pdf \nIFMA Athlete Medical Declaration Form \nIFMA_Athlete_Medical_Declaration_Form.pdf\n\nAdditional Information\n\nIFMA Medical Handbook \nIFMA_Medical_Handbook.pdf \nIFMA Anti-Doping Code \nIFMA_Anti-Doping_Code.pdf \nWADA Prohibited List \nWADA_Prohibited_List \nIFMA VAR Protocols \nIFMA_VAR_Protocols.pdf \nIFMA Procedures for Seconds on FOP \nIFMA_Procedures_for_Seconds_on_FOP \nIFMA Conduct Policy \nIFMA_Conduct_Policy.pdf\n\nAdditional Rules & Regulations\n\nIFMA Muaythai Lor Pao Competition R&R’s \nIFMA_Muaythai-Lor-Pao_Competition_R&R \nIFMA Chok Lom Muaythai Competition R&R’s \nIFMA_Chok-Lom-Muaythai_Competition_R&R \nIFMA Keeta Muaythai Competition R&R’s \nIFMA_Keeta-Muaythai_R&R \nIFMA Youth Muay Talay Competition R&R’s \nIFMA_Youth-Muay-Talay_R&R.pdf \nIFMA Virtual Competition R&R’s \nIFMA_Virtual_R&R\n\nApproved Equipment Suppliers\n\nMTG Fight Gear \nwww.mtgfightgear.com \nFBT Sports \nwww.fbtsports.com \nWesing \nwww.wesingstore.com \nDragondo \nwww.dragondo.com \nTop Ten \nwww.budoland.com"
+      }
+    ]
+  }
+]
