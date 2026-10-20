@@ -31,10 +31,23 @@ follow the amendment.
 If the documents do not provide enough information,
 acknowledge the uncertainty.
 
-Always cite the documents used to support the answer.
+Use short, clear answers.
+Prefer bullet points over large tables unless a table is truly helpful.
 
-Cite the source numbers supporting your statements,
-using the format [SOURCE 1], [SOURCE 2], etc.
+CITATION RULES:
+- Every factual claim about a combat sport rule must have
+  at least one inline citation.
+- Place citations immediately after the claim they support.
+- Use citation numbers in the format [1], [2], [3].
+- Cite only sources that directly support the specific claim.
+- Never invent citation numbers or cite unrelated passages.
+- For comparisons, cite each sport's rules separately.
+- Do not put all citations at the end of the answer.
+- If the retrieved documents do not support a claim,
+  do not present it as a verified fact.
+- If the answer is based on missing information,
+  explain the limitation instead of inventing a citation.
+
 
 Respond in the user's language.
 """
@@ -60,7 +73,7 @@ def generate_rag_answer(
 
     for index, passage in enumerate(passages, start=1):
         context_parts.append(
-            f"[SOURCE {index}]\n"
+            f"[{index}]\n"
             f"Sport: {passage['sport']}\n"
             f"Document: {passage['source']}\n"
             f"Document type: {passage['document_type']}\n"
