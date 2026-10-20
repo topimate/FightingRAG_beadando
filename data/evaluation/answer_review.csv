@@ -1,0 +1,896 @@
+﻿id,split,category,mode,question,expected_answer,reference_sources,answer,retrieved_sources,correctness,source_support,error_notes
+Q001,development,single,llm_only,How many rounds can a professional MMA bout have?,"Professional MMA bouts may have 1, 2, 3, 4 or 5 rounds, each lasting five minutes; rest between rounds is one minute.",mma_rules.pdf:p1,"In most professional MMA promotions the standard bout length is **three rounds of five minutes each**.  
+For championship fights or main‑event bouts the rules usually allow **five rounds of five minutes**.  
+
+So:
+
+- **Regular non‑championship fights:** 3 rounds  
+- **Championship or main‑event fights:** 5 rounds  
+
+These are the common formats in the major organizations (UFC, Bellator, ONE Championship, etc.). Some smaller or regional promotions may have different arrangements, but the 3‑round/5‑round structure is the prevailing standard for professional MMA.",,,,
+Q001,development,single,general_rag,How many rounds can a professional MMA bout have?,"Professional MMA bouts may have 1, 2, 3, 4 or 5 rounds, each lasting five minutes; rest between rounds is one minute.",mma_rules.pdf:p1,A professional MMA bout may consist of **up to five rounds** (each five minutes long) [Source 1].,mma_rules.pdf:p1; mma_rules.pdf:p2; mma_rules.pdf:p8; mma_rules.pdf:p5; muay_thai_rules.pdf:p19; mma_rules.pdf:p7,,,
+Q001,development,single,sport_aware_rag,How many rounds can a professional MMA bout have?,"Professional MMA bouts may have 1, 2, 3, 4 or 5 rounds, each lasting five minutes; rest between rounds is one minute.",mma_rules.pdf:p1,A professional MMA bout may consist of **up to five rounds** (each five minutes long) [Source 1].,mma_rules.pdf:p1; mma_rules.pdf:p2; mma_rules.pdf:p8; mma_rules.pdf:p5; mma_rules.pdf:p7; mma_rules.pdf:p1,,,
+Q002,development,single,llm_only,Name five prohibited techniques or actions under the ABC Unified MMA Rules.,"Examples include headbutting, eye gouging, biting, fish-hooking, hair pulling, pile-driving an opponent onto the head or neck, strikes to the spine or back of the head, directed throat strikes, kneeing or kicking the head of a grounded opponent, and small-joint manipulation. Any five of these document-supported examples are acceptable.",mma_rules.pdf:p3-4,"Under the ABC Unified MMA Rules, the following five techniques or actions are explicitly prohibited:
+
+1. **Headbutts** – striking with the head is not allowed in any part of the fight.  
+2. **Eye gouging** – any attempt to gouge or scratch an opponent’s eyes.  
+3. **Biting** – using the mouth to bite an opponent’s skin or clothing.  
+4. **Groin strikes** – delivering blows to the groin area.  
+5. **Spitting** – expelling saliva or any other substance toward an opponent.
+
+These are listed as fouls that can result in warnings, point deductions, or disqualification, depending on the severity and the referee’s discretion.",,,,
+Q002,development,single,general_rag,Name five prohibited techniques or actions under the ABC Unified MMA Rules.,"Examples include headbutting, eye gouging, biting, fish-hooking, hair pulling, pile-driving an opponent onto the head or neck, strikes to the spine or back of the head, directed throat strikes, kneeing or kicking the head of a grounded opponent, and small-joint manipulation. Any five of these document-supported examples are acceptable.",mma_rules.pdf:p3-4,"The ABC Unified Rules of MMA list several actions that are prohibited during competition. Five examples are:
+
+1. **Use of abusive language** – “The use of abusive language is not allowed during MMA competition.” [SOURCE 4]  
+2. **Flagrant disregard of the referee’s instructions** – “A fighter MUST follow the instructions of the referee at all times; any deviation may result in disqualification.” [SOURCE 4]  
+3. **Unsportsmanlike conduct that causes injury** – “Any athlete that disrespects the rules or attempts to inflict unnecessary harm on a competitor who has been taken out of the competition by the referee or has tapped out shall be viewed as unsportsmanlike.” [SOURCE 4]  
+4. **Attacking an opponent after the bell has sounded** – “Once the referee has made the call of time, any offensive actions initiated by the fighter shall be considered after the bell and illegal.” [SOURCE 4]  
+5. **Attacking an opponent during a break or time‑out** – “A fighter shall not engage their opponent in any fashion during a time‑out or break of action in competition.” [SOURCE 4]",k1_rules.pdf:p3; k1_rules_updates.pdf:p2; k1_rules_updates.pdf:p3; mma_rules.pdf:p5; muay_thai_rules.pdf:p19; mma_rules.pdf:p2,,,
+Q002,development,single,sport_aware_rag,Name five prohibited techniques or actions under the ABC Unified MMA Rules.,"Examples include headbutting, eye gouging, biting, fish-hooking, hair pulling, pile-driving an opponent onto the head or neck, strikes to the spine or back of the head, directed throat strikes, kneeing or kicking the head of a grounded opponent, and small-joint manipulation. Any five of these document-supported examples are acceptable.",mma_rules.pdf:p3-4,"**Five prohibited techniques or actions under the ABC Unified Rules of MMA**
+
+1. **Using the head as a striking instrument** – “The head may not be used as a striking instrument in any fashion. Any use of the head as a striking instrument whether head to head, head to body or otherwise is illegal.” [SOURCE 3]
+
+2. **Eye gouging** – “Eye gouging by means of fingers, chin, or elbow is illegal. Legal strikes or punches that contact the fighter's eye socket are not eye gouging and shall be considered legal attacks.” [SOURCE 3]
+
+3. **Biting or spitting at an opponent** – “Biting in any form is illegal.” [SOURCE 3]
+
+4. **Fish hooking** – “Any attempt by a fighter to use their fingers in a manner that attacks their opponent's mouth, nose or ears, stretching the skin to that area will be considered ‘Fish hooking’.” [SOURCE 3]
+
+5. **Hair pulling** – “Pulling of the hair in any fashion is an illegal action. A fighter may not grab a hold of his opponent's hair to control their opponent in any way.” [SOURCE 3]",mma_rules.pdf:p5; mma_rules.pdf:p2; mma_rules.pdf:p3; mma_rules.pdf:p4; mma_rules.pdf:p1; mma_rules.pdf:p8,,,
+Q003,development,single,llm_only,What protective equipment is required for IFMA full-contact Muay Thai athletes?,"For IFMA full-contact contests, athletes must use approved 10 oz gloves, hand wraps, a head guard, shin guards, elbow guards, a mouthguard and a groin guard. Body protectors and female chest protectors have division-specific requirements; ankle protection is forbidden. The age-group body-protector paragraph and chart differ regarding U8/U10, so those divisions should be checked against the governing authority.",muay_thai_rules.pdf:p36-40,"For IFMA (International Federation of Muaythai Associations) full‑contact competitions the mandatory protective gear is:
+
+| Item | Minimum requirement |
+|------|---------------------|
+| **Gloves** | 10–12 oz (usually 10 oz for men, 12 oz for women) |
+| **Shin guards** | Full‑length shin guards that cover the shin and the lower leg |
+| **Mouthguard** | Custom‑fit or molded mouthguard |
+| **Groin protector** | For male competitors (female competitors may use a protective cup if desired) |
+
+**Optional/Recommended gear**
+
+- **Headgear** – Not required in full‑contact, but many athletes choose to wear it for added protection.
+- **Knee pads** – Not required, but some fighters use them for extra cushioning.
+
+These are the core items that IFMA specifies for full‑contact bouts. If you’re preparing for a specific event, double‑check the event‑specific rule sheet, as some local organizers may add additional requirements.",,,,
+Q003,development,single,general_rag,What protective equipment is required for IFMA full-contact Muay Thai athletes?,"For IFMA full-contact contests, athletes must use approved 10 oz gloves, hand wraps, a head guard, shin guards, elbow guards, a mouthguard and a groin guard. Body protectors and female chest protectors have division-specific requirements; ankle protection is forbidden. The age-group body-protector paragraph and chart differ regarding U8/U10, so those divisions should be checked against the governing authority.",muay_thai_rules.pdf:p36-40,"**Protective equipment required for IFMA full‑contact Muay Thai athletes**
+
+| Item | Requirement | Source |
+|------|-------------|--------|
+| **Head guard** | Must conform to IFMA specifications, have no cheek protectors, chin guard or face shield. Athletes may only wear it after the Wai Kru, handshake and audience presentation; it must be removed immediately after the contest and before the decision is announced. | [SOURCE 4] |
+| **Shin guard** | Must be made of cloth, have Velcro fixing, and be supplied by the Local Organizing Committee if taping is required. | [SOURCE 4] |
+| **Elbow guard** | Same specifications as the shin guard (cloth, Velcro fixing). | [SOURCE 4] |
+| **Hand wraps / bandages** | Only a single strap of adhesive tape (7.5 cm long × 2.5 cm wide) may be used at the upper wrists to secure the bandages. Any other taping is prohibited. Hand wraps are inspected before competition and may be inspected again by the Referee or Jury. | [SOURCE 4] |
+
+These items are mandatory for all athletes competing under IFMA full‑contact Muay Thai rules. No other protective gear (e.g., gloves, mouthguards) is specified in the supplied document context.",muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p73; muay_thai_rules.pdf:p40; muay_thai_rules.pdf:p37; muay_thai_rules.pdf:p78; muay_thai_rules.pdf:p72,,,
+Q003,development,single,sport_aware_rag,What protective equipment is required for IFMA full-contact Muay Thai athletes?,"For IFMA full-contact contests, athletes must use approved 10 oz gloves, hand wraps, a head guard, shin guards, elbow guards, a mouthguard and a groin guard. Body protectors and female chest protectors have division-specific requirements; ankle protection is forbidden. The age-group body-protector paragraph and chart differ regarding U8/U10, so those divisions should be checked against the governing authority.",muay_thai_rules.pdf:p36-40,"**Protective equipment that must be worn by IFMA full‑contact Muay Thai athletes**
+
+| Item | Requirement | Source |
+|------|-------------|--------|
+| **Head guard** | Mandatory; must conform to IFMA specifications and have no cheek protectors, chin guard or face shield. Athletes may only put it on after the Wai Kru, handshake and audience presentation, and must remove it immediately after the contest and before the decision is announced. | [SOURCE 4] |
+| **Shin guard** | Mandatory; must be made of cloth and have Velcro fixing. | [SOURCE 4] |
+| **Elbow guard** | Mandatory; must be made of cloth and have Velcro fixing. | [SOURCE 4] |
+| **Hand wraps / bandages** | Only a single adhesive strap (7.5 cm long × 2.5 cm wide) may be used at the upper wrists to secure the bandages. Any other taping is prohibited. Hand wraps are inspected before competition and may be inspected again by the Referee or Jury. | [SOURCE 4] |
+
+These items are the only protective gear explicitly required by the IFMA Muay Thai Rules for full‑contact competition. No other protective equipment (e.g., gloves, mouthguards, or protective clothing) is mandated in the supplied documents.",muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p73; muay_thai_rules.pdf:p40; muay_thai_rules.pdf:p37; muay_thai_rules.pdf:p78; muay_thai_rules.pdf:p72,,,
+Q004,development,single,llm_only,How are full-contact Muay Thai bouts scored under IFMA rules?,"Legal effective punches, kicks, knees and elbows to scoring targets count as scoring Muaythai skills. IFMA describes round-by-round Ten-Point Must scoring (10-10 even, 10-9 small margin, 10-8 large margin, 10-7 domination) as well as approved real-time Strike-by-Strike scoring modes, including Ten-Point Must conversion or accumulation of confirmed strikes. Blocked, weak or illegal strikes do not score.",muay_thai_rules.pdf:p58-60,"Under IFMA (International Federation of Muaythai Associations) rules, full‑contact Muay Thai bouts are scored using a **10‑point‑must system** with **three judges**.  
+The key points are:
+
+| Element | How it is judged |
+|---------|------------------|
+| **Effective striking** | Clean, powerful punches, kicks, elbows, and knees that land on legal target areas. |
+| **Effective clinch work** | Successful clinch entries, control, and strikes (knees, elbows) that affect the opponent. |
+| **Effective kicking** | Kicks to the body and head that score points, especially those that visibly affect the opponent. |
+| **Effective striking from the stand‑up** | Punches and kicks that land cleanly and influence the fight. |
+| **Defense** | Blocking, parrying, and evasive movement that prevent the opponent’s strikes. |
+| **Ring control / aggression** | Maintaining a dominant position, controlling the pace, and forcing the opponent to defend. |
+| **Overall dominance** | The judge’s overall impression of who controlled the bout. |
+
+### Scoring procedure
+
+1. **Three judges** score each round independently.  
+2. **10‑point‑must**: The winner of a round receives 10 points; the loser receives 9 or fewer (e.g., 10‑9, 10‑8, 10‑7).  
+3. **No automatic deductions** for fouls; instead, fouls are penalized by point deductions or disqualification, depending on severity.  
+4. **Round totals** are added to give each fighter a cumulative score.  
+5. The fighter with the higher total after all rounds wins by **decision** (unanimous, split, or majority).  
+6. If a round is deemed a **draw**, both fighters receive 10 points (10‑10).  
+7. **Knockdowns** are treated like in boxing: a knockdown usually results in a 10‑8 round unless the fighter recovers quickly and dominates the rest of the round.
+
+### Additional notes
+
+- **Fouls** (e.g., low blows, headbutts, strikes to the groin) are penalized by point deductions or disqualification, but they do not automatically change the round score unless the referee deems the foul to have altered the outcome of the round.  
+- **Stoppage**: If a fighter is unable to continue, the bout ends in a **technical knockout (TKO)**, and the winner is declared by TKO.  
+- **No judges’ “tiebreaker” rounds**: If the bout ends in a draw on the judges’ scorecards, the result is a draw; there is no extra round to break the tie.
+
+These are the core scoring rules for full‑contact Muay Thai under IFMA. If you need details on specific fouls or point‑deduction thresholds, let me know!",,,,
+Q004,development,single,general_rag,How are full-contact Muay Thai bouts scored under IFMA rules?,"Legal effective punches, kicks, knees and elbows to scoring targets count as scoring Muaythai skills. IFMA describes round-by-round Ten-Point Must scoring (10-10 even, 10-9 small margin, 10-8 large margin, 10-7 domination) as well as approved real-time Strike-by-Strike scoring modes, including Ten-Point Must conversion or accumulation of confirmed strikes. Blocked, weak or illegal strikes do not score.",muay_thai_rules.pdf:p58-60,"I’m sorry, but the supplied documents do not contain any information about how full‑contact Muay Thai bouts are scored under IFMA rules.",muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p78; muay_thai_rules.pdf:p89; muay_thai_rules.pdf:p20; muay_thai_rules.pdf:p19; muay_thai_rules.pdf:p17,,,
+Q004,development,single,sport_aware_rag,How are full-contact Muay Thai bouts scored under IFMA rules?,"Legal effective punches, kicks, knees and elbows to scoring targets count as scoring Muaythai skills. IFMA describes round-by-round Ten-Point Must scoring (10-10 even, 10-9 small margin, 10-8 large margin, 10-7 domination) as well as approved real-time Strike-by-Strike scoring modes, including Ten-Point Must conversion or accumulation of confirmed strikes. Blocked, weak or illegal strikes do not score.",muay_thai_rules.pdf:p58-60,"I’m sorry, but the supplied documents do not contain any information about how full‑contact Muay Thai bouts are scored under IFMA rules.",muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p78; muay_thai_rules.pdf:p89; muay_thai_rules.pdf:p20; muay_thai_rules.pdf:p19; muay_thai_rules.pdf:p17,,,
+Q005,development,single,llm_only,Are elbow strikes permitted in WAKO K-1?,No. Elbow strikes are prohibited in WAKO K-1.,k1_rules.pdf:p3|k1_rules_updates.pdf:p3,"In WAKO K‑1 style, elbow strikes are **not permitted**. The rules specifically forbid the use of elbows, whether as a strike or a clinch technique. If you’re competing under WAKO K‑1 rules, you should avoid any elbow contact to stay within the legal striking arsenal.",,,,
+Q005,development,single,general_rag,Are elbow strikes permitted in WAKO K-1?,No. Elbow strikes are prohibited in WAKO K-1.,k1_rules.pdf:p3|k1_rules_updates.pdf:p3,"Elbow strikes are **not permitted** in WAKO K‑1.  
+The base rulebook explicitly states that “Elbow techniques are forbidden”【SOURCE 1】.",k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p9; k1_rules.pdf:p2; k1_rules.pdf:p1; k1_rules.pdf:p9,,,
+Q005,development,single,sport_aware_rag,Are elbow strikes permitted in WAKO K-1?,No. Elbow strikes are prohibited in WAKO K-1.,k1_rules.pdf:p3|k1_rules_updates.pdf:p3,"Elbow strikes are **not permitted** in WAKO K‑1.  
+The base rulebook explicitly states that “Elbow techniques are forbidden”【SOURCE 1】.",k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p9; k1_rules.pdf:p2; k1_rules.pdf:p1; k1_rules.pdf:p9,,,
+Q006,development,single,llm_only,What are the legal target areas in WAKO K-1?,"The amendment lists the front, forehead and sides of the head, the front and sides of the torso, and the legs including joints as legal target areas, subject to technique-specific prohibitions.",k1_rules_updates.pdf:p1-2,"In WAKO K‑1 style, the legal target areas are:
+
+| Target area | Description |
+|-------------|-------------|
+| **Head** | Any part of the head, including the face, forehead, and temple. Kicks, punches, and elbows to the head are allowed. |
+| **Torso (body)** | The front and sides of the torso from the collarbone to the waist, including the ribs and abdomen. Punches, kicks, and elbows to the torso are permitted. |
+| **Legs** | The thighs (front and back) and the lower legs (shins). Kicks, punches, and elbows to the legs are allowed. |
+| **No other areas** | The back of the head, spine, and any other non‑target areas are prohibited. |
+
+These are the standard target zones for WAKO K‑1 competitions. If you’re competing under a specific national or regional federation, it’s always a good idea to double‑check their rulebook for any local variations.",,,,
+Q006,development,single,general_rag,What are the legal target areas in WAKO K-1?,"The amendment lists the front, forehead and sides of the head, the front and sides of the torso, and the legs including joints as legal target areas, subject to technique-specific prohibitions.",k1_rules_updates.pdf:p1-2,"The legal target areas in WAKO K‑1 are:
+
+| Body part | Allowed target areas |
+|-----------|----------------------|
+| **Head** | Front (face and forehead), side, and top |
+| **Torso** | Front and side |
+| **Legs** | Any part of the leg, including joints |
+| **Foot** | Only the ankle level for sweeps |
+
+These are listed in the base rulebook (Art. 2.1) and reiterated in the amendment (Article 3)【SOURCE 1】【SOURCE 3】.",k1_rules.pdf:p3; k1_rules.pdf:p2; k1_rules_updates.pdf:p1; k1_rules.pdf:p1; k1_rules.pdf:p9; k1_rules.pdf:p9,,,
+Q006,development,single,sport_aware_rag,What are the legal target areas in WAKO K-1?,"The amendment lists the front, forehead and sides of the head, the front and sides of the torso, and the legs including joints as legal target areas, subject to technique-specific prohibitions.",k1_rules_updates.pdf:p1-2,"The legal target areas in WAKO K‑1 are:
+
+| Body part | Allowed target areas |
+|-----------|----------------------|
+| **Head** | Front (face and forehead), side, and top |
+| **Torso** | Front and side |
+| **Legs** | Any part of the leg, including joints |
+| **Foot** | Only the ankle level for sweeps |
+
+These are listed in the base rulebook (Art. 1.2) and reiterated in the amendment (Article 3)【SOURCE 1】【SOURCE 3】.",k1_rules.pdf:p3; k1_rules.pdf:p2; k1_rules_updates.pdf:p1; k1_rules.pdf:p1; k1_rules.pdf:p9; k1_rules.pdf:p9,,,
+Q007,development,comparison,llm_only,How do permitted and prohibited striking techniques differ between MMA and WAKO K-1?,"Both permit legal punches and kicks. The ABC MMA rules prohibit headbutts, eye gouging, directed throat strikes, blows to the spine/back of head, and kicks or knees to the head of a grounded opponent; they do not generally ban elbows. WAKO K-1 expressly prohibits elbows and headbutts, allows specified punches, kicks and knees, prohibits attacks on a downed opponent, and disallows clinching or holding for knee strikes under the amendment.",mma_rules.pdf:p3-4|k1_rules.pdf:p3-4|k1_rules_updates.pdf:p2-3,"**Permitted vs. prohibited striking techniques – MMA vs. WAKO K‑1**
+
+| Technique | MMA (UFC‑style) | WAKO K‑1 (Kick‑boxing) |
+|-----------|-----------------|------------------------|
+| **Punches** (jab, cross, hook, uppercut) | **Permitted** – all punches are allowed. | **Permitted** – all punches are allowed. |
+| **Kicks** (front, round‑house, side, back, spinning) | **Permitted** – all kicks to the legal target area (head, torso, legs). | **Permitted** – all kicks to the legal target area (head, torso, legs). |
+| **Elbows** (straight, diagonal, spinning) | **Permitted** – elbows are legal, but certain variations (e.g., elbow strikes to the head from a clinch) may be restricted by local rules. | **Prohibited** – elbows are not allowed in K‑1 rules. |
+| **Knee strikes** | **Permitted** – knees to the body and head are legal, including from the clinch. | **Prohibited** – knees are not allowed in K‑1. |
+| **Clinching** | **Permitted** – fighters may clinch and use strikes (elbows, knees, short punches) while in the clinch. | **Limited** – clinching is allowed only for a short period; prolonged clinch work or strikes from the clinch are not permitted. |
+| **Ground striking** | **Permitted** – punches, elbows, and knees to a grounded opponent are legal. | **Not applicable** – K‑1 is a stand‑up sport; there is no ground fighting. |
+| **Headbutts** | **Prohibited** – headbutts are illegal. | **Prohibited** – headbutts are illegal. |
+| **Spinning back kicks** | **Permitted** – allowed as long as they land on a legal target. | **Permitted** – allowed. |
+| **Spinning elbow** | **Permitted** – allowed. | **Prohibited** – not allowed. |
+| **Spinning knee** | **Permitted** – allowed. | **Prohibited** – not allowed. |
+| **Spinning backfist** | **Permitted** – allowed. | **Prohibited** – not allowed. |
+| **Spinning hook** | **Permitted** – allowed. | **Prohibited** – not allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning roundhouse kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning side kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning front kick** | **Permitted** – allowed. | **Permitted** – allowed. |
+| **Spinning back kick",,,,
+Q007,development,comparison,general_rag,How do permitted and prohibited striking techniques differ between MMA and WAKO K-1?,"Both permit legal punches and kicks. The ABC MMA rules prohibit headbutts, eye gouging, directed throat strikes, blows to the spine/back of head, and kicks or knees to the head of a grounded opponent; they do not generally ban elbows. WAKO K-1 expressly prohibits elbows and headbutts, allows specified punches, kicks and knees, prohibits attacks on a downed opponent, and disallows clinching or holding for knee strikes under the amendment.",mma_rules.pdf:p3-4|k1_rules.pdf:p3-4|k1_rules_updates.pdf:p2-3,"I’m sorry, but the supplied documents only contain the rules for WAKO K‑1 kickboxing. They do not provide any information about the permitted or prohibited striking techniques in MMA. Therefore I cannot compare the two sports based on the available context.",k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p2; k1_rules.pdf:p9; k1_rules.pdf:p9; k1_rules.pdf:p3,,,
+Q007,development,comparison,sport_aware_rag,How do permitted and prohibited striking techniques differ between MMA and WAKO K-1?,"Both permit legal punches and kicks. The ABC MMA rules prohibit headbutts, eye gouging, directed throat strikes, blows to the spine/back of head, and kicks or knees to the head of a grounded opponent; they do not generally ban elbows. WAKO K-1 expressly prohibits elbows and headbutts, allows specified punches, kicks and knees, prohibits attacks on a downed opponent, and disallows clinching or holding for knee strikes under the amendment.",mma_rules.pdf:p3-4|k1_rules.pdf:p3-4|k1_rules_updates.pdf:p2-3,"**Permitted striking techniques**
+
+| Sport | Allowed strikes (general) | Source |
+|-------|---------------------------|--------|
+| **MMA** | Punches, kicks, elbows, knees, and any other striking technique that is not specifically prohibited (e.g., head strikes are allowed as long as they are not used as a striking instrument in a prohibited manner). | [SOURCE 1] (Fouls list does not forbid elbows, knees, or punches; only lists prohibited actions). |
+| **WAKO K‑1** | Punches, kicks, and knees.  Elbows are explicitly forbidden, but all other strikes (punches, kicks, knees) are permitted to the legal target areas. | [SOURCE 4] (Elbow techniques are forbidden) and [SOURCE 5] (Legal target areas and techniques). |
+
+**Prohibited striking techniques**
+
+| Sport | Forbidden strikes / actions | Source |
+|-------|-----------------------------|--------|
+| **MMA** | • **Head‑to‑head** striking (using the head as a striking instrument) <br>• **Eye gouging** (fingers, chin, elbow) <br>• **Biting or spitting** <br>• **Fish‑hooking** (fingers in mouth/ears) <br>• **Hair pulling** <br>• **Spiking (pile‑driver)** <br>• **Strikes to the spine or back of the head** <br>• **Throat strikes** (directed attacks) <br>• **Fingers outstretched toward opponent’s face/eyes** | [SOURCE 1] (Fouls 1‑9) |
+| **WAKO K‑1** | • **Elbow techniques** are forbidden. <br>• **Knee attacks** must be performed immediately after a hold on the opponent’s neck or shoulders; otherwise, they are not allowed. <br>• **Leg grabs while punching or kicking** are prohibited. <br>• **Attacks to the head are limited to the front, side, and top; the back of the head is not a legal target.** | [SOURCE 4] (Elbow techniques forbidden; knee attack rule; leg grab rule) and [SOURCE 5] (Legal target areas). |
+
+**Key differences**
+
+1. **Elbows** – MMA allows elbows as a legal striking technique, whereas WAKO K‑1 explicitly forbids them.  
+2. **Knee attacks** – In MMA, knees are a standard striking tool. In WAKO K‑1, knees are only allowed if the fighter first holds the opponent’s neck or shoulders with both hands and then immediately delivers a knee; otherwise, the knee is not permitted.  
+3. **Head strikes** – MMA permits head strikes to the face, forehead, and other legal target areas, but forbids using the head as a striking instrument (e.g., head‑to‑head). WAKO K‑1 allows strikes to the front, side, and top of the head but does not mention head‑to‑head strikes; the back of the head is not a legal target.  
+4. **Leg grabs** – MMA does not prohibit grabbing the leg while striking; it is a common grappling technique. WAKO K‑1 specifically forbids grabbing the leg and simultaneously punching or kicking.  
+5. **Target‑area restrictions** – MMA’s fouls list includes specific prohibited target areas (spine, back of the head, throat). WAKO K‑1’s legal target areas are defined more broadly (head front/side/top, torso front/side, legs all parts) and do not mention the spine or throat as prohibited.  
+
+These distinctions arise from the different rulebooks: the **ABC Unified Rules of MMA** (source 1) and the combined **WAKO K‑1 Rules V18** with its amendment (sources 4 and 5). If any rule appears contradictory or unclear, the amendment takes precedence over the base rule for WAKO K‑1.",mma_rules.pdf:p3; mma_rules.pdf:p8; mma_rules.pdf:p3; k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p2,,,
+Q008,development,comparison,llm_only,How do legal knee techniques and clinching rules differ between IFMA full-contact Muay Thai and WAKO K-1?,"IFMA treats knee strikes as scoring Muaythai techniques subject to division restrictions, and its referee instructions explicitly describe breaking a clinch; for some youth divisions knees to the head are restricted. In the WAKO K-1 amendment, knee techniques are permitted but clinching or holding the opponent to deliver them is prohibited; without clinching, knee techniques may be executed without a numerical limit stated in the amendment.",muay_thai_rules.pdf:p56|muay_thai_rules.pdf:p58|muay_thai_rules.pdf:p65|k1_rules_updates.pdf:p2,"In IFMA full‑contact Muay Thai and WAKO K‑1 the rules for knees and clinching are quite distinct. Below is a concise comparison that highlights the key differences:
+
+| Aspect | IFMA Full‑Contact Muay Thai | WAKO K‑1 |
+|--------|-----------------------------|----------|
+| **Knee strikes** | • Allowed **only** when the opponent is in a clinch. <br>• Knees may be delivered to the body or head while the opponent is held. <br>• No standing knee strikes (i.e., from a standing position without a clinch). | • Standing knee strikes are **not** permitted. <br>• Knees may be used **only** when the fighters are in a clinch and the referee has called a “clinch” or “break” to allow a knee. |
+| **Clinching** | • Clinch is a core part of the sport. <br>• Fighters may hold each other for a limited time (usually 5–10 seconds) before the referee breaks the clinch. <br>• While in the clinch, fighters can use knees, elbows, and short punches. <br>• The referee may break the clinch if it becomes too prolonged or if one fighter is dominating. | • Clinching is **restricted**. <br>• A fighter may only hold the opponent for a brief moment (typically 3–5 seconds). <br>• The referee must break the clinch immediately if it lasts longer than the allowed time. <br>• Once broken, the fighters must separate and resume striking; a new clinch can only be initiated after a clear break. |
+| **Breaks and Referee control** | • The referee can call a “break” to separate fighters if the clinch is deemed unsafe or too dominant. <br>• After a break, fighters may re‑enter the clinch after a short interval. | • The referee has the authority to break the clinch at any time, especially if the fighters are not actively striking or if one fighter is gaining an unfair advantage. <br>• Re‑clenching is allowed only after the referee has given a clear “break” and the fighters have re‑established distance. |
+| **Penalties for illegal clinch or knee** | • Excessive or prolonged clinching without striking can result in warnings, point deductions, or disqualification. <br>• Illegal knee (e.g., knee to the head while the opponent is not in a clinch) is a foul. | • Illegal clinching (holding beyond the allowed time) or using a knee when the referee has not called a clinch is a foul. <br>• Penalties include warnings, point deductions, or disqualification. |
+| **Strategic implications** | • Clinch work is a major tactical element; fighters often use the clinch to set up knees, elbows, and short punches. <br>• Effective clinch control can lead to a significant advantage. | • Clinching is used sparingly; fighters focus on striking from distance. <br>• The brief clinch window limits the use of knees and elbows, so fighters rely more on punches and kicks. |
+
+### Bottom line
+- **IFMA**: Knees are a primary weapon in the clinch; clinching is a central strategy with a slightly longer allowed duration.  
+- **WAKO K‑1**: Knees are only permitted in a very brief clinch; the clinch itself is tightly regulated and usually short‑lived, making striking from distance the dominant tactic.
+
+If you’re preparing for a specific event, always double‑check the latest rulebook from the governing body, as small variations can occur between different weight classes or competition levels.",,,,
+Q008,development,comparison,general_rag,How do legal knee techniques and clinching rules differ between IFMA full-contact Muay Thai and WAKO K-1?,"IFMA treats knee strikes as scoring Muaythai techniques subject to division restrictions, and its referee instructions explicitly describe breaking a clinch; for some youth divisions knees to the head are restricted. In the WAKO K-1 amendment, knee techniques are permitted but clinching or holding the opponent to deliver them is prohibited; without clinching, knee techniques may be executed without a numerical limit stated in the amendment.",muay_thai_rules.pdf:p56|muay_thai_rules.pdf:p58|muay_thai_rules.pdf:p65|k1_rules_updates.pdf:p2,"I’m sorry, but the supplied documents do not contain the specific rules for legal knee techniques or clinching in IFMA full‑contact Muay Thai. The IFMA sources provided only cover general definitions, organizational structure, and the pillars of the sport, without detailing the technical regulations for full‑contact bouts. Therefore, I cannot compare the knee and clinching rules between IFMA full‑contact Muay Thai and WAKO K‑1 based on the available context.",k1_rules.pdf:p3; muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p17; k1_rules_updates.pdf:p1; k1_rules.pdf:p2; k1_rules_updates.pdf:p2,,,
+Q008,development,comparison,sport_aware_rag,How do legal knee techniques and clinching rules differ between IFMA full-contact Muay Thai and WAKO K-1?,"IFMA treats knee strikes as scoring Muaythai techniques subject to division restrictions, and its referee instructions explicitly describe breaking a clinch; for some youth divisions knees to the head are restricted. In the WAKO K-1 amendment, knee techniques are permitted but clinching or holding the opponent to deliver them is prohibited; without clinching, knee techniques may be executed without a numerical limit stated in the amendment.",muay_thai_rules.pdf:p56|muay_thai_rules.pdf:p58|muay_thai_rules.pdf:p65|k1_rules_updates.pdf:p2,"I’m sorry, but the supplied documents do not contain the specific rules for legal knee techniques or clinching in IFMA full‑contact Muay Thai, nor do they provide a detailed comparison with WAKO K‑1. The IFMA excerpts focus on definitions, participation, and general safety, while the WAKO K‑1 documents mention that elbows are forbidden and that knee attacks must be performed immediately, but they do not elaborate on clinching or the full range of knee techniques allowed. Therefore, I cannot provide a definitive comparison based on the available context.",muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p17; muay_thai_rules.pdf:p19; k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p2,,,
+Q009,evaluation,single,llm_only,"Under the ABC Unified MMA Rules, may a fighter kick or knee the head of a grounded opponent?",No. Kneeing or kicking the head of an opponent who is grounded is a foul. A fighter is grounded for this purpose when a body part other than hands or feet touches the canvas.,mma_rules.pdf:p4,"No. Under the ABC Unified MMA Rules, a fighter is prohibited from delivering a kick or knee to the head of a grounded opponent. This is consistent with the Unified Rules of Mixed‑Martial Arts, which classify such strikes as illegal and subject the offender to a warning, point deduction, or disqualification depending on the severity and intent. If you need the exact wording or any recent amendments, you should consult the most current ABC rulebook or the governing body’s official publications.",,,,
+Q009,evaluation,single,general_rag,"Under the ABC Unified MMA Rules, may a fighter kick or knee the head of a grounded opponent?",No. Kneeing or kicking the head of an opponent who is grounded is a foul. A fighter is grounded for this purpose when a body part other than hands or feet touches the canvas.,mma_rules.pdf:p4,"Under the ABC Unified Rules of MMA, a fighter **may not** legally knee or kick the head of a grounded opponent.  
+Rule 12 defines a grounded fighter as one whose body (other than hands or feet) is in contact with the canvas, and it explicitly states that such a fighter may not be kneed or kicked to the head.  
+
+**Citation:** [SOURCE 1] (Rule 12).",mma_rules.pdf:p4; k1_rules.pdf:p7; k1_rules.pdf:p8; k1_rules.pdf:p3; k1_rules_updates.pdf:p2; k1_rules.pdf:p5,,,
+Q009,evaluation,single,sport_aware_rag,"Under the ABC Unified MMA Rules, may a fighter kick or knee the head of a grounded opponent?",No. Kneeing or kicking the head of an opponent who is grounded is a foul. A fighter is grounded for this purpose when a body part other than hands or feet touches the canvas.,mma_rules.pdf:p4,"No. Under the ABC Unified Rules of MMA, a grounded fighter may **not** be legally kneed or kicked to the head. The rule defines a grounded fighter as one whose body (other than hands or feet) is in contact with the canvas, and it explicitly states that kneeing or kicking the head of such a grounded opponent is a foul.  
+
+**Source:** [SOURCE 1] – Section 12 of the ABC Unified Rules of MMA.",mma_rules.pdf:p4; mma_rules.pdf:p3; mma_rules.pdf:p8; mma_rules.pdf:p2; mma_rules.pdf:p3; mma_rules.pdf:p1,,,
+Q010,evaluation,single,llm_only,What scoring system and main judging priorities are specified in the ABC Unified MMA Rules?,"The 10-Point Must System applies. Judges prioritize effective striking and grappling, then effective aggressiveness, and finally fighting-area control; the latter two matter only if the earlier criterion is equal.",mma_rules.pdf:p7,"I’m not aware of a specific “ABC Unified MMA Rules” document that is widely recognized in the sport. The most commonly referenced rule set for MMA in the United States is the **Unified Rules of Mixed Martial Arts** (often called the Unified Rules), which are adopted by most state athletic commissions and the UFC. If “ABC” refers to a particular state commission or a local promotion that has adopted a variant of the Unified Rules, the core scoring and judging priorities are generally the same as those in the Unified Rules.
+
+### Scoring System (Unified Rules)
+
+| Round | Points Awarded | Criteria for 10‑point must |
+|-------|----------------|----------------------------|
+| 1–3   | 10–9 (or 10–8) | The winner of the round receives 10 points; the loser receives 9 or 8 if the winner dominated. |
+| 4+    | 10–9 (or 10–8) | Same as above. |
+
+**Primary criteria (in order of importance):**
+
+1. **Effective striking** (or grappling) – clear, decisive strikes or takedowns that control the opponent.
+2. **Effective grappling** – successful takedowns, submissions, or positional control that threatens the opponent.
+3. **Effective striking** – strikes that land cleanly and have a significant impact.
+4. **Effective striking** – strikes that land cleanly and have a significant impact. (The Unified Rules actually list “effective striking” twice, but the second instance is often interpreted as “effective striking” in the context of striking dominance.)
+5. **Effective striking** – strikes that land cleanly and have a significant impact. (The third instance is sometimes considered “effective striking” in the context of striking dominance.)
+
+*Note:* The Unified Rules do not explicitly list “effective striking” three times; the official wording is “effective striking” and “effective grappling.” The repetition in some summaries is a simplification.
+
+### Main Judging Priorities
+
+1. **Effective striking** – the most decisive factor; a fighter who lands clean, damaging strikes that control the round is usually awarded the round.
+2. **Effective grappling** – includes takedowns, submission attempts, and positional control.
+3. **Effective striking** – (repeated in some summaries) – again emphasizes striking dominance.
+4. **Effective striking** – (repeated) – further emphasizes striking dominance.
+5. **Effective striking** – (repeated) – further emphasizes striking dominance.
+
+In practice, judges look for:
+
+- **Clear dominance** in striking or grappling.
+- **Control of the fight** (e.g., maintaining dominant positions, controlling the pace).
+- **Damage inflicted** (e.g., cuts, knockdowns).
+- **Aggression** and **effective use of the cage** (in some commissions).
+
+If the “ABC Unified MMA Rules” you’re referring to have a different wording or additional criteria, I would need the exact text to provide a precise answer. As it stands, the scoring and judging priorities align closely with the Unified Rules of Mixed Martial Arts.",,,,
+Q010,evaluation,single,general_rag,What scoring system and main judging priorities are specified in the ABC Unified MMA Rules?,"The 10-Point Must System applies. Judges prioritize effective striking and grappling, then effective aggressiveness, and finally fighting-area control; the latter two matter only if the earlier criterion is equal.",mma_rules.pdf:p7,"The ABC Unified Rules of Mixed Martial Arts specify that all bouts are scored using the **10‑Point Must System**.  
+Under this system each round is scored by a panel of at least three judges, who award 10 points to the fighter who wins the round and 9 points or fewer to the opponent (a 10‑10 round is allowed only in the rare case of an even round) [SOURCE 3].
+
+**Main judging priorities (scoring criteria)**  
+The judges evaluate a round in a specific order, giving the greatest weight to the following criteria:
+
+1. **Effective striking and grappling (Plan A)** – the most important factor.  
+   *Effective striking* is judged by the damage or effect of legal strikes landed.  
+   *Effective grappling* is assessed by successful takedowns, submission attempts, advantageous positions, and reversals that produce an impactful result.  
+   These are considered first and must be weighed as even before the other criteria are applied [SOURCE 3].
+
+2. **Effective aggressiveness (Plan B)** – the fighter who is aggressively making attempts to finish the fight.  
+   This is considered only if Plan A is judged even.  
+   It is the second priority in the scoring order [SOURCE 3].
+
+3. **Control of the fighting area (Plan C)** – the fighter who dictates the pace, place, and position of the bout.  
+   This is the third priority and is considered only if the first two plans are even.  
+   It is the final factor in the scoring order [SOURCE 3].
+
+The 10‑Point Must System also allows for special round scores (10‑8, 10‑7, etc.) when a fighter dominates by a large margin, damage, or duration of striking or grappling, as outlined in the objective scoring criteria [SOURCE 6].
+
+Thus, the ABC Unified Rules use the 10‑Point Must System with a hierarchical judging priority: effective striking/grappling first, then effective aggressiveness, and finally control of the fighting area.",k1_rules.pdf:p6; mma_rules.pdf:p8; mma_rules.pdf:p7; mma_rules.pdf:p1; mma_rules.pdf:p9; mma_rules.pdf:p7,,,
+Q010,evaluation,single,sport_aware_rag,What scoring system and main judging priorities are specified in the ABC Unified MMA Rules?,"The 10-Point Must System applies. Judges prioritize effective striking and grappling, then effective aggressiveness, and finally fighting-area control; the latter two matter only if the earlier criterion is equal.",mma_rules.pdf:p7,"The ABC Unified Rules of Mixed Martial Arts specify that all bouts are scored using the **10‑Point Must System**.  
+Under this system the winner of each round receives 10 points, while the loser receives 9 points or fewer (a 10‑10 round is only scored when the round is truly even) [SOURCE 2].
+
+The judges evaluate three main criteria, in the following order of importance:
+
+1. **Effective striking and grappling** (Plan A) – the most heavily weighted factor.  
+2. **Effective aggressiveness** (Plan B) – considered only if Plan A is even.  
+3. **Control of the fighting area** (Plan C) – considered only if Plans A and B are even.  
+
+These criteria are applied sequentially, giving priority first to effective striking/grappling, then to aggressiveness, and finally to area control [SOURCE 2].",mma_rules.pdf:p8; mma_rules.pdf:p7; mma_rules.pdf:p1; mma_rules.pdf:p9; mma_rules.pdf:p7; mma_rules.pdf:p1,,,
+Q011,evaluation,single,llm_only,How many rounds are scheduled in an IFMA Elite Muay Thai bout and how long is each round?,"An Elite IFMA Muay Thai bout has three rounds of three minutes each, with one-minute rest intervals under the standard Rule 7 table.",muay_thai_rules.pdf:p25,"In an IFMA (International Federation of Muaythai Associations) Elite‑level bout the fight is scheduled for **three rounds**, each lasting **three minutes**.",,,,
+Q011,evaluation,single,general_rag,How many rounds are scheduled in an IFMA Elite Muay Thai bout and how long is each round?,"An Elite IFMA Muay Thai bout has three rounds of three minutes each, with one-minute rest intervals under the standard Rule 7 table.",muay_thai_rules.pdf:p25,"I’m sorry, but the supplied IFMA Muay Thai Rules and Regulations documents do not contain the specific information about the number of rounds or the duration of each round for an IFMA Elite Muay Thai bout.",muay_thai_rules.pdf:p75; muay_thai_rules.pdf:p20; muay_thai_rules.pdf:p50; muay_thai_rules.pdf:p21; muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p17,,,
+Q011,evaluation,single,sport_aware_rag,How many rounds are scheduled in an IFMA Elite Muay Thai bout and how long is each round?,"An Elite IFMA Muay Thai bout has three rounds of three minutes each, with one-minute rest intervals under the standard Rule 7 table.",muay_thai_rules.pdf:p25,"I’m sorry, but the supplied documents do not contain the specific information about the number of rounds or the duration of each round for an IFMA Elite Muay Thai bout.",muay_thai_rules.pdf:p75; muay_thai_rules.pdf:p20; muay_thai_rules.pdf:p50; muay_thai_rules.pdf:p21; muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p17,,,
+Q012,evaluation,single,llm_only,"Under the WAKO K-1 amendment, may a fighter clinch or hold the opponent to deliver a knee strike?","No. The amendment explicitly prohibits clinching or holding the opponent at any time, including to execute knee strikes. Knee techniques may be used without a numerical limit, provided no clinching, holding or supporting is used.",k1_rules_updates.pdf:p2,"In WAKO K‑1 style, a fighter may clinch, but knee strikes are **not** permitted while the opponent is being held in a clinch. Knee strikes are only allowed when the opponent is on the ground. So, a fighter cannot clinch and then deliver a knee strike to the opponent.",,,,
+Q012,evaluation,single,general_rag,"Under the WAKO K-1 amendment, may a fighter clinch or hold the opponent to deliver a knee strike?","No. The amendment explicitly prohibits clinching or holding the opponent at any time, including to execute knee strikes. Knee techniques may be used without a numerical limit, provided no clinching, holding or supporting is used.",k1_rules_updates.pdf:p2,"Under the WAKO K‑1 amendment, a fighter **may** hold the opponent’s neck or shoulders with **two hands** in order to deliver **one single knee strike**. The amendment explicitly states this exception:
+
+- “It is allowed to hold opponent’s neck or shoulders with two hands in order to perform only one knee attack. Knee attack must be performed immediately.”【SOURCE 1】.
+
+However, the base rules still prohibit continuous clinching and other forms of holding. The base rules list “continuously clinching” as a criterion for minus points and disqualification【SOURCE 6】. Therefore, the allowance is limited to that single knee strike and does not permit prolonged clinching or multiple knee attacks while holding.",k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p7; k1_rules.pdf:p2; k1_rules.pdf:p9; k1_rules.pdf:p3,,,
+Q012,evaluation,single,sport_aware_rag,"Under the WAKO K-1 amendment, may a fighter clinch or hold the opponent to deliver a knee strike?","No. The amendment explicitly prohibits clinching or holding the opponent at any time, including to execute knee strikes. Knee techniques may be used without a numerical limit, provided no clinching, holding or supporting is used.",k1_rules_updates.pdf:p2,"Under the WAKO K‑1 amendment, a fighter **may** hold the opponent’s neck or shoulders with two hands **only** to deliver a single knee strike, and the knee must be thrown immediately after the hold is made. This is the sole exception to the general prohibition on clinching and holding in the base rules. All other forms of clinching, holding, or repeated knee attacks are still prohibited.  
+
+**Sources**  
+- Amendment, Article 1 & Article 2.1: “It is allowed to hold opponent’s neck or shoulders with two hands in order to perform only one knee attack. Knee attack must be performed immediately.” [SOURCE 2]",k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p7; k1_rules.pdf:p2; k1_rules.pdf:p9; k1_rules.pdf:p3,,,
+Q013,evaluation,comparison,llm_only,How do the rules on striking an opponent on the ground differ between ABC MMA and IFMA full-contact Muay Thai?,"ABC MMA allows some grounded fighting, striking and grappling, but prohibits kneeing or kicking the head of a grounded opponent and stomping a grounded fighter. IFMA Muay Thai expressly prohibits striking an opponent who is down or rising.",mma_rules.pdf:p4|mma_rules.pdf:p7-8|muay_thai_rules.pdf:p65,"In **ABC MMA** (a typical mixed‑martial‑arts sanctioning body) and **IFMA Full‑Contact Muay Thai** (the governing body for amateur Muay Thai), the rules for striking an opponent who is on the ground are fundamentally different because the sports have different objectives and safety concerns.
+
+| Aspect | ABC MMA | IFMA Full‑Contact Muay Thai |
+|--------|---------|-----------------------------|
+| **Allowed striking to a grounded opponent** | Allowed. Fighters may punch, kick, knee, or elbow the opponent while the opponent is on the ground, provided the strikes are delivered to legal target areas (head, torso, legs). The ground‑and‑pound is a core part of MMA strategy. | **Not allowed**. In IFMA Full‑Contact, any strike to a grounded opponent is prohibited. The rules state that a fighter must keep both feet on the mat when striking; if the opponent is on the ground, the striker must refrain from striking until the opponent is back on their feet. |
+| **Grounded opponent definition** | A fighter is considered “grounded” if any part of their body other than the soles of their feet touches the mat. | Same definition, but the consequence is different: the striker must stop striking. |
+| **Penalties for illegal strikes to a grounded opponent** | In ABC MMA, an illegal strike to a grounded opponent can result in a warning, point deduction, or disqualification, depending on severity and whether the striker was attempting a legal technique. | In IFMA Full‑Contact, an illegal strike to a grounded opponent is a foul that typically results in a warning, point deduction, or disqualification if repeated or severe. |
+| **Objective of the rule** | Allows fighters to finish fights on the ground and encourages a diverse skill set (striking, grappling, submissions). | Emphasizes striking skill and safety; discourages ground fighting and reduces the risk of injury from ground‑and‑pound. |
+| **Practical impact on fighters** | MMA fighters train to strike effectively while their opponent is on the ground and to defend against such strikes. | Muay Thai fighters focus on maintaining standing position; if a fight goes to the ground, they typically try to stand up quickly and avoid striking until both are standing. |
+
+### Bottom line
+- **ABC MMA** permits striking a grounded opponent; it is a legal part of the sport.
+- **IFMA Full‑Contact Muay Thai** forbids striking a grounded opponent; the striker must cease striking until the opponent is standing.
+
+These differences reflect the distinct philosophies of the two sports: MMA embraces a hybrid of striking and grappling, while IFMA Full‑Contact Muay Thai prioritizes striking from a standing position and safety.",,,,
+Q013,evaluation,comparison,general_rag,How do the rules on striking an opponent on the ground differ between ABC MMA and IFMA full-contact Muay Thai?,"ABC MMA allows some grounded fighting, striking and grappling, but prohibits kneeing or kicking the head of a grounded opponent and stomping a grounded fighter. IFMA Muay Thai expressly prohibits striking an opponent who is down or rising.",mma_rules.pdf:p4|mma_rules.pdf:p7-8|muay_thai_rules.pdf:p65,"I’m sorry, but the supplied documents only cover IFMA Muay Thai rules. There is no information about ABC MMA rules in the provided context, so I can’t compare the two.",muay_thai_rules.pdf:p58; muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p65; muay_thai_rules.pdf:p19; muay_thai_rules.pdf:p17; muay_thai_rules.pdf:p64,,,
+Q013,evaluation,comparison,sport_aware_rag,How do the rules on striking an opponent on the ground differ between ABC MMA and IFMA full-contact Muay Thai?,"ABC MMA allows some grounded fighting, striking and grappling, but prohibits kneeing or kicking the head of a grounded opponent and stomping a grounded fighter. IFMA Muay Thai expressly prohibits striking an opponent who is down or rising.",mma_rules.pdf:p4|mma_rules.pdf:p7-8|muay_thai_rules.pdf:p65,"**ABC Unified Rules of MMA (ABC MMA)**  
+- The rules do not prohibit striking an opponent who is on the ground.  
+- The only restrictions listed for strikes are to the spine, back of the head, throat, and to the eyes/fingers in the standing position.  
+- Therefore, under the ABC MMA rulebook a fighter may legally strike an opponent while the opponent is grounded, provided the strikes are to legal target areas and do not violate the other listed fouls.  
+  - *Source: [SOURCE 1]*  
+
+**IFMA Full‑Contact Muay Thai**  
+- The IFMA rules explicitly forbid striking an opponent who is down on the floor.  
+- Section 31.2.13 of the IFMA rulebook states: “Striking an opponent who is down on the floor or who is in the act of rising” is a foul.  
+- Consequently, in IFMA full‑contact Muay Thai a fighter may not deliver any strike to a downed opponent.  
+  - *Source: [SOURCE 6]*  
+
+**Key difference**  
+- ABC MMA allows ground strikes (subject to target‑area restrictions), whereas IFMA full‑contact Muay Thai disallows any striking to a downed opponent.",mma_rules.pdf:p3; mma_rules.pdf:p8; mma_rules.pdf:p3; muay_thai_rules.pdf:p58; muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p65,,,
+Q014,evaluation,comparison,llm_only,How do ABC MMA and WAKO K-1 differ in rules about attacks against an opponent who is down?,"In ABC MMA, ground grappling and some strikes are part of the bout, but kicking or kneeing the head of a grounded opponent and stomping are fouls. WAKO K-1 prohibits attacking an opponent who is falling or already on the floor.",mma_rules.pdf:p4|mma_rules.pdf:p7-8|k1_rules_updates.pdf:p3,"**ABC MMA vs. WAKO K‑1 (K‑1 Style) – Attacks on a Downed Opponent**
+
+| Aspect | ABC MMA (UFC‑style) | WAKO K‑1 (K‑1 Style) |
+|--------|---------------------|----------------------|
+| **Definition of “down”** | A fighter is considered down when any part of the body other than the soles of the feet touches the mat. | Same definition: any body part other than the soles of the feet on the mat. |
+| **Allowed strikes** | • **Kicks** to the head or body of a downed opponent are **prohibited**.<br>• **Kicks** to the legs of a downed opponent are allowed.<br>• **Punches** to the head or body of a downed opponent are **allowed**.<br>• **Kicks** to the head of a downed opponent are **prohibited**. | • **Kicks** to the head of a downed opponent are **allowed** (K‑1 style permits kicks to the head even when the opponent is down).<br>• **Kicks** to the body or legs of a downed opponent are also allowed.<br>• **Punches** to the head or body of a downed opponent are allowed. |
+| **Ground‑and‑pound** | Not applicable – ABC MMA is a stand‑up sport; once a fighter is down, the bout is paused until the referee lifts them. | Not applicable – K‑1 is a stand‑up sport; the same rule applies. |
+| **Referee’s role** | The referee will stop the action if a fighter is down and a prohibited strike (e.g., a kick to the head) is attempted. | The referee will stop the action if a fighter is down and a prohibited strike (e.g., a kick to the head) is attempted, but the definition of prohibited is narrower. |
+| **Penalties** | Illegal strikes to the head of a downed opponent result in a warning, point deduction, or disqualification depending on severity. | Illegal strikes to the head of a downed opponent result in a warning or point deduction; repeated infractions can lead to disqualification. |
+
+### Key Takeaway
+- **ABC MMA** forbids **any** kick to the head of a downed opponent, while punches are permitted.  
+- **WAKO K‑1** allows **kicks to the head** of a downed opponent, reflecting its more permissive striking rules.  
+
+Both organizations share the same definition of a downed opponent and prohibit strikes to the head of a downed opponent in the case of punches, but they differ on whether kicks to the head are allowed.",,,,
+Q014,evaluation,comparison,general_rag,How do ABC MMA and WAKO K-1 differ in rules about attacks against an opponent who is down?,"In ABC MMA, ground grappling and some strikes are part of the bout, but kicking or kneeing the head of a grounded opponent and stomping are fouls. WAKO K-1 prohibits attacking an opponent who is falling or already on the floor.",mma_rules.pdf:p4|mma_rules.pdf:p7-8|k1_rules_updates.pdf:p3,"I’m sorry, but the supplied documents only contain the rules for WAKO K‑1. They do not include any information about ABC MMA or its rules regarding attacks on a downed opponent. Therefore I cannot provide a comparison.",k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p2; k1_rules.pdf:p8; k1_rules.pdf:p7; k1_rules.pdf:p5,,,
+Q014,evaluation,comparison,sport_aware_rag,How do ABC MMA and WAKO K-1 differ in rules about attacks against an opponent who is down?,"In ABC MMA, ground grappling and some strikes are part of the bout, but kicking or kneeing the head of a grounded opponent and stomping are fouls. WAKO K-1 prohibits attacking an opponent who is falling or already on the floor.",mma_rules.pdf:p4|mma_rules.pdf:p7-8|k1_rules_updates.pdf:p3,"I’m sorry, but the supplied documents do not contain any specific rules that address attacks against an opponent who is down. The MMA rules (ABC Unified Rules) and the WAKO K‑1 rules provided do not mention “downed” or “ground” situations or any special restrictions or allowances for striking a downed opponent. Therefore, I cannot provide a comparison on this point based on the available context.",mma_rules.pdf:p8; mma_rules.pdf:p5; mma_rules.pdf:p7; k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p2,,,
+Q015,evaluation,comparison,llm_only,Are elbow strikes legal in IFMA Elite full-contact Muay Thai and WAKO K-1?,"In IFMA Elite full-contact Muay Thai, legal elbow strikes can be scoring skills; elbow and knee strikes to the head are restricted in certain younger divisions. WAKO K-1 prohibits elbow attacks.",muay_thai_rules.pdf:p58|muay_thai_rules.pdf:p65|k1_rules_updates.pdf:p3,"In both IFMA Elite full‑contact Muay Thai and WAKO K‑1 rules, elbow strikes are **not permitted**.  
+
+- **IFMA Elite full‑contact Muay Thai**: The rules explicitly forbid the use of elbows; only punches, kicks, knees, and legal clinch techniques are allowed.  
+- **WAKO K‑1**: Elbows are also prohibited; the style focuses on punches, kicks, and knee strikes, with elbows disallowed.
+
+If you’re preparing for a specific event, it’s always a good idea to double‑check the latest rulebook or the event’s official regulations, but the standard rule sets for both organizations treat elbows as illegal.",,,,
+Q015,evaluation,comparison,general_rag,Are elbow strikes legal in IFMA Elite full-contact Muay Thai and WAKO K-1?,"In IFMA Elite full-contact Muay Thai, legal elbow strikes can be scoring skills; elbow and knee strikes to the head are restricted in certain younger divisions. WAKO K-1 prohibits elbow attacks.",muay_thai_rules.pdf:p58|muay_thai_rules.pdf:p65|k1_rules_updates.pdf:p3,"**Elbow strikes**
+
+| Sport / Division | Are elbows allowed? | Source |
+|------------------|---------------------|--------|
+| **IFMA Elite – Full‑Contact Muay Thai** | Elbows are **not allowed to the head**. The rules state that in the Elite division (and all younger age groups) “No elbow or knee strikes to the head” are prohibited. Elbows may be used to the body, but any elbow to the head is a foul. | [SOURCE 3] |
+| **WAKO K‑1** | Elbow techniques are **forbidden** entirely. The WAKO K‑1 rulebook explicitly lists “Elbow techniques are forbidden.” | [SOURCE 1] |
+
+**Summary**
+
+- In IFMA Elite full‑contact Muay Thai, elbows can be used on the body but are illegal when aimed at the head.  
+- In WAKO K‑1, elbows are illegal for all target areas.",k1_rules.pdf:p3; muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p65; muay_thai_rules.pdf:p58; muay_thai_rules.pdf:p19; muay_thai_rules.pdf:p66,,,
+Q015,evaluation,comparison,sport_aware_rag,Are elbow strikes legal in IFMA Elite full-contact Muay Thai and WAKO K-1?,"In IFMA Elite full-contact Muay Thai, legal elbow strikes can be scoring skills; elbow and knee strikes to the head are restricted in certain younger divisions. WAKO K-1 prohibits elbow attacks.",muay_thai_rules.pdf:p58|muay_thai_rules.pdf:p65|k1_rules_updates.pdf:p3,"**Elbow strikes**
+
+| Sport | Legal status of elbow strikes | Source |
+|-------|------------------------------|--------|
+| IFMA Elite full‑contact Muay Thai | Elbows are **allowed** to the body, but **forbidden to the head** in the Elite division (and in all younger divisions). | [SOURCE 2] |
+| WAKO K‑1 | Elbow techniques are **forbidden** entirely. | [SOURCE 4] |
+
+**Explanation**
+
+- **IFMA Elite**: The IFMA rules list “Restricted Muaythai Skills” for each division. In the Elite division (and all U‑24, U‑18, U‑16, U‑14 categories) the restriction is “No elbow or knee strikes to the head.” The rule does not prohibit elbows to the body, so they are legal there.  
+- **WAKO K‑1**: The base rulebook (Chapter Ten, Art. 1) explicitly states “Elbow techniques are forbidden.” No amendment changes this, so elbows are not permitted in K‑1 style.  
+
+If you need clarification on body‑targeted elbows in IFMA or any other detail, let me know.",muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p65; muay_thai_rules.pdf:p58; k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p2,,,
+Q016,evaluation,comparison,llm_only,"Compare the head, shin and elbow protective equipment provisions in ABC MMA and IFMA full-contact Muay Thai.","The IFMA full-contact rules expressly require an approved head guard, shin guards and elbow guards. The supplied ABC MMA rules mandate gloves and a mouthpiece but do not impose a general requirement for those three guards; further protective gear is subject to the Commission.",mma_rules.pdf:p1-2|muay_thai_rules.pdf:p37,"**Head protection**
+
+| Governing body | Headgear requirement | Notes |
+|----------------|----------------------|-------|
+| **ABC MMA** | *Optional* – fighters may choose to wear a headguard, but it is not mandatory in any sanctioned bout. | Some promotions or local commissions may still recommend or require it for safety, but the rulebook itself does not mandate headgear. |
+| **IFMA Full‑Contact Muay Thai** | *Mandatory* – all competitors must wear a full‑face headguard that covers the forehead, cheeks, and chin. | The headgear must be approved by IFMA and meet the specified thickness and material standards. |
+
+**Shin protection**
+
+| Governing body | Shin guard requirement | Notes |
+|----------------|------------------------|-------|
+| **ABC MMA** | *Optional* – shin pads are not required, though many fighters wear them for extra protection. | The rulebook does not list shin pads as a mandatory piece of equipment. |
+| **IFMA Full‑Contact Muay Thai** | *Mandatory* – shin guards must be worn on both legs. | The guards must cover the shin from the knee to the ankle and be of the approved material and thickness. |
+
+**Elbow protection**
+
+| Governing body | Elbow pad requirement | Notes |
+|----------------|-----------------------|-------|
+| **ABC MMA** | *Not required* – elbow pads are not listed in the equipment regulations. | Fighters may use them for training or personal comfort, but they are not part of the official gear list. |
+| **IFMA Full‑Contact Muay Thai** | *Not required* – elbow pads are not part of the mandatory equipment. | Competitors may choose to wear them for training, but they are not needed for competition. |
+
+### Summary
+
+- **Headgear**: Optional in ABC MMA; mandatory in IFMA Full‑Contact Muay Thai.  
+- **Shin guards**: Optional in ABC MMA; mandatory in IFMA Full‑Contact Muay Thai.  
+- **Elbow pads**: Not required in either organization, though fighters may use them voluntarily.  
+
+These provisions reflect the current official rulebooks; always double‑check the latest version of each organization’s regulations before competition.",,,,
+Q016,evaluation,comparison,general_rag,"Compare the head, shin and elbow protective equipment provisions in ABC MMA and IFMA full-contact Muay Thai.","The IFMA full-contact rules expressly require an approved head guard, shin guards and elbow guards. The supplied ABC MMA rules mandate gloves and a mouthpiece but do not impose a general requirement for those three guards; further protective gear is subject to the Commission.",mma_rules.pdf:p1-2|muay_thai_rules.pdf:p37,"I’m sorry, but the supplied documents only contain the IFMA Muay Thai rules. There is no information about ABC MMA’s protective‑equipment provisions in the provided context, so I cannot make a comparison.",muay_thai_rules.pdf:p37; muay_thai_rules.pdf:p5; muay_thai_rules.pdf:p19; muay_thai_rules.pdf:p78; muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p17,,,
+Q016,evaluation,comparison,sport_aware_rag,"Compare the head, shin and elbow protective equipment provisions in ABC MMA and IFMA full-contact Muay Thai.","The IFMA full-contact rules expressly require an approved head guard, shin guards and elbow guards. The supplied ABC MMA rules mandate gloves and a mouthpiece but do not impose a general requirement for those three guards; further protective gear is subject to the Commission.",mma_rules.pdf:p1-2|muay_thai_rules.pdf:p37,"**Head protection**
+
+| Sport | Provision | Source |
+|-------|-----------|--------|
+| **ABC Unified Rules of MMA** | No head‑guard is required or permitted. Fighters wear only gloves, mouthpiece, and trunks; no mention of head protection. | [SOURCE 1], [SOURCE 2] |
+| **IFMA Muay Thai** | Head guard is mandatory. It must conform to IFMA specifications, have no cheek protectors, chin guard or face shield, and may only be worn after the pre‑fight ceremony. It must be removed immediately after the contest and cannot be taken off during the bout unless supervised. | [SOURCE 4] |
+
+**Shin protection**
+
+| Sport | Provision | Source |
+|-------|-----------|--------|
+| **ABC Unified Rules of MMA** | No shin guard is required or permitted. Fighters wear only gloves, mouthpiece, and trunks; no mention of shin protection. | [SOURCE 1], [SOURCE 2] |
+| **IFMA Muay Thai** | Shin guard is mandatory. It must be made of cloth, have Velcro fixing, and may be supplied by the Local Organizing Committee if taping is required. | [SOURCE 4] |
+
+**Elbow protection**
+
+| Sport | Provision | Source |
+|-------|-----------|--------|
+| **ABC Unified Rules of MMA** | No elbow guard is required or permitted. Fighters wear only gloves, mouthpiece, and trunks; no mention of elbow protection. | [SOURCE 1], [SOURCE 2] |
+| **IFMA Muay Thai** | Elbow guard is mandatory. It must be made of cloth, have Velcro fixing, and may be supplied by the Local Organizing Committee if taping is required. | [SOURCE 4] |
+
+**Summary**
+
+- **ABC MMA** does not require or allow any head, shin, or elbow protective gear; fighters compete with only gloves, mouthpiece, and trunks.  
+- **IFMA Muay Thai** mandates head, shin, and elbow guards, each with specific construction and usage rules. The head guard must be worn only after the pre‑fight ceremony and removed immediately after the bout, while shin and elbow guards must be cloth with Velcro and may be supplied by the organizing committee.",mma_rules.pdf:p2; mma_rules.pdf:p2; mma_rules.pdf:p3; muay_thai_rules.pdf:p37; muay_thai_rules.pdf:p5; muay_thai_rules.pdf:p19,,,
+Q017,evaluation,comparison,llm_only,How do IFMA Muay Thai and WAKO K-1 differ in the use of ankle protection?,"IFMA Rule 15.6 forbids ankle protection such as cloth anklets or tape. The WAKO K-1 amendment makes ankle supports optional, while optional foot wraps must be covered by ankle support when used.",muay_thai_rules.pdf:p39|k1_rules_updates.pdf:p1,"In IFMA Muay Thai and WAKO K‑1 the rules for ankle protection are quite different:
+
+| Aspect | IFMA Muay Thai | WAKO K‑1 |
+|--------|----------------|----------|
+| **Mandatory ankle protection** | **Required** for all fighters. Each competitor must wear a pair of ankle‑protecting wraps or shoes that cover the ankle and lower leg. The wraps must be secured with tape or elastic and must not interfere with the fighter’s movement. | **Optional**. Ankle protection is not mandated by the rulebook. Fighters may choose to wear ankle wraps or shoes, but it is not a requirement for participation. |
+| **Type of protection** | Typically a **wrap‑style** or **shoe‑style** ankle guard that covers the ankle joint and the lower calf. The wrap must be snug enough to prevent the ankle from being twisted or twisted out of position. | Usually a **wrap** or a **lightweight ankle guard**. The design is less restrictive, often just a simple elastic band that can be removed or adjusted during the bout. |
+| **Inspection** | Referees or officials inspect the ankle protection before the bout to ensure it meets the IFMA specifications (size, material, coverage). | No formal inspection is required; the referee may check for obvious safety concerns but there is no written standard. |
+| **Impact on scoring** | In IFMA, a fight can be stopped or a fighter penalized if the ankle protection is deemed to be interfering with the opponent’s strikes or if it is not properly secured. | In WAKO K‑1, ankle protection does not affect scoring or penalties unless it is used to block strikes in a way that violates the rules. |
+
+**Bottom line:** IFMA Muay Thai treats ankle protection as a compulsory safety measure with strict specifications, whereas WAKO K‑1 treats it as an optional, less regulated accessory.",,,,
+Q017,evaluation,comparison,general_rag,How do IFMA Muay Thai and WAKO K-1 differ in the use of ankle protection?,"IFMA Rule 15.6 forbids ankle protection such as cloth anklets or tape. The WAKO K-1 amendment makes ankle supports optional, while optional foot wraps must be covered by ankle support when used.",muay_thai_rules.pdf:p39|k1_rules_updates.pdf:p1,"I couldn’t find any rule in the supplied documents that specifically addresses ankle protection for IFMA Muay Thai or for WAKO K‑1. The WAKO K‑1 rules mention shin guards that must cover the shin and instep, and foot wraps or ankle support are optional, but there is no explicit requirement or prohibition regarding ankle protection. The IFMA Muay Thai rules provided do not discuss ankle protection at all. Therefore, based on the available context, I cannot determine how the two sports differ in this regard.",k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p9; k1_rules.pdf:p2; muay_thai_rules.pdf:p93; k1_rules.pdf:p9,,,
+Q017,evaluation,comparison,sport_aware_rag,How do IFMA Muay Thai and WAKO K-1 differ in the use of ankle protection?,"IFMA Rule 15.6 forbids ankle protection such as cloth anklets or tape. The WAKO K-1 amendment makes ankle supports optional, while optional foot wraps must be covered by ankle support when used.",muay_thai_rules.pdf:p39|k1_rules_updates.pdf:p1,"**IFMA Muay Thai**
+
+- The IFMA Muay Thai rules (the documents you supplied) do **not** contain any requirement or mention of ankle‑level protection (shin guards, ankle supports, foot wraps, etc.).  
+- Therefore, under the IFMA Muay Thai rulebook, fighters are not mandated to wear ankle‑level protective gear.
+
+**WAKO K‑1**
+
+- The WAKO K‑1 rules (both the base rulebook and the amendment) explicitly state that fighters must wear **shin guards** that cover the shin and the instep.  
+- Foot wraps are optional, but if used they must be covered with ankle support; otherwise ankle support is optional.  
+- These provisions are found in the safety‑equipment section of the WAKO K‑1 rules (see Article 2.1 and Article 2.2 of the amendment, and the base rulebook).  
+
+**Key difference**
+
+- **IFMA Muay Thai**: No ankle‑level protection is required.  
+- **WAKO K‑1**: Shin guards covering the shin and instep are mandatory; ankle support is optional.  
+
+Thus, WAKO K‑1 places a specific requirement on ankle‑level protection that IFMA Muay Thai does not.",muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p92; muay_thai_rules.pdf:p79; k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p9,,,
+Q018,evaluation,comparison,llm_only,What glove requirements are explicitly stated in the supplied ABC MMA and WAKO K-1 documents?,The ABC MMA document requires appropriate gloves but does not specify a general glove weight in ounces in the supplied text. The WAKO K-1 amendment expressly requires 10 oz gloves for contact sports.,mma_rules.pdf:p2|k1_rules_updates.pdf:p1,"**ABC MMA (American Bare‑Knuckle/Combat‑Sports Association – MMA Division)**  
+*Glove Requirements (explicitly stated in the document)*  
+
+| Item | Requirement | Source |
+|------|-------------|--------|
+| 1 | Gloves must be **10‑12 oz** for men’s bouts and **8‑10 oz** for women’s bouts. | “Glove Weight” section |
+| 2 | Gloves must have **full hand coverage** (no open‑hand or “no‑glove” style). | “Hand Protection” clause |
+| 3 | Gloves must be **approved by the ABC MMA sanctioning body** (i.e., carry the ABC MMA logo or be on the approved list). | “Approved Equipment” paragraph |
+| 4 | Gloves must have **no metal or other hard inserts** that could be used as a weapon. | “Safety” subsection |
+| 5 | Gloves must be **clean and in good condition** (no cuts, tears, or excessive wear). | “Condition of Equipment” note |
+
+---
+
+**WAKO K‑1 (World Association of Kickboxing Organizations – K‑1 Style)**  
+*Glove Requirements (explicitly stated in the document)*  
+
+| Item | Requirement | Source |
+|------|-------------|--------|
+| 1 | Gloves must be **10 oz** for men’s K‑1 bouts and **8 oz** for women’s bouts. | “Glove Weight” section |
+| 2 | Gloves must have **full hand coverage** (no open‑hand or “no‑glove” style). | “Hand Protection” clause |
+| 3 | Gloves must be **approved by WAKO** (must carry the WAKO logo or be on the approved list). | “Approved Equipment” paragraph |
+| 4 | Gloves must have **no metal or other hard inserts** that could be used as a weapon. | “Safety” subsection |
+| 5 | Gloves must be **clean and in good condition** (no cuts, tears, or excessive wear). | “Condition of Equipment” note |
+
+---
+
+### Notes & Uncertainty
+- The tables above reflect the **explicitly written** glove‑related clauses in the two documents you supplied.  
+- If the documents contain additional nuances (e.g., specific brand restrictions, color requirements, or weight‑class variations beyond the standard 10 oz/8 oz), those were not captured because they were not explicitly stated in the excerpts you provided.  
+- If you need confirmation on any other detail (e.g., whether a particular brand is listed as approved), please let me know and I can check the relevant section.",,,,
+Q018,evaluation,comparison,general_rag,What glove requirements are explicitly stated in the supplied ABC MMA and WAKO K-1 documents?,The ABC MMA document requires appropriate gloves but does not specify a general glove weight in ounces in the supplied text. The WAKO K-1 amendment expressly requires 10 oz gloves for contact sports.,mma_rules.pdf:p2|k1_rules_updates.pdf:p1,"The supplied documents do not contain any explicit glove requirements for **ABC MMA**.  
+The only glove‑related specifications appear in the **IFMA Muay Thai** rules:
+
+* Gloves must be the 10‑ounce (284 g) specification approved by IFMA.  
+* The leather portion may not weigh more than half the total weight, and the padding must not be less than half the total weight.  
+* All gloves used in a single contest must come from the same manufacturer and be clean, serviceable, and in the approved red or blue colours.  
+* Gloves, wraps and bandages must be fitted under the supervision of designated officials who will sign the wrist of each pair of gloves.  
+
+These requirements are found in IFMA Muay Thai Rules, section 15.1 and its sub‑sections [SOURCE 5].  
+
+No glove requirements are stated in the WAKO K‑1 documents provided.",k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p9; k1_rules.pdf:p2; muay_thai_rules.pdf:p36; k1_rules.pdf:p9,,,
+Q018,evaluation,comparison,sport_aware_rag,What glove requirements are explicitly stated in the supplied ABC MMA and WAKO K-1 documents?,The ABC MMA document requires appropriate gloves but does not specify a general glove weight in ounces in the supplied text. The WAKO K-1 amendment expressly requires 10 oz gloves for contact sports.,mma_rules.pdf:p2|k1_rules_updates.pdf:p1,"**Glove requirements in the supplied documents**
+
+| Sport | Document | Explicit glove requirement |
+|-------|----------|----------------------------|
+| MMA | ABC Unified Rules of MMA – **Source 1** (page 2) | “Male and female mixed martial artists shall wear the appropriate **gloves**.” [SOURCE 1] |
+| MMA | ABC Unified Rules of MMA – **Source 3** (page 2) | “Male and female mixed martial artists shall wear the appropriate **gloves**.” [SOURCE 3] |
+| WAKO K‑1 | WAKO K‑1 Rules Changes (amendment) – **Source 5** (Article 2.1) | “**Gloves for contact sports (10 oz)**.” [SOURCE 5] |
+| WAKO K‑1 | WAKO K‑1 Rules V18 – **Source 4** (page 3) | No specific glove weight or type is mentioned; the rule set refers only to the general “legal techniques” and target areas. No glove requirement is stated in this document. |
+
+**Summary**
+
+* In the MMA rules, the only explicit glove requirement is that fighters must wear “appropriate gloves.” No weight, size, or material specifications are given in the supplied excerpts.  
+* In the WAKO K‑1 amendment, gloves are required to be 10 oz contact‑sport gloves. The base WAKO K‑1 Rules V18 document does not specify glove requirements.",mma_rules.pdf:p2; mma_rules.pdf:p4; mma_rules.pdf:p2; k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p9,,,
+Q019,evaluation,comparison,llm_only,How does the treatment of clinching differ between IFMA Muay Thai and the updated WAKO K-1 rules?,"IFMA Muay Thai referee instructions explicitly recognize clinch situations and provide the YAEK (Break) command to separate athletes; this does not make every hold legal. The WAKO K-1 amendment expressly prohibits clinching or holding at any time, including for knee strikes.",muay_thai_rules.pdf:p56|k1_rules_updates.pdf:p2,"In IFMA Muay Thai the clinch is a central part of the sport.  
+* The referee allows a fighter to hold the opponent’s collar, neck or body and to strike with elbows, knees, and short punches while in the clinch.  
+* The clinch can be maintained for a long time; the referee only intervenes if the fighters become unsafe or if one fighter is clearly dominating without attempting to strike.  
+* The referee may call a “break” only when the fighters are not actively striking or when a fighter is in danger of injury.
+
+In the updated WAKO K‑1 rules the clinch is heavily restricted.  
+* A fighter may only hold the opponent’s collar or the back of the neck for a brief moment (usually a few seconds) and must immediately release and return to a standing position.  
+* While in the clinch a fighter may only deliver a single short punch; elbows, knees, and prolonged clinching are prohibited.  
+* The referee will immediately break the clinch if it is not being used for striking or if it lasts longer than the allowed brief period.
+
+So, IFMA Muay Thai permits sustained, striking‑heavy clinching, whereas WAKO K‑1 limits the clinch to a very short, single‑punch exchange and requires a quick break.",,,,
+Q019,evaluation,comparison,general_rag,How does the treatment of clinching differ between IFMA Muay Thai and the updated WAKO K-1 rules?,"IFMA Muay Thai referee instructions explicitly recognize clinch situations and provide the YAEK (Break) command to separate athletes; this does not make every hold legal. The WAKO K-1 amendment expressly prohibits clinching or holding at any time, including for knee strikes.",muay_thai_rules.pdf:p56|k1_rules_updates.pdf:p2,"I’m sorry, but the supplied documents do not contain enough information to answer that question. The WAKO K‑1 rules mention that a fighter may hold an opponent’s neck or shoulders with two hands only to perform a single knee attack, but they do not describe a broader clinch‑style system. The IFMA Muay Thai rules you provided do not include any explicit statements about clinching or its regulation. Therefore, I cannot compare the two treatments based on the available context.",k1_rules.pdf:p3; k1_rules.pdf:p2; muay_thai_rules.pdf:p14; muay_thai_rules.pdf:p83; muay_thai_rules.pdf:p93; k1_rules_updates.pdf:p1,,,
+Q019,evaluation,comparison,sport_aware_rag,How does the treatment of clinching differ between IFMA Muay Thai and the updated WAKO K-1 rules?,"IFMA Muay Thai referee instructions explicitly recognize clinch situations and provide the YAEK (Break) command to separate athletes; this does not make every hold legal. The WAKO K-1 amendment expressly prohibits clinching or holding at any time, including for knee strikes.",muay_thai_rules.pdf:p56|k1_rules_updates.pdf:p2,"I’m sorry, but the supplied documents do not contain any information about clinching rules for either IFMA Muay Thai or the updated WAKO K‑1 rules. Therefore I cannot provide a comparison.",muay_thai_rules.pdf:p14; muay_thai_rules.pdf:p83; muay_thai_rules.pdf:p93; k1_rules.pdf:p3; k1_rules.pdf:p2; k1_rules_updates.pdf:p1,,,
+Q020,evaluation,comparison,llm_only,Compare the judging and round-scoring approaches in ABC MMA and IFMA full-contact Muay Thai.,"ABC MMA uses a 10-Point Must approach with effective striking/grappling taking priority, followed by aggressiveness and area control as tie-breakers. IFMA uses legal effective Muaythai skills and provides round-by-round 10-Point Must scoring as well as approved real-time Strike-by-Strike scoring options.",mma_rules.pdf:p7|muay_thai_rules.pdf:p58-60,"**Judging & round‑scoring in ABC MMA vs. IFMA full‑contact Muay Thai**
+
+| Aspect | ABC MMA | IFMA Full‑Contact Muay Thai |
+|--------|---------|-----------------------------|
+| **Governing body** | ABC MMA (American‑based promotion) | International Federation of Muaythai Associations (IFMA) |
+| **Competition format** | 3‑round bouts (5 min each) in most divisions; some tournaments use 5‑rounds (3 min each) for title fights. | 3‑round bouts (3 min each) for most amateur competitions; 5‑round bouts (3 min each) for senior or elite categories. |
+| **Scoring system** | 10‑point‑must system (similar to boxing). Each round is scored 10‑9, 10‑8, or 10‑7 depending on dominance. | 10‑point‑must system as well, but with a stricter emphasis on clean strikes and effective techniques. |
+| **Judging criteria** | 1. **Effective striking** (damage, knockdowns, control). 2. **Effective grappling** (takedowns, submissions). 3. **Control/position** (dominant stance, cage control). 4. **Octagon/arena control** (movement, aggression). | 1. **Effective striking** (clean, powerful, and accurate strikes). 2. **Effective clinch work** (control, elbows, knees). 3. **Effective kicks** (distance, power). 4. **Effective punches** (accuracy, volume). 5. **Overall dominance** (control, aggression). |
+| **Weight on striking vs. grappling** | Striking and grappling are weighted equally; a takedown can earn a 10‑8 round if the fighter also controls the opponent. | Striking dominates; grappling is rarely scored unless a fighter secures a submission or a takedown that leads to a clear advantage. |
+| **Knockdowns** | A knockdown typically results in a 10‑8 round for the striker, unless the opponent recovers quickly and dominates the rest of the round. | A knockdown also usually leads to a 10‑8 round, but IFMA judges may consider the overall effectiveness of the round beyond the knockdown. |
+| **Takedowns** | Takedowns are scored as a separate category; a successful takedown can earn a 10‑8 round if the fighter maintains control. | Takedowns are scored but are less influential; a single takedown rarely changes the round score unless it leads to a submission or significant damage. |
+| **Clinching** | Clinch work is scored under “effective grappling” and can earn points if it leads to strikes or takedowns. | Clinch work is a distinct criterion; effective clinch control, elbows, and knees can earn points even without takedowns. |
+| **Judges’ panel** | Three judges sit on the sidelines; they score each round independently and submit scores after the bout. | Three judges sit on the sidelines; they score each round independently and submit scores after the bout. |
+| **Scorecard presentation** | Scores are displayed on a digital board after each round; the winner of each round is announced. | Scores are displayed on a digital board after each round; the winner of each round is announced. |
+| **Tie‑breakers** | If the bout ends in a draw, the referee may call a “tiebreaker round” (rare) or the bout is declared a draw. | If the bout ends in a draw, the bout is declared a draw; no tiebreaker round is used in amateur IFMA competitions. |
+| **Common controversies** | Disputes often arise over the relative weight of grappling vs. striking, especially in fights where one fighter dominates on the ground. | Disputes often arise over the scoring of clinch work and the interpretation of “effective striking” (clean vs. volume). |
+
+### Key Take‑aways
+
+1. **Both use the 10‑point‑must system**, but the *criteria* differ: ABC MMA balances striking and grappling, while IFMA places a heavier emphasis on striking and clinch techniques.
+2. **Takedowns matter more in ABC MMA**; in IFMA they are usually a minor factor unless they lead to a submission or significant damage.
+3. **Clinching is a separate criterion in IFMA**, whereas in ABC MMA it is bundled with grappling.
+4. **Knockdowns are treated similarly** in both, but IFMA judges may look at the overall round beyond the knockdown.
+5. **Tie‑breakers are handled differently**: ABC MMA may add a tiebreaker round, IFMA does not.
+
+---
+
+**Uncertainty note:**  
+ABC MMA is not a globally recognized governing body, so the details above are based on typical MMA promotion practices and may vary in specific events. If you have a particular ABC MMA rulebook or event in mind, please share it for a more precise comparison.",,,,
+Q020,evaluation,comparison,general_rag,Compare the judging and round-scoring approaches in ABC MMA and IFMA full-contact Muay Thai.,"ABC MMA uses a 10-Point Must approach with effective striking/grappling taking priority, followed by aggressiveness and area control as tie-breakers. IFMA uses legal effective Muaythai skills and provides round-by-round 10-Point Must scoring as well as approved real-time Strike-by-Strike scoring options.",mma_rules.pdf:p7|muay_thai_rules.pdf:p58-60,"I’m sorry, but the supplied documents only contain information about IFMA Muay Thai rules. There is no context or rules provided for “ABC MMA,” so I cannot make a comparison.",muay_thai_rules.pdf:p89; muay_thai_rules.pdf:p19; muay_thai_rules.pdf:p18; muay_thai_rules.pdf:p78; muay_thai_rules.pdf:p50; muay_thai_rules.pdf:p93,,,
+Q020,evaluation,comparison,sport_aware_rag,Compare the judging and round-scoring approaches in ABC MMA and IFMA full-contact Muay Thai.,"ABC MMA uses a 10-Point Must approach with effective striking/grappling taking priority, followed by aggressiveness and area control as tie-breakers. IFMA uses legal effective Muaythai skills and provides round-by-round 10-Point Must scoring as well as approved real-time Strike-by-Strike scoring options.",mma_rules.pdf:p7|muay_thai_rules.pdf:p58-60,"**Judging & Round‑scoring in ABC Unified Rules of MMA vs. IFMA Muay Thai**
+
+| Aspect | ABC Unified Rules of MMA (Sources 1‑3) | IFMA Muay Thai Rules (Sources 5‑6) |
+|--------|----------------------------------------|-----------------------------------|
+| **Scoring system** | 10‑Point Must System. 10 points to the round winner, 9 or fewer to the loser; 10‑10 only for an even round.  The system is applied to every round independently. | Ten‑Point Must System is also used for each round.  The rules explicitly state that the winner of a round receives ten points and the opponent receives a lesser score. |
+| **Primary judging criteria** | Judges evaluate **effective striking/grappling (Plan A)** first, then **effective aggressiveness (Plan B)**, and finally **control of the fighting area (Plan C)**.  The order of evaluation is fixed: striking/grappling → aggressiveness → control.  Only if Plan A is even are Plans B and C considered. | The IFMA scoring criteria are not detailed in the supplied excerpts, but the rules refer to “Scoring Criteria” that evaluate **effective Muay Thai techniques, dominance, and control**.  The exact order of weighting is not specified in the provided text. |
+| **Definition of “effective”** | *Effective striking* is judged by the damage/effect of legal strikes.  *Effective grappling* is judged by successful takedowns, submission attempts, advantageous positions, and reversals. | “Effective Muay Thai techniques” are implied to be those that score points (e.g., kicks, knees, elbows, punches, clinch work).  Damage, dominance, and control are also part of the criteria, but the text does not break them into separate “plans” as in MMA. |
+| **Dominance & damage** | Dominance is assessed in both striking and grappling.  Damage is a separate consideration: a fighter can score even if not dominant, provided they inflict significant damage (visible swelling, lacerations, etc.) [SOURCE 2]. | Dominance, damage, and control are all part of the scoring criteria, but the rules do not separate them into distinct categories.  Damage is considered when a fighter’s actions diminish the opponent’s energy, confidence, abilities, and spirit [SOURCE 5]. |
+| **Scoring of incomplete rounds** | If a round is incomplete (e.g., due to a foul or stoppage), judges must still score the round, and any penalties are deducted from the final score [SOURCE 5]. | The IFMA rules do not explicitly mention scoring incomplete rounds in the provided excerpts. |
+| **Penalties & fouls** | Fouls can lead to point deductions.  The referee may call a cut‑person during a break to treat a cut from a foul, and the fighter can return after physician clearance, with no more than five minutes elapsed [SOURCE 3]. | IFMA has a detailed fouls & conduct section (e.g., cautions, warnings, deductions) but the specific impact on scoring is not described in the supplied text. |
+| **Round length & structure** | Not specified in the excerpts, but the ABC rules assume standard MMA round lengths (typically 5 min for title fights, 3 min for non‑title). | IFMA defines a “Round” as a defined period of activity, with a “Rest Interval” between rounds.  The exact duration is not given in the excerpts. |
+| **Decision types** | The ABC rules list various decision types (e.g., unanimous, split, majority) and also include submission, technical submission, and other outcomes. | IFMA rules mention outcomes such as KO, RSC, and also include walkover, no‑contest, and draw, but the decision types are not detailed in the provided text. |
+
+### Key Differences
+
+1. **Order of Evaluation**  
+   - **MMA**: Fixed order—effective striking/grappling first, then aggressiveness, then control.  
+   - **Muay Thai**: No explicit order is given; all criteria (effective techniques, dominance, control) are considered together.
+
+2. **Granularity of Criteria**  
+   - **MMA**: Distinguishes between striking, grappling, aggressiveness, and control, with clear definitions for each.  
+   - **Muay Thai**: Uses broader terms (effective techniques, dominance, control) without separating striking from grappling or other aspects.
+
+3. **Damage Consideration**  
+   - **MMA**: Damage is a separate factor that can influence scoring even if dominance is lacking.  
+   - **Muay Thai**: Damage is part of the overall dominance and control assessment but is not isolated as a separate criterion.
+
+4. **Incomplete Rounds**  
+   - **MMA**: Explicitly requires scoring of incomplete rounds and deduction of penalties.  
+   - **Muay Thai**: No explicit rule about incomplete rounds in the supplied excerpts.
+
+5. **Foul Handling**  
+   - **MMA**: Provides a specific procedure for cut‑person assistance during a break.  
+   - **Muay Thai**: Mentions fouls and penalties but does not detail cut‑person procedures in the provided text.
+
+### Conclusion
+
+While both sports use a 10‑Point Must system for each round, the **ABC Unified Rules of MMA** provide a more detailed, step‑by‑step framework for judging, with distinct categories and a fixed evaluation order.  The **IFMA Muay Thai Rules** present a broader set of criteria (effective techniques, dominance, control) without specifying an evaluation sequence or separating striking from grappling.  Consequently, MMA judging tends to be more granular and structured, whereas Muay Thai judging relies on a holistic assessment of effective techniques and overall dominance.",mma_rules.pdf:p8; mma_rules.pdf:p7; mma_rules.pdf:p7; muay_thai_rules.pdf:p89; muay_thai_rules.pdf:p19; muay_thai_rules.pdf:p18,,,
+Q021,evaluation,triple_comparison,llm_only,"Do the ABC MMA, IFMA full-contact Muay Thai and WAKO K-1 rulebooks all require a mouthguard?","Yes. The ABC MMA rules require a mouthpiece before the round begins, IFMA requires a gum shield before a round, and the WAKO K-1 amendment explicitly lists a mouth guard among the mandatory safety equipment.",mma_rules.pdf:p1|muay_thai_rules.pdf:p38|k1_rules_updates.pdf:p1,"I’m not 100 % certain about every governing body’s latest wording, but here’s what the rulebooks generally say:
+
+| Governing body | Competition type | Mouthguard requirement |
+|----------------|------------------|------------------------|
+| **ABC MMA** (American BJJ & MMA Council) | MMA bouts | **Mandatory** – fighters must wear a mouthguard that covers the incisors and is approved by the commission. |
+| **IFMA** (International Federation of Muaythai Associations) – Full‑Contact | Full‑contact Muay Thai | **Mandatory** – the IFMA rulebook states that a mouthguard covering the incisors is required for all full‑contact bouts. |
+| **WAKO** (World Association of Kickboxing Organizations) – K‑1 Style | K‑1 style kickboxing | **Mandatory** – WAKO’s K‑1 rules require a mouthguard that covers the incisors for all competitors. |
+
+**Key points**
+
+- All three organizations insist on a mouthguard that covers the incisors; the rest of the mouth can be left uncovered.
+- The mouthguard must be approved by the relevant commission or governing body (e.g., the local athletic commission for MMA, IFMA’s approved list for Muay Thai, or WAKO’s approved list for K‑1).
+- If you’re competing in a local or amateur event, double‑check the specific event’s regulations, as some smaller promotions may have slightly different wording or additional requirements (e.g., a “full‑coverage” mouthguard).
+
+If you need the exact clause number or wording, let me know and I can look up the most recent PDFs of the rulebooks.",,,,
+Q021,evaluation,triple_comparison,general_rag,"Do the ABC MMA, IFMA full-contact Muay Thai and WAKO K-1 rulebooks all require a mouthguard?","Yes. The ABC MMA rules require a mouthpiece before the round begins, IFMA requires a gum shield before a round, and the WAKO K-1 amendment explicitly lists a mouth guard among the mandatory safety equipment.",mma_rules.pdf:p1|muay_thai_rules.pdf:p38|k1_rules_updates.pdf:p1,"I’m sorry, but the supplied documents do not contain any information about an “ABC MMA” rulebook, so I cannot confirm whether that set of rules requires a mouthguard.  
+
+For the other two sports:
+
+* **IFMA full‑contact Muay Thai** – The IFMA rules list “mouthguard” under the mandatory protective equipment section (see IFMA Muaythai Rules, Document type: base, page 1.7.5)【SOURCE 2】.  
+* **WAKO K‑1** – The WAKO K‑1 Rules (base) and the amendment both state that a mouth guard is mandatory for competitors (see WAKO K‑1 Rules V18, page 3, and WAKO K‑1 Rules Changes, Article 2.1)【SOURCE 3】【SOURCE 5】.  
+
+So, IFMA Muay Thai and WAKO K‑1 both require a mouthguard, but I cannot answer for ABC MMA because its rules were not provided.",muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p19; k1_rules.pdf:p3; muay_thai_rules.pdf:p17; k1_rules_updates.pdf:p1; muay_thai_rules.pdf:p83,,,
+Q021,evaluation,triple_comparison,sport_aware_rag,"Do the ABC MMA, IFMA full-contact Muay Thai and WAKO K-1 rulebooks all require a mouthguard?","Yes. The ABC MMA rules require a mouthpiece before the round begins, IFMA requires a gum shield before a round, and the WAKO K-1 amendment explicitly lists a mouth guard among the mandatory safety equipment.",mma_rules.pdf:p1|muay_thai_rules.pdf:p38|k1_rules_updates.pdf:p1,"Yes. All three rulebooks contain a requirement for a mouthguard (or mouthpiece) for fighters.
+
+| Sport | Rulebook | Mouthguard requirement |
+|-------|----------|------------------------|
+| **MMA** | ABC Unified Rules of MMA (base) | “All fighters are required to wear a mouthpiece during competition.” [SOURCE 1] |
+| **IFMA Muay Thai (Full‑Contact)** | IFMA Muaythai Rules and Regulations (base) | “Protective Equipment Mandatory … including gloves, mouthguard, groin guard, and other division‑specific requirements.” [SOURCE 4] |
+| **WAKO K‑1** | WAKO K‑1 Rules V18 (base) & WAKO K‑1 Rules Changes (amendment) | “Mouth guard (on only the upper teeth or on both upper and lower teeth)” is listed under personal safety equipment. [SOURCE 6] |
+
+Thus, each rulebook explicitly mandates that fighters wear a mouthguard/mouthpiece.",mma_rules.pdf:p1; mma_rules.pdf:p2; muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p19; k1_rules.pdf:p3; k1_rules_updates.pdf:p1,,,
+Q022,evaluation,triple_comparison,llm_only,"Compare the head-protection requirements described in ABC MMA, IFMA full-contact Muay Thai and WAKO K-1.",IFMA Muay Thai explicitly requires a head guard; WAKO K-1 requires head protection covering the top of the head. The supplied ABC MMA document does not list headgear as a blanket mandatory item; additional protective gear may be required by the Commission.,mma_rules.pdf:p2|muay_thai_rules.pdf:p37|k1_rules_updates.pdf:p1,"**Head‑protection requirements**
+
+| Governing body / competition style | Head‑protection required | Type of gear | Notes |
+|------------------------------------|--------------------------|--------------|-------|
+| **ABC MMA** (American‑style mixed‑martial‑arts) | **Optional** | Full‑face or half‑face helmet (often a “MMA headgear” that covers the forehead, cheeks, and ears) | Many ABC MMA events allow fighters to wear headgear for safety, but it is not mandatory. Some tournaments or amateur divisions may require it, especially for younger or less‑experienced competitors. |
+| **IFMA full‑contact Muay Thai** | **Mandatory** | Full‑face helmet that covers the forehead, cheeks, and ears (often a “Muay Thai headgear” with a protective foam or gel lining) | IFMA rules state that all full‑contact Muay Thai competitors must wear headgear. The gear must be approved by IFMA and meet the specified safety standards. |
+| **WAKO K‑1** (World Association of Kickboxing Organizations, K‑1 style) | **Optional** | Full‑face or half‑face helmet (often a “K‑1 headgear” that covers the forehead, cheeks, and ears) | WAKO K‑1 rules allow fighters to wear headgear, but it is not compulsory. Some national or local WAKO events may impose it for certain age groups or weight classes, but the international rule set does not require it. |
+
+### Key differences
+
+1. **Mandate vs. optional**  
+   - IFMA full‑contact Muay Thai **requires** headgear for all competitors.  
+   - ABC MMA and WAKO K‑1 **do not** mandate headgear; it is left to the event organizers or the fighters’ discretion.
+
+2. **Type of headgear**  
+   - All three styles use a full‑face or half‑face helmet that protects the forehead, cheeks, and ears.  
+   - IFMA’s headgear is specifically designed for Muay Thai strikes (kicks, elbows, knees) and must meet IFMA safety standards.  
+   - ABC MMA and WAKO K‑1 headgear are generally similar but may vary in padding material and design, as long as they provide adequate protection for punches and kicks.
+
+3. **Compliance and inspection**  
+   - IFMA conducts pre‑fight inspections to ensure headgear meets the required specifications.  
+   - ABC MMA and WAKO K‑1 may perform inspections, but the rules do not enforce a specific standard; compliance is usually left to the event’s safety committee.
+
+### Bottom line
+
+- **IFMA full‑contact Muay Thai**: headgear is compulsory.  
+- **ABC MMA**: headgear is optional, though often encouraged or required in amateur divisions.  
+- **WAKO K‑1**: headgear is optional; some local rules may impose it, but it is not a global requirement.",,,,
+Q022,evaluation,triple_comparison,general_rag,"Compare the head-protection requirements described in ABC MMA, IFMA full-contact Muay Thai and WAKO K-1.",IFMA Muay Thai explicitly requires a head guard; WAKO K-1 requires head protection covering the top of the head. The supplied ABC MMA document does not list headgear as a blanket mandatory item; additional protective gear may be required by the Commission.,mma_rules.pdf:p2|muay_thai_rules.pdf:p37|k1_rules_updates.pdf:p1,"I’m sorry, but the supplied documents do not contain any information about “ABC MMA.” Therefore I cannot compare head‑protection requirements for that discipline.",k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p2; k1_rules.pdf:p9; muay_thai_rules.pdf:p17; muay_thai_rules.pdf:p93,,,
+Q022,evaluation,triple_comparison,sport_aware_rag,"Compare the head-protection requirements described in ABC MMA, IFMA full-contact Muay Thai and WAKO K-1.",IFMA Muay Thai explicitly requires a head guard; WAKO K-1 requires head protection covering the top of the head. The supplied ABC MMA document does not list headgear as a blanket mandatory item; additional protective gear may be required by the Commission.,mma_rules.pdf:p2|muay_thai_rules.pdf:p37|k1_rules_updates.pdf:p1,"**Head‑protection requirements**
+
+| Sport | Head‑protection rule | Source |
+|-------|----------------------|--------|
+| **ABC Unified Rules of MMA** | The rules do not require or mention any head‑gear or head protection for fighters. | [SOURCE 1] (no head‑gear clause) |
+| **IFMA Muay Thai (Full‑Contact)** | The supplied IFMA documents do not contain a rule that mandates head protection for full‑contact bouts. | [SOURCE 3], [SOURCE 4] (no head‑gear clause) |
+| **WAKO K‑1** | Head protection is mandatory. The rulebook states that fighters must wear head protection that covers the top of the head. | [SOURCE 6] – Article 2.1 (Head protection) |
+
+**Summary**
+
+- **MMA**: No head‑gear is required or allowed; fighters compete without head protection.  
+- **IFMA Muay Thai (Full‑Contact)**: The provided IFMA rules do not specify head‑gear; therefore, head protection is not mandated.  
+- **WAKO K‑1**: Head protection is explicitly required for all fighters, covering the top of the head.  
+
+These differences are based solely on the supplied documents; if additional IFMA or MMA rules exist elsewhere that address head protection, they are not reflected in the current context.",mma_rules.pdf:p2; mma_rules.pdf:p2; muay_thai_rules.pdf:p17; muay_thai_rules.pdf:p93; k1_rules.pdf:p3; k1_rules_updates.pdf:p1,,,
+Q023,evaluation,triple_comparison,llm_only,"How do elbow-strike rules differ across ABC MMA, IFMA Elite full-contact Muay Thai and WAKO K-1?","The ABC MMA foul list does not impose a general elbow-strike ban, although illegal targets and actions remain prohibited. IFMA Elite full-contact Muay Thai recognizes legal elbows as scoring techniques. WAKO K-1 explicitly prohibits elbow attacks.",mma_rules.pdf:p3-4|muay_thai_rules.pdf:p58|muay_thai_rules.pdf:p65|k1_rules_updates.pdf:p3,"**Elbow‑strike rules – how they differ in ABC MMA, IFMA Elite Full‑Contact Muay Thai, and WAKO K‑1**
+
+| Governing body | Elbow usage | Allowed target areas | Restrictions | Notes |
+|-----------------|-------------|----------------------|--------------|-------|
+| **ABC MMA** | Elbows are **allowed** in all striking exchanges. | Any legal target (head, body, legs) as long as the strike is delivered with the elbow. | • No “elbow‑only” strikes from a clinch unless the opponent is already in a clinch. <br>• No “elbow‑only” strikes from a standing position if the opponent is not in a clinch. <br>• No “elbow‑only” strikes to the head from a standing position unless the opponent is in a clinch. | ABC MMA follows the standard MMA rule set (similar to UFC/ONE). Elbows are treated like any other strike, but the “elbow‑only” rule is a common safety measure. |
+| **IFMA Elite Full‑Contact Muay Thai** | **Elbows are prohibited** in all situations. | – | Any elbow strike (to head, body, or legs) is a foul. | IFMA’s Full‑Contact rules are a subset of traditional Muay Thai that removes clinch work and elbow strikes to keep the sport “full‑contact” and safer for amateur competitors. |
+| **WAKO K‑1** | **Elbows are prohibited**. | – | Any elbow strike is a foul. | WAKO K‑1 is a kickboxing style that follows the K‑1 rule set, which does not allow elbows. The focus is on punches, kicks, and knee strikes (knee strikes are allowed only from a clinch). |
+
+### Key take‑aways
+
+1. **ABC MMA** – Elbows are legal, but only when they are part of a normal striking exchange. “Elbow‑only” strikes from a standing position are usually disallowed unless the opponent is in a clinch.  
+2. **IFMA Elite Full‑Contact Muay Thai** – Elbows are completely banned; the style is designed for amateur safety and emphasizes punches, kicks, and knee strikes.  
+3. **WAKO K‑1** – Elbows are also banned; the focus is on punches, kicks, and knee strikes (knee strikes only from a clinch).  
+
+If you’re preparing for a specific event, double‑check the local rule book, as some promotions may adopt slightly different interpretations of the “elbow‑only” rule.",,,,
+Q023,evaluation,triple_comparison,general_rag,"How do elbow-strike rules differ across ABC MMA, IFMA Elite full-contact Muay Thai and WAKO K-1?","The ABC MMA foul list does not impose a general elbow-strike ban, although illegal targets and actions remain prohibited. IFMA Elite full-contact Muay Thai recognizes legal elbows as scoring techniques. WAKO K-1 explicitly prohibits elbow attacks.",mma_rules.pdf:p3-4|muay_thai_rules.pdf:p58|muay_thai_rules.pdf:p65|k1_rules_updates.pdf:p3,"I’m sorry, but the supplied documents do not contain any information about elbow‑strike rules for ABC MMA. Therefore I cannot provide a comparison for that sport.",k1_rules.pdf:p3; muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p58; muay_thai_rules.pdf:p19; muay_thai_rules.pdf:p65; k1_rules.pdf:p2,,,
+Q023,evaluation,triple_comparison,sport_aware_rag,"How do elbow-strike rules differ across ABC MMA, IFMA Elite full-contact Muay Thai and WAKO K-1?","The ABC MMA foul list does not impose a general elbow-strike ban, although illegal targets and actions remain prohibited. IFMA Elite full-contact Muay Thai recognizes legal elbows as scoring techniques. WAKO K-1 explicitly prohibits elbow attacks.",mma_rules.pdf:p3-4|muay_thai_rules.pdf:p58|muay_thai_rules.pdf:p65|k1_rules_updates.pdf:p3,"**Elbow‑strike rules in the three sports**
+
+| Sport | Elbow‑strike rule | Source |
+|-------|-------------------|--------|
+| **ABC Unified Rules of MMA** | The supplied excerpts do not contain any statement about elbows. | [SOURCE 1], [SOURCE 2] |
+| **IFMA Elite Full‑Contact Muay Thai** | The provided IFMA documents do not mention elbows. | [SOURCE 3], [SOURCE 4] |
+| **WAKO K‑1** | Elbow techniques are explicitly **forbidden**. | [SOURCE 5] |
+
+### Summary
+
+- **ABC MMA**: The context you gave does not address elbows, so I cannot say whether they are allowed or not.  
+- **IFMA Muay Thai**: The excerpts supplied do not cover elbow strikes, so I cannot determine the rule from this material.  
+- **WAKO K‑1**: Elbows are prohibited; fighters may not use elbow strikes at all. This is clearly stated in the rulebook.  
+
+If you need the exact wording for MMA or IFMA, you would need to provide the relevant sections of those rulebooks.",mma_rules.pdf:p3; mma_rules.pdf:p3; muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p58; k1_rules.pdf:p3; k1_rules.pdf:p2,,,
+Q024,evaluation,triple_comparison,llm_only,"How do ABC MMA, IFMA full-contact Muay Thai and WAKO K-1 rules treat attacks on an opponent who is down?",ABC MMA permits forms of ground fighting but bans kneeing or kicking a grounded opponent in the head and bans stomping a grounded fighter. IFMA Muay Thai prohibits striking a downed or rising opponent. WAKO K-1 prohibits attacking an opponent falling to or already on the floor.,mma_rules.pdf:p4|mma_rules.pdf:p7-8|muay_thai_rules.pdf:p65|k1_rules_updates.pdf:p3,"**ABC MMA (American‑Belt‑Cage MMA)**  
+- In ABC MMA a “downed” opponent is defined as any fighter who has any part of the body other than the soles of the feet on the mat.  
+- While the opponent is down, strikes to the head are prohibited.  
+- Punches, elbows, knees, and kicks to the body are allowed, but only to the torso (no kicks to the head).  
+- Clinching is permitted, but the referee may stop the clinch if the downed fighter is in danger of being struck to the head.  
+- If a fighter attempts a kick to the head of a downed opponent, the referee will stop the action and may issue a warning or disqualify the offender if it is repeated.
+
+**IFMA Full‑Contact Muay Thai (International Federation of Muaythai Associations)**  
+- In IFMA full‑contact the rules are similar to standard Muay Thai, but the “downed” rule is stricter.  
+- A fighter is considered downed when any part of the body other than the feet touches the mat.  
+- While downed, the opponent may only receive punches and kicks to the body (no strikes to the head).  
+- Clinching is allowed, but the referee will intervene if the downed fighter is in danger of being struck to the head.  
+- A kick to the head of a downed opponent is an illegal strike and results in a warning, point deduction, or disqualification depending on the severity and the referee’s discretion.
+
+**WAKO K‑1 Rules (World Association of Kickboxing Organizations – K‑1 style)**  
+- In WAKO K‑1, a fighter is considered “downed” when any part of the body other than the feet touches the canvas.  
+- While downed, the opponent may only deliver punches and kicks to the torso; strikes to the head are prohibited.  
+- Clinching is allowed, but the referee may break the clinch if the downed fighter is at risk of a head strike.  
+- A kick to the head of a downed opponent is illegal and typically results in a warning, point deduction, or disqualification, depending on the referee’s judgment and the governing body’s specific penalty structure.
+
+---
+
+**Bottom line:**  
+All three rule sets prohibit head strikes to a downed opponent. ABC MMA and WAKO K‑1 allow body strikes (punches, kicks, elbows, knees) while downed, whereas IFMA Full‑Contact Muay Thai follows the same principle but may have slightly stricter enforcement of the down‑state rule. Clinching is permitted in all three, but referees must intervene if a downed fighter is threatened with a head strike.",,,,
+Q024,evaluation,triple_comparison,general_rag,"How do ABC MMA, IFMA full-contact Muay Thai and WAKO K-1 rules treat attacks on an opponent who is down?",ABC MMA permits forms of ground fighting but bans kneeing or kicking a grounded opponent in the head and bans stomping a grounded fighter. IFMA Muay Thai prohibits striking a downed or rising opponent. WAKO K-1 prohibits attacking an opponent falling to or already on the floor.,mma_rules.pdf:p4|mma_rules.pdf:p7-8|muay_thai_rules.pdf:p65|k1_rules_updates.pdf:p3,"**ABC MMA**  
+The supplied documents do not contain any rules or statements about MMA (ABC MMA). Therefore I cannot provide an answer for that sport based on the provided context.  
+
+**IFMA Full‑Contact Muay Thai**  
+The IFMA rules that are included in the context refer only to the *Semi‑Contact (Muaythai Technical)* discipline (e.g., §31.3.1) and do not address the Full‑Contact (Muaythai Combat) rules. Consequently, there is no information in the supplied material about how attacks on a downed opponent are treated in IFMA Full‑Contact Muay Thai.  
+
+**WAKO K‑1**  
+WAKO K‑1 rules explicitly forbid striking an opponent who is down.  
+- Source 4 (Art. 2.1) states: “To attack an opponent who is falling to the floor or is already on the floor; that is, as soon as one hand or knee touches the floor.” This is listed as a prohibited action and can lead to warnings, point deductions, or disqualification depending on severity.  
+
+Thus, based on the documents provided, only WAKO K‑1 has a clear rule against attacking a downed opponent, while the other two sports lack relevant information in the supplied context.",muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p58; k1_rules.pdf:p3; k1_rules.pdf:p3; muay_thai_rules.pdf:p19; muay_thai_rules.pdf:p66,,,
+Q024,evaluation,triple_comparison,sport_aware_rag,"How do ABC MMA, IFMA full-contact Muay Thai and WAKO K-1 rules treat attacks on an opponent who is down?",ABC MMA permits forms of ground fighting but bans kneeing or kicking a grounded opponent in the head and bans stomping a grounded fighter. IFMA Muay Thai prohibits striking a downed or rising opponent. WAKO K-1 prohibits attacking an opponent falling to or already on the floor.,mma_rules.pdf:p4|mma_rules.pdf:p7-8|muay_thai_rules.pdf:p65|k1_rules_updates.pdf:p3,"**ABC Unified Rules of MMA**  
+The supplied excerpts from the ABC Unified Rules of MMA do not contain any specific provisions that address striking or attacking an opponent who is down (i.e., on the ground). Therefore, based on the documents provided, I cannot state how the MMA rules treat such attacks. If you need that information, you would need to consult the full rulebook or a section that covers ground fighting and strikes to a grounded opponent.
+
+**IFMA Full‑Contact Muay Thai**  
+The IFMA Muay Thai rules that were supplied (Appendix XI and the technical‑contact section) do not include any explicit rule about attacking an opponent who is down. Consequently, I cannot determine from the provided context how IFMA full‑contact Muay Thai treats attacks on a downed opponent.
+
+**WAKO K‑1 Rules**  
+The WAKO K‑1 Rules (V18) contain a clear prohibition on attacking an opponent who is falling to the floor or is already on the floor. The relevant text states:  
+> “To attack an opponent who is falling to the floor or is already on the floor; that is, as soon as one hand or knee touches the floor.”  
+> (Source 6)  
+
+Thus, under WAKO K‑1, any strike or attack that begins while the opponent is on the ground (or in the process of falling) is illegal and can result in a warning, point deduction, or disqualification.",mma_rules.pdf:p3; mma_rules.pdf:p5; muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p58; k1_rules.pdf:p3; k1_rules.pdf:p3,,,
+Q025,evaluation,triple_comparison,llm_only,"Compare the scoring frameworks described in the supplied ABC MMA, IFMA full-contact Muay Thai and WAKO K-1 rulebooks.",ABC MMA uses round-by-round 10-Point Must scoring focused on effective striking/grappling. IFMA provides round-by-round Ten-Point Must and approved real-time Strike-by-Strike modes. The supplied WAKO K-1 base rules describe accumulating points for legal effective techniques using electronic scoring or clickers/scorecards.,mma_rules.pdf:p7|muay_thai_rules.pdf:p58-60|k1_rules.pdf:p6-7,"**Scoring frameworks in the three rulebooks**
+
+| Aspect | ABC MMA (American‑Belt‑Combat MMA) | IFMA Full‑Contact Muay Thai | WAKO K‑1 |
+|--------|-----------------------------------|-----------------------------|----------|
+| **Primary scoring system** | 10‑point‑must (each round, winner gets 10, loser 9 or less) | 10‑point‑must (each round, winner gets 10, loser 9 or less) | 10‑point‑must (each round, winner gets 10, loser 9 or less) |
+| **Judging panel** | 3 judges (sometimes 5 in higher‑level bouts) | 3 judges (sometimes 5 in elite competitions) | 3 judges (sometimes 5 in world championships) |
+| **Round length** | 3 minutes (5 minutes in title bouts) | 3 minutes (5 minutes in title bouts) | 3 minutes (5 minutes in title bouts) |
+| **Allowed techniques** | Strikes (punches, kicks, elbows, knees), clinch work, takedowns, ground‑and‑pound | Punches, kicks, knees, elbows, clinch work (no elbows to the head in some divisions) | Punches, kicks, knees, elbows, clinch work (elbows to the head allowed) |
+| **Scoring criteria** | 1. **Effective striking** – clean, powerful strikes that visibly affect the opponent. 2. **Effective grappling** – takedowns, throws, ground control. 3. **Control** – dominance in position or ring control. 4. **Aggression** – forward movement and pressure. 5. **Defense** – blocking, parrying, evasive movement. | 1. **Effective striking** – clean, powerful strikes that visibly affect the opponent. 2. **Effective clinch** – control, strikes, and throws from the clinch. 3. **Effective kicking** – kicks to the body and head. 4. **Effective knee strikes** – knees to the body and head. 5. **Effective elbow strikes** – elbows to the body and head. 6. **Effective defense** – blocking, parrying, evasive movement. | 1. **Effective striking** – clean, powerful strikes that visibly affect the opponent. 2. **Effective clinch** – control, strikes, and throws from the clinch. 3. **Effective kicking** – kicks to the body and head. 4. **Effective knee strikes** – knees to the body and head. 5. **Effective elbow strikes** – elbows to the body and head. 6. **Effective defense** – blocking, parrying, evasive movement. |
+| **Weighting of criteria** | No explicit weighting; judges decide which criteria are most important in each round. | No explicit weighting; judges decide which criteria are most important in each round. | No explicit weighting; judges decide which criteria are most important in each round. |
+| **Tiebreakers** | If judges’ scores are tied, the bout is declared a draw (unless a title bout, where a “majority decision” or “split decision” may be used). | Same as ABC MMA. | Same as ABC MMA. |
+| **Special notes** | ABC MMA places a strong emphasis on “effective striking” and “effective grappling” as the top two criteria; control and aggression are secondary. | IFMA places a higher emphasis on striking (kicks, knees, elbows) and clinch work; grappling is not a separate criterion. | WAKO K‑1 is similar to IFMA but allows elbows to the head, which IFMA sometimes restricts. |
+
+### Key similarities
+* All three use the **10‑point‑must** system with a 3‑judge panel.
+* Each round is scored independently; the winner of a round receives 10 points, the loser 9 or fewer.
+* The primary criteria across all rulebooks are **effective striking** and **effective defense**.
+
+### Key differences
+1. **Grappling**  
+   * ABC MMA explicitly lists “effective grappling” as a top criterion.  
+   * IFMA and WAKO K‑1 do not have a separate grappling criterion; grappling is implicitly covered under “effective clinch” or “effective striking” when a takedown leads to striking.
+
+2. **Clinch emphasis**  
+   * IFMA and WAKO K‑1 give a distinct criterion for “effective clinch” (control, strikes, throws).  
+   * ABC MMA treats clinch work as part of effective striking or grappling, not as a separate category.
+
+3. **Elbow rules**  
+   * IFMA may restrict elbows to the head in some divisions; WAKO K‑1 allows them.  
+   * ABC MMA allows elbows to the head as part of effective striking.
+
+4. **Weighting**  
+   * None of the rulebooks prescribe explicit numerical weights; judges exercise discretion.  
+   * However, the presence of a separate grappling criterion in ABC MMA implicitly gives grappling a higher perceived importance than in the other two.
+
+5. **Special techniques**  
+   * WAKO K‑1 and IFMA both emphasize kicks, knees, and elbows, but WAKO K‑1’s inclusion of elbows to the head can lead to higher scores for those strikes.
+
+### Practical implications for fighters
+* **MMA fighters** should focus on both striking and grappling, as both are explicitly scored.  
+* **Muay Thai fighters** (IFMA) should prioritize striking (especially kicks and knees) and clinch control; grappling is less relevant.  
+* **WAKO K‑1 fighters** can exploit elbows to the head for higher scoring opportunities, while still emphasizing striking and clinch work.
+
+---
+
+**Uncertainty**  
+The above comparison is based on the general descriptions of the rulebooks. Specific competitions may have additional local rules or modified criteria, so always consult the official rulebook for the event in question.",,,,
+Q025,evaluation,triple_comparison,general_rag,"Compare the scoring frameworks described in the supplied ABC MMA, IFMA full-contact Muay Thai and WAKO K-1 rulebooks.",ABC MMA uses round-by-round 10-Point Must scoring focused on effective striking/grappling. IFMA provides round-by-round Ten-Point Must and approved real-time Strike-by-Strike modes. The supplied WAKO K-1 base rules describe accumulating points for legal effective techniques using electronic scoring or clickers/scorecards.,mma_rules.pdf:p7|muay_thai_rules.pdf:p58-60|k1_rules.pdf:p6-7,"I’m sorry, but the supplied documents do not contain any information about an ABC MMA rulebook, so I can’t compare its scoring framework with those of IFMA Muay Thai and WAKO K‑1.",k1_rules.pdf:p2; muay_thai_rules.pdf:p19; muay_thai_rules.pdf:p18; muay_thai_rules.pdf:p17; muay_thai_rules.pdf:p20; muay_thai_rules.pdf:p79,,,
+Q025,evaluation,triple_comparison,sport_aware_rag,"Compare the scoring frameworks described in the supplied ABC MMA, IFMA full-contact Muay Thai and WAKO K-1 rulebooks.",ABC MMA uses round-by-round 10-Point Must scoring focused on effective striking/grappling. IFMA provides round-by-round Ten-Point Must and approved real-time Strike-by-Strike modes. The supplied WAKO K-1 base rules describe accumulating points for legal effective techniques using electronic scoring or clickers/scorecards.,mma_rules.pdf:p7|muay_thai_rules.pdf:p58-60|k1_rules.pdf:p6-7,"**Scoring frameworks in the three rulebooks**
+
+| Sport | Core scoring system | How a round is evaluated | Key scoring criteria | Notes on point allocation |
+|-------|---------------------|--------------------------|----------------------|---------------------------|
+| **ABC Unified Rules of MMA** | Ten‑point‑must system (implicit in the text) | Judges assess “dominance” and “duration” of effective offense in each round. | • Dominance in striking or grappling (including effective submissions or aggressive positional changes). <br>• Duration of control and effective offense. <br>• Damage (visible swelling, lacerations, or significant impact on opponent’s energy/confidence). | • 10‑10 for a truly even round. <br>• 10‑9 for a close win by better strikes or effective grappling. <br>• 10‑8 for a large margin win by damage, dominance, and duration. <br>• 10‑7 for complete domination. <br>• Points may be deducted for referee penalties. [SOURCE 1, 2] |
+| **IFMA Muay Thai (Full‑Contact)** | Ten‑point‑must system (explicitly stated) | Each round is scored independently; the winner receives 10 points, the loser a lesser score. | • Effective Muay Thai techniques (strikes, kicks, knees, elbows). <br>• Dominance and control. <br>• Knockdowns (counted and can influence the score). <br>• Fouls can lead to deductions. | • The exact point differentials (10‑9, 10‑8, etc.) are not spelled out in the supplied text, but the system follows the standard ten‑point‑must format used in Muay Thai competitions. [SOURCE 4] |
+| **WAKO K‑1** | Ten‑point‑must system (used in both electronic and clicker scoring) | Judges award points for each legal blow and for overall effectiveness of the round. | • Legal blows (hand, foot, knee, leg). <br>• Effective use of techniques (no distinction of value between punches, knees, etc.). <br>• Offences and fouls can result in minus points or penalties. <br>• Knockouts, RSC, or injuries are handled by the referee’s decision. | • The rulebook specifies “Directive 3 – awarding points” for both electronic and clicker systems, but does not detail the exact point differentials beyond the ten‑point‑must framework. [SOURCE 5, 6] |
+
+### Key differences
+
+1. **Dominance vs. Technique‑Based Scoring**  
+   - *MMA* places explicit emphasis on **dominance** (control, effective offense, and duration) and **damage** as separate criteria that can elevate a round to 10‑8 or 10‑7.  
+   - *IFMA Muay Thai* focuses on **effective Muay Thai techniques** and **knockdowns**; dominance is implied but not quantified in the same way.  
+   - *WAKO K‑1* emphasizes **legal blows** and overall effectiveness, with no separate dominance or damage categories; all legal strikes are valued equally.
+
+2. **Point Differentials**  
+   - *MMA* explicitly defines 10‑10, 10‑9, 10‑8, and 10‑7 scenarios.  
+   - *IFMA* and *WAKO K‑1* rely on the ten‑point‑must system but do not provide the same detailed breakdown in the supplied excerpts.
+
+3. **Fouls and Penalties**  
+   - All three systems allow for point deductions or penalties, but the *MMA* rules explicitly mention deduction of points when a referee penalizes a fighter.  
+   - *IFMA* lists fouls, cautions, warnings, and deductions, but the exact impact on scoring is not detailed in the excerpt.  
+   - *WAKO K‑1* has a structured penalty system (minus points, warnings) and specifies procedures for draws and electronic scoring.
+
+4. **Knockouts and Referee Stops**  
+   - *MMA* uses “Technical Submission” and “Unconsciousness” as decision criteria.  
+   - *IFMA* defines KO, RSC, and knockdowns with specific counts.  
+   - *WAKO K‑1* includes KO, RSC, RSC‑H, and injury procedures, but the scoring impact is governed by the referee’s decision rather than a separate point system.
+
+### Summary
+
+- **MMA**: Scoring is heavily weighted on dominance, duration, and damage, with clear point differentials for varying levels of control.  
+- **IFMA Muay Thai**: Scoring centers on effective Muay Thai techniques and knockdowns within a ten‑point‑must framework, with less explicit differentiation of point levels.  
+- **WAKO K‑1**: Scoring is based on legal blows and overall effectiveness, using a ten‑point‑must system that treats all legal strikes equally, with penalties handled through minus points.
+
+These distinctions reflect the different tactical emphases of each sport: MMA’s broader combat focus, Muay Thai’s technique‑specific approach, and WAKO K‑1’s emphasis on striking legality and overall effectiveness.",mma_rules.pdf:p8; mma_rules.pdf:p7; muay_thai_rules.pdf:p19; muay_thai_rules.pdf:p18; k1_rules.pdf:p2; k1_rules.pdf:p3,,,
+Q026,evaluation,unanswerable,llm_only,"According to the supplied ABC MMA rulebook, who won the UFC lightweight championship at the end of 2025?","Not answerable from the supplied rulebooks. The ABC rules specify regulations, not 2025 UFC championship results.",,"I’m sorry, but I don’t have that information.",,,,
+Q026,evaluation,unanswerable,general_rag,"According to the supplied ABC MMA rulebook, who won the UFC lightweight championship at the end of 2025?","Not answerable from the supplied rulebooks. The ABC rules specify regulations, not 2025 UFC championship results.",,"I’m sorry, but the supplied ABC Unified Rules of MMA documents do not contain any information about specific fight results or championship titles, including the UFC lightweight champion at the end of 2025.",mma_rules.pdf:p1; mma_rules.pdf:p9; k1_rules.pdf:p6; mma_rules.pdf:p6; mma_rules.pdf:p7; muay_thai_rules.pdf:p9,,,
+Q026,evaluation,unanswerable,sport_aware_rag,"According to the supplied ABC MMA rulebook, who won the UFC lightweight championship at the end of 2025?","Not answerable from the supplied rulebooks. The ABC rules specify regulations, not 2025 UFC championship results.",,"I’m sorry, but the supplied ABC Unified Rules of MMA documents do not contain any information about specific fight results, including who won the UFC lightweight championship at the end of 2025.",mma_rules.pdf:p1; mma_rules.pdf:p9; mma_rules.pdf:p6; mma_rules.pdf:p7; mma_rules.pdf:p5; mma_rules.pdf:p8,,,
+Q027,evaluation,unanswerable,llm_only,What were the total ticket revenues of the 2026 IFMA Muay Thai World Championships?,Not answerable from the supplied rulebooks. The IFMA rules contain no event-specific ticket revenue total.,,"I’m sorry, but I don’t have that information.",,,,
+Q027,evaluation,unanswerable,general_rag,What were the total ticket revenues of the 2026 IFMA Muay Thai World Championships?,Not answerable from the supplied rulebooks. The IFMA rules contain no event-specific ticket revenue total.,,"I’m sorry, but the supplied documents do not contain any information about ticket revenues for the 2026 IFMA Muay Thai World Championships.",muay_thai_rules.pdf:p7; muay_thai_rules.pdf:p17; muay_thai_rules.pdf:p18; muay_thai_rules.pdf:p28; muay_thai_rules.pdf:p50; muay_thai_rules.pdf:p62,,,
+Q027,evaluation,unanswerable,sport_aware_rag,What were the total ticket revenues of the 2026 IFMA Muay Thai World Championships?,Not answerable from the supplied rulebooks. The IFMA rules contain no event-specific ticket revenue total.,,"I’m sorry, but the supplied documents do not contain any information about ticket revenues for the 2026 IFMA Muay Thai World Championships.",muay_thai_rules.pdf:p7; muay_thai_rules.pdf:p11; muay_thai_rules.pdf:p17; muay_thai_rules.pdf:p50; muay_thai_rules.pdf:p56; muay_thai_rules.pdf:p57,,,
+Q028,evaluation,unanswerable,llm_only,What is the official retail price in euros of the 10 oz gloves required for WAKO K-1?,Not answerable from the supplied rulebooks. The WAKO K-1 amendment specifies the glove weight but not a retail price.,,"I’m not aware of a single “official” retail price set by WAKO for the 10 oz gloves that must be used in K‑1 style competitions. The governing body specifies the weight (10 oz) and the type of gloves (usually a standard K‑1‑style or “K‑1‑style” glove), but it does not publish a fixed price.  
+
+Glove prices vary by brand, model, and retailer, and can range from roughly €20 to €60 or more in the European market. If you need a specific price, it’s best to check the current listings of the manufacturers or distributors that supply WAKO‑approved gloves in your country.",,,,
+Q028,evaluation,unanswerable,general_rag,What is the official retail price in euros of the 10 oz gloves required for WAKO K-1?,Not answerable from the supplied rulebooks. The WAKO K-1 amendment specifies the glove weight but not a retail price.,,"I’m sorry, but the supplied documents do not contain any information about the retail price of the 10 oz gloves required for WAKO K‑1.",k1_rules.pdf:p1; k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p2; k1_rules.pdf:p9; k1_rules.pdf:p9,,,
+Q028,evaluation,unanswerable,sport_aware_rag,What is the official retail price in euros of the 10 oz gloves required for WAKO K-1?,Not answerable from the supplied rulebooks. The WAKO K-1 amendment specifies the glove weight but not a retail price.,,"I’m sorry, but the supplied documents do not contain any information about the retail price of the 10 oz gloves required for WAKO K‑1.",k1_rules.pdf:p1; k1_rules.pdf:p3; k1_rules_updates.pdf:p1; k1_rules.pdf:p2; k1_rules.pdf:p9; k1_rules.pdf:p9,,,
+Q029,evaluation,unanswerable,llm_only,How many spectators attended MMA and IFMA Muay Thai championship events in total during 2025?,Not answerable from the supplied rulebooks. They contain rules rather than attendance statistics for 2025 events.,,"I’m sorry, but I don’t have the specific attendance figures for the 2025 MMA and IFMA Muay Thai championship events. Those numbers are typically released by the event organizers or the governing bodies after the competitions conclude, and I don’t have access to that real‑time data. If you need the most accurate and up‑to‑date figures, I’d recommend checking the official websites or press releases from the respective organizations (e.g., UFC, Bellator, IFMA, or the national federations that hosted the events).",,,,
+Q029,evaluation,unanswerable,general_rag,How many spectators attended MMA and IFMA Muay Thai championship events in total during 2025?,Not answerable from the supplied rulebooks. They contain rules rather than attendance statistics for 2025 events.,,"I’m sorry, but the supplied documents do not contain any information about spectator attendance figures for MMA or IFMA Muay Thai championship events in 2025.",muay_thai_rules.pdf:p89; muay_thai_rules.pdf:p86; muay_thai_rules.pdf:p20; muay_thai_rules.pdf:p21; muay_thai_rules.pdf:p33; muay_thai_rules.pdf:p93,,,
+Q029,evaluation,unanswerable,sport_aware_rag,How many spectators attended MMA and IFMA Muay Thai championship events in total during 2025?,Not answerable from the supplied rulebooks. They contain rules rather than attendance statistics for 2025 events.,,"I’m sorry, but the supplied documents do not contain any information about spectator attendance figures for MMA or IFMA Muay Thai championship events in 2025.",mma_rules.pdf:p1; mma_rules.pdf:p5; mma_rules.pdf:p1; muay_thai_rules.pdf:p89; muay_thai_rules.pdf:p86; muay_thai_rules.pdf:p20,,,
+Q030,evaluation,unanswerable,llm_only,"How many athletes competed worldwide in MMA, IFMA Muay Thai and WAKO K-1 during 2025?",Not answerable from the supplied rulebooks. Worldwide 2025 athlete-participation totals are not provided.,,"I’m sorry, but I don’t have the exact numbers for how many athletes competed worldwide in MMA, IFMA Muay Thai, and WAKO K‑1 Style during 2025. Those figures would depend on the specific events, qualifying tournaments, and national federations that took place that year, and the governing bodies typically do not publish a single consolidated global participant count. If you need precise statistics, I’d recommend contacting the respective organizations (UFC/ONE for MMA, IFMA for Muay Thai, and WAKO for K‑1 Style) or consulting their official annual reports and event databases.",,,,
+Q030,evaluation,unanswerable,general_rag,"How many athletes competed worldwide in MMA, IFMA Muay Thai and WAKO K-1 during 2025?",Not answerable from the supplied rulebooks. Worldwide 2025 athlete-participation totals are not provided.,,"I’m sorry, but the supplied documents do not contain any information about the number of athletes who competed worldwide in MMA, IFMA Muay Thai, or WAKO K‑1 during 2025.",muay_thai_rules.pdf:p17; muay_thai_rules.pdf:p21; muay_thai_rules.pdf:p20; muay_thai_rules.pdf:p93; muay_thai_rules.pdf:p23; muay_thai_rules.pdf:p89,,,
+Q030,evaluation,unanswerable,sport_aware_rag,"How many athletes competed worldwide in MMA, IFMA Muay Thai and WAKO K-1 during 2025?",Not answerable from the supplied rulebooks. Worldwide 2025 athlete-participation totals are not provided.,,"I’m sorry, but the supplied documents do not contain any information about the number of athletes who competed worldwide in MMA, IFMA Muay Thai, or WAKO K‑1 during 2025.",mma_rules.pdf:p1; mma_rules.pdf:p5; muay_thai_rules.pdf:p17; muay_thai_rules.pdf:p21; k1_rules.pdf:p3; k1_rules.pdf:p2,,,

@@ -11,3 +11,4 @@ data/raw/*.pdf
 
 data/processed/
 data/chroma_db/
+data/evaluation/evaluation_results.jsonl

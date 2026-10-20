@@ -1,26 +1,43 @@
-
 import streamlit as st
 
 from app.assistant import render_assistant
 from app.insights import render_insights
-
+from app.theme import apply_theme
 
 st.set_page_config(
     page_title="FightRAG",
     page_icon="🥊",
     layout="wide",
+    initial_sidebar_state="collapsed",
 )
 
-st.title(" FightRAG")
-st.caption("AI-powered Combat Sports Rulebook Assistant")
+apply_theme()
 
-assistant_tab, insights_tab = st.tabs([
-    " Rulebook Assistant",
-    " Model Insights",
-])
+left_pad, main_col, right_pad = st.columns([0.8, 8.8, 0.8])
 
-with assistant_tab:
-    render_assistant()
+with main_col:
+    # This is a REAL Streamlit container, so the title and metrics
+    # appear inside the image-backed card (not below a raw HTML div).
+    with st.container(border=True, key="fight_hero"):
+        hero_left, hero_right = st.columns([4, 1.2], vertical_alignment="center")
 
-with insights_tab:
-    render_insights()
+        with hero_left:
+            st.caption("AI RULEBOOK ASSISTANT")
+            st.title("FightRAG")
+            st.caption("Combat sports intelligence, simplified.")
+
+        with hero_right:
+            st.metric("Sports", "3")
+            st.caption("MMA · MUAY THAI · K-1")
+
+    st.space("small")
+
+    assistant_tab, insights_tab = st.tabs(
+        ["Rulebook Assistant", "Model Insights"]
+    )
+
+    with assistant_tab:
+        render_assistant()
+
+    with insights_tab:
+        render_insights()
