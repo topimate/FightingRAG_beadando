@@ -47,7 +47,9 @@ CITATION RULES:
   do not present it as a verified fact.
 - If the answer is based on missing information,
   explain the limitation instead of inventing a citation.
-
+Before finalizing your answer, check that every
+supported factual rule statement has an inline
+citation matching an actual context source number.
 
 Respond in the user's language.
 """
@@ -68,7 +70,19 @@ def generate_rag_answer(
 
     else:
         raise ValueError(f"Unknown RAG mode: {mode}")
-
+    
+    
+    if not passages:
+        return {
+            "question": question,
+            "mode": mode,
+            "answer": (
+                "No relevant rulebook passages were retrieved, "
+                "so I cannot provide a source-supported answer."
+            ),
+            "sources": [],
+        }
+    
     context_parts = []
 
     for index, passage in enumerate(passages, start=1):

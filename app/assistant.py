@@ -32,6 +32,12 @@ def get_error_message(error):
 
     if "api_key" in message or "authentication" in message:
         return "Groq authentication failed. Check your API key."
+    
+    if status in (500, 502, 503, 504):
+        return (
+            "The Groq service is temporarily unavailable. "
+            "Please try again later."
+        )
 
     return f"Answer generation failed: {error}"
 
@@ -150,7 +156,7 @@ def render_assistant():
         with right:
             st.write("")
             st.write("")
-            if st.button("Clear chat", use_container_width=True):
+            if st.button("Clear chat", width="stretch"):
                 st.session_state.chat_history = []
                 st.rerun()
 
@@ -174,7 +180,7 @@ def render_assistant():
                     if st.button(
                         label,
                         key=f"example_{label}",
-                        use_container_width=True,
+                        width="stretch",
                     ):
                         selected_example = question
 

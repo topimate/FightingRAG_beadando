@@ -319,7 +319,7 @@ def render_categories(categories):
         st.dataframe(
             display,
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
 
 
@@ -638,7 +638,7 @@ def render_details(reviews):
         st.dataframe(
             display,
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
 
     with st.container(border=True):
@@ -654,7 +654,7 @@ def render_details(reviews):
             ).encode("utf-8-sig"),
             file_name="fightrag_evaluation_filtered.csv",
             mime="text/csv",
-            use_container_width=True,
+            width="stretch",
             type="primary",
         )
 
