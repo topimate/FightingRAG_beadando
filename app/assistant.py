@@ -1,6 +1,7 @@
 import time
 import streamlit as st
 import re
+from groq import APIConnectionError, APITimeoutError
 
 MODES = {
     "LLM Only": "llm_only",
@@ -30,7 +31,13 @@ def get_error_message(error):
             "Please wait a little before trying again."
         )
 
-    if "api_key" in message or "authentication" in message:
+    if status == 403:
+        return (
+            "Groq access denied. "
+            "Check your account and model permissions."
+        )
+
+    if status == 401 or "api_key" in message or "authentication" in message:
         return "Groq authentication failed. Check your API key."
     
     if status in (500, 502, 503, 504):
@@ -39,7 +46,19 @@ def get_error_message(error):
             "Please try again later."
         )
 
-    return f"Answer generation failed: {error}"
+    if isinstance(error, (APITimeoutError, TimeoutError)):
+        return "The Groq request timed out. Please try again."
+
+    if isinstance(error, (APIConnectionError, ConnectionError)):
+        return (
+            "Could not connect to Groq. "
+            "Check your internet connection and try again."
+        )
+
+    if isinstance(error, RuntimeError) and message == "llm returned an empty answer.":
+        return "The model returned an empty answer. Please try again."
+
+    return "Answer generation failed. Please try again."
 
 
 def get_cited_source_numbers(answer, sources):
@@ -165,6 +184,10 @@ def render_assistant():
             "General RAG": "Retrieves relevant passages from all indexed rulebooks.",
             "Sport-aware RAG": "Detects the relevant sports first, then retrieves targeted passages.",
         }
+
+        if mode_label is None:
+            st.info("Select an answering method to continue.")
+            return
 
         st.caption(descriptions[mode_label])
 

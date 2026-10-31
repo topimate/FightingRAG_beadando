@@ -75,7 +75,7 @@ def generate_answer(
 
     answer = choice.message.content
 
-    if not answer:
+    if not answer or not answer.strip():
         raise RuntimeError("LLM returned an empty answer.")
 
     return answer
