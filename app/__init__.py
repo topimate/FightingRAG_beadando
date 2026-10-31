@@ -1,0 +1,1 @@
+"""FightRAG Streamlit application package."""

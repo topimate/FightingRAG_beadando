@@ -2,7 +2,7 @@
 
 ## Run the application
 
-The repository already contains the rulebooks, processed data, ChromaDB index and evaluation results. They do not need to be generated again.
+The repository contains the prepared ChromaDB index and evaluation results, so the PDFs do not need to be processed again. The original PDFs and intermediate files can be included separately in the submitted ZIP, but they are not required to run the app.
 
 ### 1. Create and activate a virtual environment
 
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ### 3. Configure the Groq API
 
-Create a `.env` file in the repository root:
+Create`.env`, then add your Groq API key:
 
 ```env
 GROQ_API_KEY=your_groq_api_key
@@ -33,10 +33,20 @@ The API key is required for generating new answers. The saved evaluation results
 ### 4. Start Streamlit
 
 ```powershell
-python -m streamlit run app/main.py --server.fileWatcherType none
+python -m streamlit run streamlit_app.py --server.fileWatcherType none
 ```
 
 Open the local URL printed in the terminal. The application contains the **Rulebook Assistant** and **Model Insights** tabs.
+
+## Deploy on Streamlit Community Cloud
+
+Push the repository including `streamlit_app.py`, `requirements.txt`, `app/`, `src/`, `data/chroma_db/`, `data/evaluation/` and `.streamlit/config.toml`. In Streamlit Cloud use:
+
+- main file path: `streamlit_app.py`
+- Python version: `3.13`
+- secrets: `GROQ_API_KEY` and `GROQ_MODEL`
+
+The `.env` file and `.streamlit/secrets.toml` must never be committed.
 
 ## Project overview
 
@@ -87,8 +97,9 @@ If no sport is detected, Sport-aware RAG falls back to general retrieval. If ret
 
 ```text
 FightRAG/
+|-- streamlit_app.py    # Local and Streamlit Cloud entry point
 |-- app/
-|   |-- main.py          # Streamlit entry point
+|   |-- main.py          # Builds the Streamlit interface
 |   |-- assistant.py     # Chat, citations and error handling
 |   |-- insights.py      # Evaluation dashboard
 |   `-- theme.py         # Interface styling
