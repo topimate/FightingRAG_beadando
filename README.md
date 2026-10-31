@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ### 3. Configure the Groq API
 
-Create`.env`, then add your Groq API key:
+Create a `.env` file in the repository root, then add your Groq API key:
 
 ```env
 GROQ_API_KEY=your_groq_api_key
@@ -113,7 +113,8 @@ FightRAG/
 |   |-- rag.py           # Builds the RAG context and prompt
 |   |-- llm.py           # Calls the Groq API
 |   `-- pipeline.py      # Connects the three answering modes
-|-- scripts/             # Validation, evaluation and diagnostic tools
+|-- scripts/             # Final evaluation and validation tools
+|   `-- old_archived/    # Earlier preparation and diagnostic scripts
 |-- data/
 |   |-- raw/             # Original PDF rulebooks
 |   |-- processed/       # Extracted pages and text chunks
